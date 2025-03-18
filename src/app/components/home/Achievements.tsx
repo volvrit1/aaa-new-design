@@ -29,12 +29,42 @@ export default function Achievements() {
       </div>
       <div className="w-full lg:w-1/2 p-4 lg:p-2 grid grid-cols-1 lg:grid-cols-3 gap-4">
         {[
-          { value: "43", unit: "Year in Experience", image: "/assets/exp.png" },
-          { value: "43", unit: "Team Members", image: "/assets/team.png" },
-          { value: "43", unit: "Happy  Clients", image: "/assets/client.png" },
-          { value: "43", unit: "Projects Done", image: "/assets/project.png" },
-          { value: "43", unit: "Hours Worked", image: "/assets/worked.png" },
-          { value: "43", unit: "Support Available", image: "/assets/247.png" },
+          {
+            value: "15",
+            plusIcon: true,
+            unit: "Year in Experience",
+            image: "/assets/exp.png",
+          },
+          {
+            value: "80",
+            plusIcon: true,
+            unit: "Team Members",
+            image: "/assets/team.png",
+          },
+          {
+            value: "480",
+            plusIcon: true,
+            unit: "Happy  Clients",
+            image: "/assets/client.png",
+          },
+          {
+            value: "450",
+            plusIcon: true,
+            unit: "Projects Done",
+            image: "/assets/project.png",
+          },
+          {
+            value: "95",
+            plusIcon: true,
+            unit: "Hours Worked",
+            image: "/assets/worked.png",
+          },
+          {
+            value: "24/7",
+            plusIcon: true,
+            unit: "Support Available",
+            image: "/assets/247.png",
+          },
         ].map((data, index) => (
           <div
             key={index}
@@ -48,7 +78,8 @@ export default function Achievements() {
               className="w-12 h-12 object-contain rounded-xl mb-4"
             />
             <h2 className="text-gray-50 text-3xl font-semibold w-4/5 mx-auto text-center">
-              {data?.value}+
+              {data?.value}
+              {data?.plusIcon && "+"}
             </h2>
             <h3 className="text-gray-50 text-xs w-4/5 mx-auto text-center">
               {data?.unit}

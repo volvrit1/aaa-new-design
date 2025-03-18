@@ -41,7 +41,7 @@ export default function Agency() {
             "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
           }
         </p>
-        <div className="flex justify-center items-center gap-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-20">
           <div className="lg:w-3/5 h-96 rounded-full border-[#EE3639] border ">
             <Image
               width={400}

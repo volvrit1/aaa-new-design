@@ -40,8 +40,8 @@ export default function Testimonials() {
             alt="image"
             className="object-fill "
           />
-          <div className="absolute bottom-2 w-full left-1 flex justify-center items-center gap-4 ">
-            <div className="rounded-full p-4 h-12 w-12 flex justify-center items-center bg-gray-50">
+          <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4 ">
+            <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
               <IoIosPlay width={35} height={35} className="text-4xl" />
             </div>
             <span className="font-[cabin] text-2xl text-gray-50">
@@ -58,14 +58,14 @@ export default function Testimonials() {
             alt="image"
             className="object-fill"
           />
-          <div className="absolute bottom-2 w-full left-1 flex justify-center items-center gap-4 ">
-            <div className="rounded-full p-4 h-12 w-12 flex justify-center items-center bg-gray-50">
+          <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4 ">
+            <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
               <IoIosPlay width={35} height={35} className="text-4xl" />
             </div>
             <span className="font-[cabin] text-2xl text-gray-50">Ms.Suzi</span>
           </div>
         </div>
-        <div className="col-span-2 flex flex-col justify-center pl-5">
+        <div className="lg:col-span-2 flex flex-col justify-center pl-5">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             libero molestiae dicta quia, mollitia maiores assumenda

@@ -14,13 +14,11 @@ export default function MobileMenu() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
     { name: "Services", path: "/services" },
-    { name: "Technology", path: "/technology" },
-    { name: "Application", path: "/application" },
-    { name: "Career", path: "/career" },
-    { name: "Blogs", path: "/blogs" },
+    { name: "Our Work", path: "/our-work" },
+    { name: "Industries", path: "/industries" },
     { name: "Contact Us", path: "/contact-us" },
-
   ];
+
 
   return (
     <nav className="relative">

@@ -105,7 +105,7 @@ export default function Services() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[65vh] rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
+            className="w-full min-h-[45vh] lg:min-h-[65vh] rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
           >
             <Image
               width={400}

@@ -1,22 +1,21 @@
 import type { Metadata } from "next";
-import { Cabin,Urbanist } from "next/font/google";
+import { Cabin, Urbanist } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/common/Navbar";
-import Footer from "@/components/common/Footer";
+import Navbar from "@/app/components/common/Navbar";
+import Footer from "@/app/components/common/Footer";
 
 const urbanist = Urbanist({
-  variable: '--font-urbanist', // Custom CSS variable
-  subsets: ['latin'],          // Optional: subsets to load
-  weight: ['400', '500', '600'], // Optional: specify the font weights you want
+  variable: "--font-urbanist", // Custom CSS variable
+  subsets: ["latin"], // Optional: subsets to load
+  weight: ["400", "500", "600"], // Optional: specify the font weights you want
 });
 
 const cabin = Cabin({
-  variable: '--font-cabin',    // Custom CSS variable
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  style: ['normal', 'italic'], // Optional: include styles like italic if needed
+  variable: "--font-cabin", // Custom CSS variable
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"], // Optional: include styles like italic if needed
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -30,9 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${cabin.variable} ${urbanist.variable} antialiased`}
-      >
+      <body className={`${cabin.variable} ${urbanist.variable} antialiased`}>
         <Navbar />
         {children}
         <Footer />

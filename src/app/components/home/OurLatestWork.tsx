@@ -92,7 +92,7 @@ export default function OurLatestWork() {
         ].map((work, index) => (
           <div
             key={index}
-            className="w-full h-screen rounded-xl bg-gray-100 p-4 flex flex-col lg:flex-row justify-center lg:p-18 mb-10"
+            className="w-full lg:h-screen rounded-xl bg-gray-100 p-4 flex flex-col-reverse lg:flex-row justify-center lg:p-18 mb-10"
           >
             <div>
               <h2
@@ -105,7 +105,7 @@ export default function OurLatestWork() {
               </p>
               <div className="mb-12">
                 <h4 className="mb-8 ">Design & Development</h4>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 gap-y-8 text-base">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 gap-y-4 lg:gap-y-8 text-base">
                   <span className="flex items-center gap-2">
                     <TbUxCircle
                       // src={"/assets/ui.png"}
@@ -145,7 +145,7 @@ export default function OurLatestWork() {
               <Link
                 href={""}
                 type="button"
-                className={`${work?.bgColor} p-3.5 px-12 rounded-lg text-gray-50 inline-block`}
+                className={`${work?.bgColor} w-full lg:w-auto text-center p-3.5 px-12 rounded-lg text-gray-50 inline-block`}
               >
                 View Project
               </Link>
@@ -155,7 +155,7 @@ export default function OurLatestWork() {
               height={400}
               alt="image"
               src={`/assets/work${[index + 1]}.png`}
-              className="w-3/5  object-contain rounded-xl"
+              className="lg:w-3/5  object-contain rounded-xl"
             />
           </div>
         ))}

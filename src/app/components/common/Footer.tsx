@@ -35,10 +35,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="text-gray-50 bg-[#242424] py-6 h-[70vh] px-4 lg:px-24 w">
+    <footer className="text-gray-50 bg-[#242424] py-6 lg:h-[70vh] px-4 lg:px-24 w">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mx-auto">
-          <div className="w-full col-span-2">
+          <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
                 src="/assets/logo/logo.png"

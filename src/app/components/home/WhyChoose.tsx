@@ -54,7 +54,7 @@ export default function WhyChoose() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[65vh] rounded-none border border-[#EE3639] p-8 flex flex-col justify-between items-start "
+            className="w-full lg:min-h-[65vh] rounded-none border border-[#EE3639] p-8 flex flex-col justify-between items-start "
           >
             <Image
               width={400}
@@ -86,7 +86,7 @@ export default function WhyChoose() {
         }
       </p>
 
-      <div className="w-full h-[60vh] flex flex-col justify-center items-center m-auto text-center bg-[#242424] rounded-3xl p-4 lg:p-8 ">
+      <div className="w-full h-[45vh] lg:h-[60vh] flex flex-col justify-center items-center m-auto text-center bg-[#242424] rounded-3xl p-4 lg:p-8 ">
         <h2
           className={`lg:w-5/6 mx-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
