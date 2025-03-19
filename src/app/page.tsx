@@ -10,7 +10,7 @@ import Testimonials from "@/app/components/home/Testimonials";
 import WeServe from "@/app/components/home/WeServe";
 import WhyChoose from "@/app/components/home/WhyChoose";
 import WiningAwards from "@/app/components/home/WiningAwards";
-import Image from "next/image";
+import NewProject2 from "./components/home/NewProject2";
 
 export default function Home() {
   return (
@@ -21,12 +21,13 @@ export default function Home() {
         title2=" Web Development, Mobile Apps, SaaS, ERP & LMS Solutions in Sydney"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="we specialize in providing customized IT solutions that drive business growth and transform the digital experience. It is either web development or mobile application development, SaaS, ERP, or LMS platforms that we provide full solutions that empower Sydney-based companies to cope with the speed of technological growth of today"
         link={"tel:0411 537 183"}
       />
       <Agency />
       <Services />
-      <HIreNow />
+      {/* <HIreNow /> */}
+      <NewProject2 />
       <Achievements />
       <WhyChoose />
       <OurLatestWork />

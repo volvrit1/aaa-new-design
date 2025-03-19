@@ -28,7 +28,7 @@ export default function WiningAwards() {
           }
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-6">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
         {[1, 2, 3, 4].map((faq, index) => (
           <div key={index} className="lg:w-2/12">
             <Image

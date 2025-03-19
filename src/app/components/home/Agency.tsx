@@ -13,7 +13,7 @@ export default function Agency() {
               height={400}
               alt="image"
               src={`/assets/award${[index + 1]}.png`}
-              className="w-full  object-fill rounded-xl"
+              className="w-full   object-fill rounded-xl"
             />
           </div>
         ))}
@@ -42,13 +42,13 @@ export default function Agency() {
           }
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-20">
-          <div className="lg:w-3/5 h-96 rounded-full border-[#EE3639] border ">
+          <div className="lg:w-3/5 h-80 lg:h-96 rounded-full border-[#EE3639] border ">
             <Image
               width={400}
               height={400}
               alt="image"
               src={`/assets/agency.png`}
-              className="w-11/12 h-full m-auto  object-fill rounded-full"
+              className="w-11/12 h-80 lg:h-full m-auto  object-fill rounded-full"
             />
           </div>
           <div className="lg:w-2/5 text-left">

@@ -22,11 +22,11 @@ export default function OurLatestWork() {
           {" Our Latest Work "}
           <span className="text-gray-800">
             {" "}
-            Showcasing Cutting-Edge IT Solutions in Action
+            Innovative Solutions in Action
           </span>
         </h2>
         <p
-          className={`text-gray-500 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-800 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
             "We’re proud to present our latest projects that reflect our commitment to quality and innovation. From cutting-edge web development to impactful solutions, our work speaks for itself. Explore our portfolio to see how we’re helping clients achieve their goals with precision and excellence."

@@ -49,7 +49,7 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="font-[cabin] tracking-widest text-sm/7 text-gray-50 mb-2">
+              <p className="font-[inter] tracking-widest text-sm/7 text-gray-50 mb-2">
                 All Above Agency is your trusted IT partner in Sydney, offering
                 custom solutions for websites, mobile apps, and advanced
                 technologies like AI. Let's create something exceptional

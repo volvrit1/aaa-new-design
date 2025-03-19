@@ -31,7 +31,7 @@ export default function Faq() {
           {"Frequently Asked Questions:"}{" "}
           <span className="text-gray-800">
             {" "}
-            Everything You Need to Know About Our It Services
+            Everything You Need to Know About Our IT Services
           </span>
         </h2>
         <p
@@ -42,7 +42,7 @@ export default function Faq() {
           }
         </p>
       </div>
-      <div className="grid lg:grid-cols-2 place-items-start gap-6">
+      <div className="grid grid-cols-1 place-items-start gap-6">
         {[
           {
             question: "What are the services provided by All Above Agency?",
@@ -102,10 +102,11 @@ export default function Faq() {
             className={`w-full p-6 rounded bg-gray-100 ${
               openIndex === index ? "" : "h-22"
             }`}
+            onClick={() => toggleFAQ(index)}
           >
             <button
-              className={`w-full text-left  flex justify-start items-center gap-8`}
-              onClick={() => toggleFAQ(index)}
+              className={`w-full text-left font-[inter] flex justify-start items-center gap-8`}
+              
             >
               <span className="text-3xl">
                 {openIndex === index ? (

@@ -88,7 +88,7 @@ const Contact = () => {
         <div>
           <div className="rounded-r-2xl">
             <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-2xl mb-4 font-semibold text-left col-span-2">
-              We're Here to Help Get in Touch
+               Get in Touch with Us Today
               {/* <br />
               <span className="text-gray-500 not-italic ">Get in Touch</span> */}
             </h2>

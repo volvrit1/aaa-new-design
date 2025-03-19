@@ -17,7 +17,7 @@ export default function Services() {
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
           <span className="text-gray-50"> Comprehensive </span>
-          {" It Services "}
+          {" IT Services "}
           <span className="text-gray-50"> for a Connected and Efficient Future</span>
         </h2>
         <p
@@ -105,7 +105,7 @@ export default function Services() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[45vh] lg:min-h-[65vh] xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
+            className="w-full min-h-[45vh] lg:min-h-[65vh] xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-between items-start "
           >
             <Image
               width={400}
@@ -115,7 +115,7 @@ export default function Services() {
               className="w-14 h-14 object-contain rounded-xl mb-4"
             />
             <h2 className="text-gray-50 text-xl w-full mx-auto text-left mb-2">
-              {/* {serve} */}
+              {service?.title}
             </h2>
             <h3 className="text-gray-300 font-thin text-sm w-full mx-auto text-left mb-3">
               {service?.subTitle}
