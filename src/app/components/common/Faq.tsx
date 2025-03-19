@@ -29,7 +29,10 @@ export default function Faq() {
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
           {"Frequently Asked Questions:"}{" "}
-          <span className="text-gray-800"> Everything You Need to Know About Our It Services</span>
+          <span className="text-gray-800">
+            {" "}
+            Everything You Need to Know About Our It Services
+          </span>
         </h2>
         <p
           className={`text-gray-700 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
@@ -42,29 +45,56 @@ export default function Faq() {
       <div className="grid lg:grid-cols-2 place-items-start gap-6">
         {[
           {
-            question: "How long until we deliver your first blog post?",
+            question: "What are the services provided by All Above Agency?",
             answer:
-              "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
+              "We offer various IT services such as software development, web development, mobile application development, digital marketing, search engine optimization, and IT consulting.",
           },
           {
-            question: "How long until we deliver your first blog post?",
+            question:
+              "Does All Above Agency provide tailored software solutions?",
             answer:
-              "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
+              "Yes, we create custom software solutions just to meet the specific needs of our clients. We work closely with you to determine your business needs and provide customised solutions.",
           },
           {
-            question: "How long until we deliver your first blog post?",
+            question: "Do you provide website design and development services?",
             answer:
-              "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
+              "Yes! We create search engine optimized, mobile optimized, and user optimized websites.",
           },
           {
-            question: "How long until we deliver your first blog post?",
+            question: "What industries does your agency specialize in?",
             answer:
-              "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
+              "Our team is well-versed in many industries with a special interest in healthcare, e-commerce, finance, education, and property.",
           },
           {
-            question: "How long until we deliver your first blog post?",
+            question: "Do you provide SEO and online marketing services?",
             answer:
-              "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
+              "Yes, we are able to provide SEO, social media marketing, content marketing, and pay-per-click (PPC) advertising services to maximize your web presence.",
+          },
+          {
+            question: "Do you provide post-launch maintenance and support?",
+            answer:
+              "Yes, we do provide post-launch maintenance and support services such as bug fixing, updates, and regular upgrades once your project goes live.",
+          },
+          {
+            question:
+              "How does All Above Agency determine its price for services?",
+            answer:
+              "We have flexible prices that are dependent on the size and complexity of the project. We will provide you with a tailored quote after you provide us with your specifications.",
+          },
+          {
+            question: "Does All Above Agency work on remote projects?",
+            answer:
+              "Yes, we do work on remote projects and have clients worldwide. You can work with us remotely via video conferencing and make use of various software to stay in touch and work on your project in an effective manner.",
+          },
+          {
+            question: "How long does it take to finish a project?",
+            answer:
+              "The time it takes to complete a project varies in each project based on the size of the project and the requirements of the project. We give you approximate project timelines and keep you informed at every stage of the project.",
+          },
+          {
+            question: "Do you offer a free consultation?",
+            answer:
+              "Yes, we provide a complimentary first consultation where we talk about your business needs and recommend to you the most suitable solutions and ways of reaching your objectives.",
           },
         ].map((faq, index) => (
           <div
