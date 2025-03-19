@@ -178,7 +178,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex justify-between items-center w-3/5 lg:px-10 text-gray-50">
+      <ul className="hidden max-w-6xl lg:flex justify-between items-center w-3/5 lg:px-10 text-gray-50">
         {menuItems.map((item) => (
           <div
             key={item.name}
@@ -193,7 +193,7 @@ const Navbar = () => {
                     : "text-gray-300 hover:text-gray-100 transition duration-200"
                 }`}
                 onClick={(e) => {
-                  e.preventDefault(); // Prevent link navigation to enable click behavior
+                  item.submenu && e.preventDefault(); // Prevent link navigation to enable click behavior
                   handleClick(item.name); // Toggle submenu on click
                 }}
               >

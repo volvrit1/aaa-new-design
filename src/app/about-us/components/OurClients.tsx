@@ -43,7 +43,7 @@ export default function OurClients() {
     },
   ];
   return (
-    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin]">
+    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin] tracking-widest">
       <div className="lg:w-5/6 m-auto mb-14 text-center">
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
@@ -58,32 +58,32 @@ export default function OurClients() {
           }
         </p>
       </div>
-    <div className="relative flex overflow-hidden max-w-screen-xl ml-auto">
-      <motion.div
-        className="flex space-x-6 gap-4"
-        initial={{ x: "0%" }}
-        animate={{ x: "-100%" }}
-        transition={{
-          repeat: Infinity,
-          ease: "linear",
-          duration: 35,
-        }}
-      >
-        {[...clients].map((data, index) => (
-          <div
-            key={index}
-            className="w-44 h-44 bg-white border m-auto  rounded-full p-4 flex flex-col justify-center items-center "
-          >
-            <Image
-              width={400}
-              height={400}
-              alt="image"
-              src={data?.image}
-              className="w-full h-full object-contain rounded-xl mb-4"
-            />
-          </div>
-        ))}
-      </motion.div>
+      <div className="relative flex overflow-hidden max-w-screen-xl ml-auto">
+        <motion.div
+          className="flex space-x-6 gap-4"
+          initial={{ x: "0%" }}
+          animate={{ x: "-100%" }}
+          transition={{
+            repeat: Infinity,
+            ease: "linear",
+            duration: 35,
+          }}
+        >
+          {[...clients].map((data, index) => (
+            <div
+              key={index}
+              className="w-44 h-44 bg-white border m-auto  rounded-full p-4 flex flex-col justify-center items-center "
+            >
+              <Image
+                width={400}
+                height={400}
+                alt="image"
+                src={data?.image}
+                className="w-full h-full object-contain rounded-xl mb-4"
+              />
+            </div>
+          ))}
+        </motion.div>
       </div>
     </div>
   );

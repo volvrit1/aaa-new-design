@@ -22,30 +22,32 @@ export default function Faq() {
           className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm font-semibold tracking-widest 
               text-gray-800
            leading-8 mb-3`}
-        >FAQ's</h2>
+        >
+          FAQ's
+        </h2>
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
           {"Frequently Asked Questions:"}{" "}
-          <span className="text-gray-800"> Everything You Need to Know</span>
+          <span className="text-gray-800"> Everything You Need to Know About Our It Services</span>
         </h2>
         <p
           className={`text-gray-700 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "BWD WEB stands out for its innovative solutions, expert team, and commitment to quality. We deliver custom web and mobile applications that combine cutting-edge technology with seamless user experiences. Our focus on creativity, reliability, and client satisfaction makes us a trusted partner for businesses looking to grow and succeed in the digital world."
+            "We know that selecting the appropriate IT partner is an important decision. To assist you in making a well-informed decision, here are some of the most frequently asked questions we get:"
           }
         </p>
       </div>
       <div className="grid lg:grid-cols-2 place-items-start gap-6">
         {[
           {
-            question: "Frequently Asked Questions: Everything You Need to Know",
+            question: "How long until we deliver your first blog post?",
             answer:
               "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
           },
           {
-            question: "Everything You Need to Know",
+            question: "How long until we deliver your first blog post?",
             answer:
               "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.",
           },
@@ -91,7 +93,11 @@ export default function Faq() {
                   : "max-h-0 p-0"
               }`}
             >
-              {openIndex === index && <p className="text-sm">{faq.answer}</p>}
+              {openIndex === index && (
+                <p className="font-[cabin] tracking-widest text-sm">
+                  {faq.answer}
+                </p>
+              )}
             </div>
           </div>
         ))}

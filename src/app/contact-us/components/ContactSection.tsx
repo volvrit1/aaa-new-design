@@ -106,9 +106,11 @@ const ContactSection = () => {
         <div className="py-4 relative">
           <div className="w-full h-full bg-gray-200 rounded-r-lg overflow-hidden">
             <iframe
-              title="map"
-              className="w-full h-full rounded-lg"
-              src="https://maps.google.com/maps?q=Kebon%20Kacang&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.021973796334!2d150.9718427746137!3d-33.73424791210037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a1ec561ee8ad%3A0xd3a2253eb1ba9dbd!2s10%20Gladstone%20Rd%2C%20Castle%20Hill%20NSW%202164%2C%20Australia!5e0!3m2!1sen!2sin!4v1742380419831!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              loading="lazy"
+              className="w-full h-full bg-gray-200 rounded-r-lg overflow-hidden"
               style={{ border: 0 }}
               allowFullScreen
             ></iframe>
@@ -125,7 +127,7 @@ const ContactSection = () => {
             />{" "}
             <span>Office Address</span>
           </div>
-          <p className="text-xs text-gray-500">
+          <p className="font-[cabin] tracking-widest text-xs text-gray-500">
             U19/10 Gladstone Rd, castle Hill NSW 2154
           </p>
         </div>
@@ -139,10 +141,12 @@ const ContactSection = () => {
               />{" "}
               <span>Email address</span>
             </div>
-            <p className="text-xs text-gray-500">www.allaboveagency.com</p>
+            <p className="font-[cabin] tracking-widest text-xs text-gray-500">
+              www.allaboveagency.com
+            </p>
           </div>
         </Link>
-        <Link href={"tel:+918458758475"}>
+        <Link href={"tel:0411 537 183"}>
           <div className="flex flex-col justify-center pt-20">
             <div className="mb-2">
               <IoCall
@@ -152,7 +156,9 @@ const ContactSection = () => {
               />{" "}
               <span>Office Address</span>
             </div>
-            <p className="text-xs text-gray-500">91 +8458758475</p>
+            <p className="font-[cabin] tracking-widest text-xs text-gray-500">
+              0411 537 183{" "}
+            </p>
           </div>
         </Link>
       </div>

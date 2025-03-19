@@ -18,13 +18,13 @@ export default function WiningAwards() {
         >
           <span className="text-gray-800">Honoring</span>
           {" Our Commitment to Excellence"}
-          <span className="text-gray-800"> in IT Solutions</span>
+          <span className="text-gray-800"> Award-Winning IT Solutions in Sydney</span>
         </h2>
         <p
           className={`text-gray-700 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "BWD WEB stands out for its innovative solutions, expert team, and commitment to quality. We deliver custom web and mobile applications that combine cutting-edge technology with seamless user experiences. Our focus on creativity, reliability, and client satisfaction makes us a trusted partner for businesses looking to grow and succeed in the digital world."
+            "We are proud to be awarded for our excellence in web and mobile application solution delivery. Our out-of-the-box thinking has brought us a number of awards, making us one of the top IT solutions providers in Sydney. From custom development to smooth  user experience, our team is committed to breaking barriers and delivering real-world impact"
           }
         </p>
       </div>

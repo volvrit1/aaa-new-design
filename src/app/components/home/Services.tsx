@@ -7,7 +7,7 @@ export default function Services() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="lg:w-5/6 m-auto mb-18 text-center">
         <h2
-          className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm font-semibold tracking-widest 
+          className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm tracking-widest 
                  text-gray-50
               leading-8 mb-3`}
         >
@@ -16,15 +16,15 @@ export default function Services() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
-          <span className="text-gray-50"> Comprehensive</span>
-          {" It Solutions "}
-          <span className="text-gray-50"> for Seamless Business Growth</span>
+          <span className="text-gray-50"> Comprehensive </span>
+          {" It Services "}
+          <span className="text-gray-50"> for a Connected and Efficient Future</span>
         </h2>
         <p
           className={`text-gray-50 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "Web-integrated services encompass a wide range of tools and technologies that allow applications to communicate, share data, and enhance functionality over the internet. Here's a breakdown of key categories."
+            "Our IT services offer a suite  of tools and technologies that facilitate communication, data exchange, and functionality over the internet. By using the potential of networked applications and advanced web technologies, we build integrated digital ecosystems that deliver operational efficiency and business success."
           }
         </p>
       </div>
@@ -34,7 +34,7 @@ export default function Services() {
             title: "Web Development",
             subTitle: "PHP | .NODE  |  LARAVEL  |  NEXT JS",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "We build responsive, scalable, and secure websites customised to your business needs. Our web development solutions prioritize user experience, performance, and seamless functionality across all devices.",
             image: "/assets/webdev.png",
             link: "/",
           },
@@ -42,7 +42,7 @@ export default function Services() {
             title: "App Development",
             subTitle: "REACT NATIVE  |  FLUTTER  |  KOTLIN",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Our team of experts create secure mobile application for iOS and Android. We focus on intuitive designs, high performance, and secure coding to ensure your app stands out in the market.",
             image: "/assets/appdev.png",
             link: "/",
           },
@@ -50,7 +50,7 @@ export default function Services() {
             title: "Artificial Intelligence",
             subTitle: "PYTHON  |  R  |  JAVA  |  C++",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Unlock the power of AI with our advanced solutions that drive automation and decision-making. We provide machine learning, natural language processing, and AI models to optimize business operations.",
             image: "/assets/ai.png",
             link: "/",
           },
@@ -58,7 +58,7 @@ export default function Services() {
             title: "Saas Development",
             subTitle: "JAVA  |  PYTHON  |  RUBY",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "We create scalable, cloud-based SaaS platforms that simplify business processes. Our solutions provide secure, flexible access to applications, allowing businesses to scale effectively and remain competitive in the digital era.",
             image: "/assets/saas.png",
             link: "/",
           },
@@ -66,7 +66,7 @@ export default function Services() {
             title: "Blockchain Development",
             subTitle: "PYTHON  |  C++  |  JAVA",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Our blockchain development solutions ensure secure and transparent solutions. We develop decentralized applications and smart contracts that add security to the data and improve business processes by using blockchain technology.",
             image: "/assets/block.png",
             link: "/",
           },
@@ -74,7 +74,7 @@ export default function Services() {
             title: "CRM Development",
             subTitle: "PYTHON   |  JAVA  |  PHP",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "We design customized CRM solutions that strengthen customer relationships and optimize data management. Our CRM systems integrate with you operations, maximizing sales, marketing, and customer support performance.",
             image: "/assets/crm.png",
             link: "/",
           },
@@ -82,7 +82,7 @@ export default function Services() {
             title: "UX/UI Designing",
             subTitle: "USER EXPERIENCE  |  UI DESIGN  ",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Our UX/UI designing services are designed to provide intuitive, visually appealing user interfaces. We provide smooth interaction and a delightful experience, resulting in maximum user satisfaction and engagement on digital platforms.",
             image: "/assets/ux.png",
             link: "/",
           },
@@ -90,7 +90,7 @@ export default function Services() {
             title: "Digital Marketing",
             subTitle: "SEO  |  SMO  | CONTENT STRATEGY",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Our digital marketing solutions enable you to reach as large an audience as possible online. From SEO to social media advertising, we let you communicate and interact with your audience most effectively.",
             image: "/assets/webdev.png",
             link: "/",
           },
@@ -98,14 +98,14 @@ export default function Services() {
             title: "API Development",
             subTitle: "PYTHON | R  |  JAVA  |  C++",
             description:
-              "We specialised in web development, creating responsive, user-friendly, and high-performance websites tailored to meet your business needs. From intuitive front-end designs to robust back-end solutions, we deliver complete.",
+              "Our API development solutions provide the ease of combining third-party applications. We build stable, scalable APIs that enhance your platform and enrich interactions between systems. ",
             image: "/assets/api.png",
             link: "/",
           },
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[45vh] lg:min-h-[65vh] rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
+            className="w-full min-h-[45vh] lg:min-h-[65vh] xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
           >
             <Image
               width={400}
@@ -117,10 +117,10 @@ export default function Services() {
             <h2 className="text-gray-50 text-xl w-full mx-auto text-left mb-2">
               {/* {serve} */}
             </h2>
-            <h3 className="text-gray-100 font-thin text-sm w-full mx-auto text-left mb-3">
+            <h3 className="text-gray-300 font-thin text-sm w-full mx-auto text-left mb-3">
               {service?.subTitle}
             </h3>
-            <p className="text-gray-100 font-light text-xs/5 tracking-widest w-full mx-auto text-left mb-12">
+          <p className="font-[cabin] tracking-widest text-gray-100 font-light text-xs/5 w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
             <Link

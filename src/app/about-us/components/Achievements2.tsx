@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { motion } from "framer-motion";
 import { div } from "framer-motion/client";
 import Image from "next/image";
@@ -44,7 +44,7 @@ export default function Achievements2() {
     },
   ];
   return (
-    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin]">
+    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin] tracking-widest">
       {/* <div className="w-full p-4 lg:p-2 grid grid-cols-1 lg:grid-cols-6 gap-4"> */}
       <div className="relative flex overflow-hidden max-w-screen-xl ml-auto gap-4">
         <motion.div
@@ -57,7 +57,6 @@ export default function Achievements2() {
             duration: 35,
           }}
         >
-          
           {[...clients, ...clients, ...clients, ...clients].map(
             (data, index) => (
               <div

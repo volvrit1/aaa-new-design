@@ -12,15 +12,17 @@ export default function Achievements() {
           Excellence is nothing but a <br />
           <span className="text-[#EE3639]">Client’s Smile. </span>
         </h2>
-        <p className="text-gray-50 text-sm  mr-auto mb-6 text-left">
-          A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless,
-          Result-Driven, and Cost-Effective Services and Solutions. We
-          specialize in transforming businesses using cutting-edge technologies,
-          providing tailor-made solutions that meet your unique needs.{" "}
+        <p className="font-[cabin] tracking-widest text-gray-50 text-sm  mr-auto mb-6 text-left">
+          we believe that true excellence lies in the happiness of our clients.
+          We focus on creating lasting relationships through providing superior
+          services beyond expectations. Your success is ours, and our ultimate
+          aim is to see you thrilled with every interaction and solution we
+          offer. Whenever we see you smile, we know we have succeeded in our
+          mission.
         </p>
 
         <Link
-          href={""}
+          href={"/contact-us"}
           type="button"
           className={` bg-[#EE3639] border border-[#EE3639] p-3.5 px-12  text-gray-50 inline-block`}
         >

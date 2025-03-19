@@ -72,7 +72,7 @@ export default function OurCoreValue() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[45vh] lg:min-h-[65vh] rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
+            className="w-full min-h-[45vh] lg:min-h-[65vh] 2xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
           >
             <Image
               width={400}
@@ -85,7 +85,7 @@ export default function OurCoreValue() {
               {service?.title}
             </h2>
 
-            <p className="text-gray-100 font-light text-xs/5 tracking-widest w-full mx-auto text-left mb-12">
+            <p className="font-[cabin] tracking-widest text-gray-100 font-light text-xs/5 tracking-widest w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
             <Link

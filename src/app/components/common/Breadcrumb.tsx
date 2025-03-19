@@ -8,7 +8,7 @@ const Breadcrumb = ({ paths }: any) => {
         <div key={index} className="flex items-center space-x-2">
           {index < paths.length - 1 ? (
             <Link href={path.href}>
-              <p className="hover:text-blue-500">{path.label}</p>
+              <p className="font-[cabin] tracking-widest hover:text-blue-500">{path.label}</p>
             </Link>
           ) : (
             <span className="font-semibold">{path.label}</span>

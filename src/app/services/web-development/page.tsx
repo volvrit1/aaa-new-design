@@ -1,6 +1,14 @@
 import HeroSection from "@/app/components/common/HeroSection";
 import React from "react";
 import DevSolutions from "./componnets/DevSolutions";
+import StreamlineProcess from "./componnets/StreamlineProcess";
+import OurWork from "./componnets/OurWork";
+import WeServe from "@/app/components/home/WeServe";
+import TechStack from "./componnets/TechStack";
+import NewProject from "./componnets/NewProject";
+import Faq from "@/app/components/common/Faq";
+import Contact from "@/app/components/common/Contact";
+import WhyChooseAgency from "./componnets/WhyChooseAgency";
 
 export default function page() {
   return (
@@ -12,9 +20,17 @@ export default function page() {
         colorTitle1="#EE3639"
         colorTitle2="#"
         description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
-        link={"tel:+91424242424"}
+        link={"tel:0411 537 183"}
       />
       <DevSolutions />
+      <StreamlineProcess />
+      <OurWork />
+      <WeServe />
+      <TechStack />
+      <NewProject />
+      <WhyChooseAgency />
+      <Faq />
+      <Contact />
     </div>
   );
 }

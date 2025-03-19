@@ -106,7 +106,9 @@ const Contact = () => {
                   className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
                 />
                 {errors.firstName && (
-                  <p className="text-red-500 text-sm">{errors.firsName}</p>
+                  <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                    {errors.firsName}
+                  </p>
                 )}
               </div>
               <div>
@@ -120,7 +122,9 @@ const Contact = () => {
                   className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
                 />
                 {errors.lastName && (
-                  <p className="text-red-500 text-sm">{errors.lastName}</p>
+                  <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                    {errors.lastName}
+                  </p>
                 )}
               </div>
             </div>
@@ -135,7 +139,9 @@ const Contact = () => {
                 className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
               />
               {errors.email && (
-                <p className="text-red-500 text-sm">{errors.email}</p>
+                <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                  {errors.email}
+                </p>
               )}
             </div>
             <div>
@@ -149,7 +155,9 @@ const Contact = () => {
                 className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
               />
               {errors.phone && (
-                <p className="text-red-500 text-sm">{errors.phone}</p>
+                <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                  {errors.phone}
+                </p>
               )}
             </div>
             <div>
@@ -163,7 +171,9 @@ const Contact = () => {
                 className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
               />
               {errors.subject && (
-                <p className="text-red-500 text-sm">{errors.subject}</p>
+                <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                  {errors.subject}
+                </p>
               )}
             </div>
             <div>
@@ -176,7 +186,9 @@ const Contact = () => {
                 className="bg-transparent border border-gray-200 rounded-lg   p-2 w-full"
               />
               {errors.message && (
-                <p className="text-red-500 text-sm">{errors.message}</p>
+                <p className="font-[cabin] tracking-widest text-red-500 text-sm">
+                  {errors.message}
+                </p>
               )}
             </div>
             <button

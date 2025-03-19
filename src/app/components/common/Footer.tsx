@@ -35,7 +35,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="text-gray-50 bg-[#242424] py-6 lg:h-[70vh] px-4 lg:px-24 w">
+    <footer className="text-gray-50 bg-[#242424] py-6 lg:min-h-[70vh] xl:min-h-auto px-4 lg:px-24 w">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mx-auto">
           <div className="w-full lg:col-span-2">
@@ -49,19 +49,12 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="text-sm/7 text-gray-50 mb-2">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit dolor
-                posuere vel venenatis eu sit massa volutpat massa rhoncus odio.
+              <p className="font-[cabin] tracking-widest text-sm/7 text-gray-50 mb-2">
+                All Above Agency is your trusted IT partner in Sydney, offering
+                custom solutions for websites, mobile apps, and advanced
+                technologies like AI. Let's create something exceptional
+                together!
               </p>
-              {/* <p className="text-xs text-gray-50 mb-2">
-                <strong>Address</strong>: 123 Main St, Anytown, USA 12345
-              </p>
-              <p className="text-xs text-gray-50 mb-2">
-                <strong>Phone</strong>: 555-555-5555
-              </p>
-              <p className="text-xs text-gray-50 mb-2">
-                <strong>Email</strong>: info@company.com
-              </p> */}
             </div>
           </div>
 
@@ -110,19 +103,25 @@ export default function Footer() {
           <div>
             <h3 className="mb-2 font-semibold">Contact Us</h3>
             <div>
-              <p className="text-sm text-gray-200 mb-2 flex items-center">
+              <Link
+                href={"mailto:allabove@company.com"}
+                className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center"
+              >
                 <strong>
                   <IoMailOutline className="text-xl mr-2" />
                 </strong>{" "}
                 allabove@company.com
-              </p>
-              <p className="text-sm text-gray-200 mb-2 flex items-center">
+              </Link>
+              <Link
+                href={"tel:0411 537 183"}
+                className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center"
+              >
                 <strong>
                   <IoCallOutline className="text-xl mr-2" />
                 </strong>{" "}
-                555-555-5555
-              </p>
-              <p className="text-sm text-gray-200 mb-2 flex items-center">
+                0411 537 183{" "}
+              </Link>
+              <p className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center">
                 <strong>
                   <IoLocationOutline className="text-xl mr-2" />
                 </strong>{" "}
@@ -139,7 +138,11 @@ export default function Footer() {
             <Link href={""} className="text-[#EE3639]">
               Terms and Conditions
             </Link>
-            |<Link href={""} className="text-[#EE3639]" > Privacy Policy</Link>
+            |
+            <Link href={""} className="text-[#EE3639]">
+              {" "}
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>

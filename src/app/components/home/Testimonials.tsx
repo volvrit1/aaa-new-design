@@ -17,7 +17,7 @@ export default function Testimonials() {
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
         >
           <span className="text-gray-800">
-            What Our Clients Say: & Success Stories
+            What Our Clients Say:
           </span>
           {" Trusted Testimonials "}
           <span className="text-gray-800">& Success Stories</span>
@@ -26,7 +26,7 @@ export default function Testimonials() {
           className={`text-gray-800 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "BWD WEB stands out for its innovative solutions, expert team, and commitment to quality. We deliver custom web and mobile applications that combine cutting-edge technology with seamless user experiences. Our focus on creativity, reliability, and client satisfaction makes us a trusted partner for businesses looking to grow and succeed in the digital world."
+            "Our clients' success is our top priority. We've had the privilege of working with businesses across Sydney, delivering customised  web and mobile solutions that drive growth, enhance online presence, and help them achieve long-term digital success in an ever-evolving market."
           }
         </p>
       </div>
@@ -44,7 +44,7 @@ export default function Testimonials() {
             <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
               <IoIosPlay width={35} height={35} className="text-4xl" />
             </div>
-            <span className="font-[cabin] text-2xl text-gray-50">
+            <span className="font-[cabin] tracking-widest text-2xl text-gray-50">
               Mr. Willam
             </span>
           </div>
@@ -62,7 +62,9 @@ export default function Testimonials() {
             <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
               <IoIosPlay width={35} height={35} className="text-4xl" />
             </div>
-            <span className="font-[cabin] text-2xl text-gray-50">Ms.Suzi</span>
+            <span className="font-[cabin] tracking-widest text-2xl text-gray-50">
+              Ms.Suzi
+            </span>
           </div>
         </div>
         <div className="lg:col-span-2 flex flex-col justify-center pl-5">
@@ -81,7 +83,9 @@ export default function Testimonials() {
               className="w-13 h-13 rounded-full "
             />
             <div>
-              <h2 className="text-lg font-bold font-[cabin]">Mathila Burns</h2>
+              <h2 className="text-lg font-bold font-[cabin] tracking-widest">
+                Mathila Burns
+              </h2>
               <h3 className="text-xs text-gray-600">Fashion Studio, Dubai</h3>
             </div>
           </div>

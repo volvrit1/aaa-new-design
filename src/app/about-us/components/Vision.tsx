@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Vision() {
   return (
-    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin]">
+    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin] tracking-widest">
       <div className="flex flex-col md:flex-row justify-center items-center gap-20">
         <div className="lg:w-1/2 text-left">
           <h2
