@@ -62,7 +62,7 @@ export default function MarketingDevProcess() {
             className={`w-full font-[cabin]  p-6 flex justify-between items-start `}
           >
             <div className="w-1/3">
-              <p className="font-semibold text-9xl text-[#EE3639] text-center ">
+              <p className="font-semibold text-8xl text-[#EE3639] text-center ">
                 {"0"}
                 {index + 1}
               </p>
