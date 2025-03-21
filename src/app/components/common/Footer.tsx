@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="font-[inter] tracking-widest text-sm/7 text-gray-50 mb-2">
-                All Above Agency is your trusted IT partner in Sydney, offering
+                Above All Agency is your trusted IT partner in Sydney, offering
                 custom solutions for websites, mobile apps, and advanced
                 technologies like AI. Let's create something exceptional
                 together!
@@ -132,7 +132,7 @@ export default function Footer() {
         </div>
         <hr className="my-8 border-gray-200" />
         <div className="flex justify-between items-center text-sm ">
-          <div>Copyright © 2025 All Above Agency</div>
+          <div>Copyright © 2025 Above All Agency</div>
           <div>
             All Rights Reserved |
             <Link href={""} className="text-[#EE3639]">

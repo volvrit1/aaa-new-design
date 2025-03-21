@@ -14,7 +14,7 @@ export default function page() {
     <div>
       <HeroSection
         title="Your Success Is Our Mission Meet The Team At"
-        title1=" All Above Agency"
+        title1=" Above All Agency"
         title2=""
         colorTitle1="#EE3639"
         colorTitle2="#"

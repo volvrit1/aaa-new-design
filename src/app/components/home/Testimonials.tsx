@@ -15,61 +15,61 @@ export default function Testimonials() {
       name: "John D.",
       position: "CEO",
       description:
-        "All Above Agency transformed our website and improved our digital marketing efforts significantly. Their team is professional, responsive, and always ready to offer creative solutions. We’ve seen a noticeable increase in traffic and customer engagement. Highly recommend!",
+        "Above All Agency transformed our website and improved our digital marketing efforts significantly. Their team is professional, responsive, and always ready to offer creative solutions. We’ve seen a noticeable increase in traffic and customer engagement. Highly recommend!",
     },
     {
       name: "Sarah M.",
       position: "Marketing Director",
       description:
-        "We’ve worked with All Above Agency on several projects, from app development to SEO services, and they’ve consistently delivered high-quality work. Their attention to detail and commitment to our success has been impressive. We look forward to continuing our partnership.",
+        "We’ve worked with Above All Agency on several projects, from app development to SEO services, and they’ve consistently delivered high-quality work. Their attention to detail and commitment to our success has been impressive. We look forward to continuing our partnership.",
     },
     {
       name: "Alex T.",
       position: "Founder",
       description:
-        "The All Above Agency team provided us with a seamless and efficient e-commerce platform that perfectly fits our needs. Their expertise in user experience and mobile optimization helped us attract more customers. Their support has been exceptional, and we couldn't be happier with the results.",
+        "The Above All Agency team provided us with a seamless and efficient e-commerce platform that perfectly fits our needs. Their expertise in user experience and mobile optimization helped us attract more customers. Their support has been exceptional, and we couldn't be happier with the results.",
     },
     {
       name: "Rachel S.",
       position: "COO",
       description:
-        "From the initial consultation to the final product launch, All Above Agency has been a true partner. They developed a custom software solution that streamlines our operations and saves us time and money. The team is highly skilled and always delivers on time.",
+        "From the initial consultation to the final product launch, Above All Agency has been a true partner. They developed a custom software solution that streamlines our operations and saves us time and money. The team is highly skilled and always delivers on time.",
     },
     {
       name: "Mike L.",
       position: "Founder",
       description:
-        "All Above Agency’s digital marketing strategies helped us improve our online presence and reach more students. Their SEO and social media campaigns brought us fantastic results. The team is professional, knowledgeable, and easy to work with. We are grateful for their services.",
+        "Above All Agency’s digital marketing strategies helped us improve our online presence and reach more students. Their SEO and social media campaigns brought us fantastic results. The team is professional, knowledgeable, and easy to work with. We are grateful for their services.",
     },
     {
       name: "Emily R.",
       position: "Project Manager",
       description:
-        "All Above Agency is a game-changer. They built us a stunning, responsive website and optimized it for local SEO, which has dramatically increased our online leads. The team was proactive, communicative, and quick to address our concerns. A true pleasure to work with!",
+        "Above All Agency is a game-changer. They built us a stunning, responsive website and optimized it for local SEO, which has dramatically increased our online leads. The team was proactive, communicative, and quick to address our concerns. A true pleasure to work with!",
     },
     {
       name: "Chris W.",
       position: "CTO",
       description:
-        "Working with All Above Agency has been an incredible experience. They delivered top-notch mobile apps and have provided ongoing maintenance support that keeps everything running smoothly. Their team is reliable, innovative, and professional.",
+        "Working with Above All Agency has been an incredible experience. They delivered top-notch mobile apps and have provided ongoing maintenance support that keeps everything running smoothly. Their team is reliable, innovative, and professional.",
     },
     {
       name: "Diana P.",
       position: "CEO",
       description:
-        "All Above Agency’s consulting services helped us rethink our IT infrastructure and streamline our operations. They brought forward innovative solutions that fit our business perfectly. Their expertise in IT solutions is unmatched, and we would highly recommend them to any business.",
+        "Above All Agency’s consulting services helped us rethink our IT infrastructure and streamline our operations. They brought forward innovative solutions that fit our business perfectly. Their expertise in IT solutions is unmatched, and we would highly recommend them to any business.",
     },
     {
       name: "Tom G.",
       position: "Owner",
       description:
-        "We needed a new website and app for our fitness brand, and All Above Agency delivered beyond our expectations. They helped us create an amazing user experience, and their SEO strategies have helped us reach a much broader audience. We're really happy with the results!",
+        "We needed a new website and app for our fitness brand, and Above All Agency delivered beyond our expectations. They helped us create an amazing user experience, and their SEO strategies have helped us reach a much broader audience. We're really happy with the results!",
     },
     {
       name: "Laura B.",
       position: "Director",
       description:
-        "All Above Agency is our go-to partner for all things IT. They’ve developed multiple software solutions for us, and each one has been well-executed and has made a significant impact on our efficiency. They are responsive, knowledgeable, and always offer great value.",
+        "Above All Agency is our go-to partner for all things IT. They’ve developed multiple software solutions for us, and each one has been well-executed and has made a significant impact on our efficiency. They are responsive, knowledgeable, and always offer great value.",
     },
   ];
 

@@ -15,7 +15,7 @@ export default function Team() {
           className={`text-gray-500 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "All Above Agency is led by an exceptional team of Industry Veterans who have come with proven experience, expert-level approach to serving the world- Modern Technology Solution."
+            "Above All Agency is led by an exceptional team of Industry Veterans who have come with proven experience, expert-level approach to serving the world- Modern Technology Solution."
           }
         </p>
       </div>

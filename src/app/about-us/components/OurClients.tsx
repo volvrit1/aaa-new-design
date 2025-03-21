@@ -54,7 +54,7 @@ export default function OurClients() {
           className={`text-gray-500 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
-            "All Above Agency feels pride in developing mobile apps for various iconic brands. Throughout our entire journey, we have built loyal relationships with every client and established trust with solid friendships."
+            "Above All Agency feels pride in developing mobile apps for various iconic brands. Throughout our entire journey, we have built loyal relationships with every client and established trust with solid friendships."
           }
         </p>
       </div>

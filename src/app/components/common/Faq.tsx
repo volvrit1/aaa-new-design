@@ -45,13 +45,13 @@ export default function Faq() {
       <div className="grid grid-cols-1 place-items-start gap-6">
         {[
           {
-            question: "What are the services provided by All Above Agency?",
+            question: "What are the services provided by Above All Agency?",
             answer:
               "We offer various IT services such as software development, web development, mobile application development, digital marketing, search engine optimization, and IT consulting.",
           },
           {
             question:
-              "Does All Above Agency provide tailored software solutions?",
+              "Does Above All Agency provide tailored software solutions?",
             answer:
               "Yes, we create custom software solutions just to meet the specific needs of our clients. We work closely with you to determine your business needs and provide customised solutions.",
           },
@@ -77,12 +77,12 @@ export default function Faq() {
           },
           {
             question:
-              "How does All Above Agency determine its price for services?",
+              "How does Above All Agency determine its price for services?",
             answer:
               "We have flexible prices that are dependent on the size and complexity of the project. We will provide you with a tailored quote after you provide us with your specifications.",
           },
           {
-            question: "Does All Above Agency work on remote projects?",
+            question: "Does Above All Agency work on remote projects?",
             answer:
               "Yes, we do work on remote projects and have clients worldwide. You can work with us remotely via video conferencing and make use of various software to stay in touch and work on your project in an effective manner.",
           },
@@ -106,7 +106,6 @@ export default function Faq() {
           >
             <button
               className={`w-full text-left font-[inter] flex justify-start items-center gap-8`}
-              
             >
               <span className="text-3xl">
                 {openIndex === index ? (

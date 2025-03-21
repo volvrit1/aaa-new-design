@@ -25,7 +25,7 @@ export default function OurCoreValue() {
             title: "Success Secret",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core1.png",
             link: "/",
           },
@@ -33,7 +33,7 @@ export default function OurCoreValue() {
             title: "Innovative Minds",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core2.png",
             link: "/",
           },
@@ -41,7 +41,7 @@ export default function OurCoreValue() {
             title: "Human-First Approach",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core3.png",
             link: "/",
           },
@@ -49,7 +49,7 @@ export default function OurCoreValue() {
             title: "Solid Integrity & Ethics",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core4.png",
             link: "/",
           },
@@ -57,7 +57,7 @@ export default function OurCoreValue() {
             title: "In-House Team",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core5.png",
             link: "/",
           },
@@ -65,7 +65,7 @@ export default function OurCoreValue() {
             title: "Full-Technology Stack",
 
             description:
-              "All Above Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
+              "Above All Agency succeeded when our clients got successful. We are driven by innovation and aspiration to provide the first-class solution that assures your success.",
             image: "/assets/core6.png",
             link: "/",
           },
