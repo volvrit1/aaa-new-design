@@ -5,7 +5,7 @@ import React from "react";
 export default function Agency() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
-      <div className="flex py-10 flex-col max-w-5xl mx-auto lg:flex-row justify-center items-center gap-10">
+      <div className="flex py-10 flex-col lg:flex-row justify-between items-center gap-20">
         {[1, 2, 3, 4].map((faq, index) => (
           <div key={index}>
             <Image

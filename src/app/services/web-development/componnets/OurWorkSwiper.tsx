@@ -16,6 +16,7 @@ export default function OurWorkSwiper() {
     const websites = [
         {
             title: "UNIFI CARS",
+            href: "https://unificars.com",
             image: "/assets/work1.png",
             description:
                 "Unifi Cars deals in providing good quality used cars. They have a wide range of pre-owned vehicles, providing customers with dependable and affordable solutions to suit their requirements.",
@@ -26,6 +27,7 @@ export default function OurWorkSwiper() {
         },
         {
             title: "BYD Auto",
+            href: "https://bydbahrain.com",
             image: "/assets/work1.png",
             description:
                 "BYD is a world leader in electric cars and renewable energy solutions. They are a dominant force in the clean energy and EV industry because of their approach to sustainability.",
@@ -36,6 +38,7 @@ export default function OurWorkSwiper() {
         },
         {
             title: "DUNLOP TYRES",
+            href: "https://www.dunlopbahrain.com/en-bh/index.html",
             image: "/assets/work1.png",
             description:
                 "Dunlop is famous for its long-lasting and high-performance tyres. Having a vast assortment of tyres for cars, trucks, and motorbikes, they focus on safety, performance, and long lifespan in their products.",
@@ -46,6 +49,7 @@ export default function OurWorkSwiper() {
         },
         {
             title: "VISAFLOW",
+            href: "https://visaflow.com.au",
             image: "/assets/work1.png",
             description:
                 "Visa Flow makes the visa application process easier for individuals and companies. Their platform simplifies the whole process, making visa applications quicker and more efficient.",
@@ -56,6 +60,7 @@ export default function OurWorkSwiper() {
         },
         {
             title: "CAREWORLD",
+            href: "https://www.careworld.com.au",
             image: "/assets/work1.png",
             description:
                 "Careworld is committed to offering support and resources for those in need of healthcare and caregiving services. Their site provides vital information to assist in overcoming healthcare issues.",
@@ -66,6 +71,7 @@ export default function OurWorkSwiper() {
         },
         {
             title: "SELECT INSURANCE",
+            href: "https://selectinsure.com.au",
             image: "/assets/work1.png",
             description:
                 "Select Insure offers full-range insurance solutions designed to address the varied needs of individuals and enterprises. They provide a variety of options to achieve the right coverage for any given situation.",
@@ -74,7 +80,7 @@ export default function OurWorkSwiper() {
             textColor: "text-[#729855]",
             tags: ["UX/UI Design Strategy", "SAAS Development", "CRM Integration", "API Integration"],
         }
-    ];
+    ]
 
     return (
         <div className="container max-w-7xl mx-auto p-4 lg:py-20 space-y-6">

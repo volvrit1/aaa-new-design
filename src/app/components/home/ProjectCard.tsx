@@ -8,9 +8,9 @@ const ProjectCard = ({ work, index }: any) => {
             key={index}
             className="w-full lg:h-screen xl:h-auto flex flex-col-reverse lg:flex-row justify-center mb-10"
         >
-            <div className="lg:w-3/6">
+            <div className="lg:w-1/2">
                 <h2
-                    className={`${work?.textColor} text-4xl font-semibold mb-4 mx-auto text-left`}
+                    className={`${work?.textColor} uppercase text-4xl font-semibold mb-4 mx-auto text-left`}
                 >
                     {work?.title}
                 </h2>
@@ -28,7 +28,7 @@ const ProjectCard = ({ work, index }: any) => {
                     {work?.description}
                 </p>
                 <Link
-                    href={""}
+                    href={work.href}
                     type="button"
                     className={`${work?.bgColor} w-full lg:w-auto text-center p-3.5 px-12 rounded-lg text-gray-50 inline-block`}
                 >

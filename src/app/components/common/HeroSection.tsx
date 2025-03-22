@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Breadcrumb from "./Breadcrumb";
-// import { GoArrowUpRight } from "react-icons/go";
+import ButtonToCall from "../home/ButtonToCall";
 
 const HeroSection = ({
   title,
@@ -51,12 +50,7 @@ const HeroSection = ({
           >
             Call Now
           </Link>
-          <Link
-            href={"/contact-us"}
-            className=" p-3.5 w-44 text-center hover:bg-[#EE3639] text-gray-50 hover:text-gray-50 border border-[#EE3639] transition-colors ease-in-out flex justify-center items-center"
-          >
-            Get Started{" "}
-          </Link>
+          <ButtonToCall text="Get Started" />
         </div>
       </div>
     </div>

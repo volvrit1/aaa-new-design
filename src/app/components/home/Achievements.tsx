@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import ButtonToCall from "./ButtonToCall";
 
 export default function Achievements() {
   return (
@@ -21,13 +21,9 @@ export default function Achievements() {
           mission.
         </p>
 
-        <Link
-          href={"/contact-us"}
-          type="button"
-          className={` bg-[#EE3639] border border-[#EE3639] p-3.5 px-12  text-gray-50 inline-block`}
-        >
-          Let’s starts the conversion
-        </Link>
+        <div className="flex w-full mr-auto">
+          <ButtonToCall text="Let’s starts the conversion" />
+        </div>
       </div>
       <div className="w-full lg:w-1/2 p-4 lg:p-2 grid grid-cols-1 lg:grid-cols-3 gap-4">
         {[

@@ -20,7 +20,7 @@ const ButtonToCall = ({ text = "Request A Quote" }: any) => {
             </Modal>
             <button
                 onClick={handleIOpenModal}
-                className="px-10 p-4 w-56 text-sm text-center border-[#EE3639] bg-[#EE3639] text-gray-50 hover:text-[#EE3639] hover:bg-transparent border transition-colors ease-in-out flex justify-center items-center"
+                className="px-10 p-4 text-sm text-center border-[#EE3639] bg-[#EE3639] text-gray-50 hover:text-[#EE3639] hover:bg-transparent border transition-colors ease-in-out flex justify-center items-center"
             >
                 {text}
             </button>
