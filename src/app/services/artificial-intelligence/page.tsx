@@ -25,13 +25,15 @@ export default function page() {
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />
-      <AiDevSolutions />
-      <AiDevProcess />
-      <WeServe />
-      <WhyChooseAgency />
-      <NewProject />
-      <Faq />
-      <Contact />
+      <div className="bg-white">
+        <AiDevSolutions />
+        <AiDevProcess />
+        <WeServe />
+        <WhyChooseAgency />
+        <NewProject />
+        <Faq />
+        <Contact />
+      </div>
     </div>
   );
 }

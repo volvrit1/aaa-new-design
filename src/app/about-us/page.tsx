@@ -21,14 +21,16 @@ export default function page() {
         description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
         link={"tel:0411 537 183"}
       />
-      <Achievements2 />
-      <Vision />
-      <Partner />
-      <OurCoreValue />
-      <OurClients />
-      <Team />
-      <JoinUs />
-      <Contact />
+      <div className="bg-white">
+        <Achievements2 />
+        <Vision />
+        <Partner />
+        <OurCoreValue />
+        <OurClients />
+        {/* <Team /> */}
+        <JoinUs />
+        <Contact />
+      </div>
     </div>
   );
 }

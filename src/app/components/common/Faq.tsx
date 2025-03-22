@@ -19,7 +19,7 @@ export default function Faq() {
     <div className="container max-w-7xl p-4 mx-auto lg:p-16 space-y-4 ">
       <div className="lg:w-5/6 m-auto mb-18 text-center">
         <h2
-          className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm font-semibold tracking-widest 
+          className={`text sm:text-lg font-semibold tracking-widest 
               text-gray-800
            leading-8 mb-3`}
         >
@@ -35,7 +35,7 @@ export default function Faq() {
           </span>
         </h2>
         <p
-          className={`text-gray-700 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-700 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
             "We know that selecting the appropriate IT partner is an important decision. To assist you in making a well-informed decision, here are some of the most frequently asked questions we get:"
@@ -99,13 +99,12 @@ export default function Faq() {
         ].map((faq, index) => (
           <div
             key={index}
-            className={`w-full p-6 rounded bg-gray-100 ${
-              openIndex === index ? "" : "h-22"
-            }`}
+            className={`w-full p-6 rounded-lg bg-blue-50 ${openIndex === index ? "" : ""
+              }`}
             onClick={() => toggleFAQ(index)}
           >
             <button
-              className={`w-full text-left font-[inter] flex justify-start items-center gap-8`}
+              className={`w-full text-left cursor-pointer text-black font-[poppins] flex justify-start items-center gap-8`}
             >
               <span className="text-3xl">
                 {openIndex === index ? (
@@ -117,14 +116,13 @@ export default function Faq() {
               <span className="font-medium">{faq.question}</span>
             </button>
             <div
-              className={`transition-all duration-300 overflow-hidden text-gray-500 ${
-                openIndex === index
-                  ? "max-h-40 p-4 bg-transparent "
+              className={`transition-all duration-300 overflow-hidden text-gray-500 ${openIndex === index
+                  ? "max-h-40 pt-4 bg-transparent "
                   : "max-h-0 p-0"
-              }`}
+                }`}
             >
               {openIndex === index && (
-                <p className="font-[cabin] tracking-widest text-sm">
+                <p className="font-[poppins] tracking-widest text-sm">
                   {faq.answer}
                 </p>
               )}

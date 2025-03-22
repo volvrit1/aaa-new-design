@@ -19,7 +19,9 @@ export default function page() {
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />
-      <ContactSection />
+      <div className="bg-white">
+        <ContactSection />
+      </div>
     </div>
   );
 }

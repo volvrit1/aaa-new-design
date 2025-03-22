@@ -7,7 +7,7 @@ export default function Services() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="lg:w-5/6 m-auto mb-18 text-center">
         <h2
-          className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm tracking-widest 
+          className={`text sm:text-lg tracking-widest 
                  text-gray-50
               leading-8 mb-3`}
         >
@@ -21,7 +21,7 @@ export default function Services() {
           <span className="text-gray-50"> for a Connected and Efficient Future</span>
         </h2>
         <p
-          className={`text-gray-50 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
             "Our IT services offer a suite  of tools and technologies that facilitate communication, data exchange, and functionality over the internet. By using the potential of networked applications and advanced web technologies, we build integrated digital ecosystems that deliver operational efficiency and business success."
@@ -112,15 +112,15 @@ export default function Services() {
               height={400}
               alt="image"
               src={`${service?.image}`}
-              className="w-14 h-14 object-contain rounded-xl mb-4"
+              className="min-w-14 min-h-14 max-w-14 max-h-14 object-contain rounded-xl mb-4"
             />
-            <h2 className="text-gray-50 text-xl w-full mx-auto text-left mb-2">
+            <h2 className="text-white text-xl w-full mx-auto text-left mb-2">
               {service?.title}
             </h2>
-            <h3 className="text-gray-300 font-thin text-sm w-full mx-auto text-left mb-3">
+            <h3 className="text-white py-3 font-thin text-sm w-full mx-auto text-left mb-3">
               {service?.subTitle}
             </h3>
-          <p className="font-[cabin] tracking-widest text-gray-100 font-light text-xs/5 w-full mx-auto text-left mb-12">
+            <p className="font-[poppins] tracking-widest text-gray-100 font-light text-sm w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
             <Link

@@ -55,12 +55,12 @@ const services = [
     path: "/services/digital-marketing",
     id: "digital-marketing", // Unique ID for submenu
   },
-  {
-    name: "API Development",
-    image: "/assets/api.png",
-    path: "/services/api-development",
-    id: "api", // Unique ID for submenu
-  },
+  // {
+  //   name: "API Development",
+  //   image: "/assets/api.png",
+  //   path: "/services/api-development",
+  //   id: "api", // Unique ID for submenu
+  // },
 ];
 
 const industries = [
@@ -164,15 +164,17 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-transparent flex justify-between px-10 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[1000] w-full">
+    <nav className="bg-transparent flex justify-between px-10 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[100] w-full">
       <div>
         <Link href={"/"}>
           <Image
             src={"/assets/logo/logo.svg"}
             width={150}
             height={70}
+            unoptimized
+            priority
             alt="Above All Agency"
-            className="h-12"
+          // className="h-12"
           />
         </Link>
       </div>
@@ -187,11 +189,10 @@ const Navbar = () => {
           >
             <Link href={item.path} className="border-none outline-none">
               <li
-                className={`mr-10 text-base font-['urbanist'] ${
-                  pathname === item.path
-                    ? "border-b-4 border-[#EE3639] text-gray-100 font-bold"
-                    : "text-gray-300 hover:text-gray-100 transition duration-200"
-                }`}
+                className={`mr-10 text-lg font-['urbanist'] ${pathname === item.path
+                  ? "border-b-4 border-[#EE3639] text-gray-100 font-bold"
+                  : "text-gray-300 hover:text-gray-100 transition duration-200"
+                  }`}
                 onClick={(e) => {
                   item.submenu && e.preventDefault(); // Prevent link navigation to enable click behavior
                   handleClick(item.name); // Toggle submenu on click
@@ -204,9 +205,8 @@ const Navbar = () => {
             {/* Submenu */}
             {item.submenu && (
               <div
-                className={`absolute top-20 left-[-20rem] w-[60vw] mt-2 rounded-2xl bg-gray-50 text-gray-800 ${
-                  activeSubmenuId === item.name ? "block" : "hidden"
-                }`}
+                className={`absolute top-20 left-[-20rem] w-[60vw] mt-2 rounded-2xl bg-gray-50 text-gray-800 ${activeSubmenuId === item.name ? "block" : "hidden"
+                  }`}
                 onMouseLeave={handleMouseLeave} // Reset on mouse leave
               >
                 <ul className="space-y-2 p-2 grid grid-cols-1 lg:grid-cols-3">
@@ -214,9 +214,9 @@ const Navbar = () => {
                     <li key={subItem.id}>
                       <Link
                         href={subItem.path}
-                        className="group px-4 py-2 text-base text-gray-400 rounded-xl hover:bg-gray-100 flex justify-start items-center gap-4"
+                        className="px-4 py-2 text-base text-gray-700 rounded-xl hover:bg-gray-200 flex justify-start items-center gap-4"
                       >
-                        <span className="text-3xl rounded-full p-3 bg-[#F0F0F0] group-hover:bg-white">
+                        <span className="text-3xl rounded-full p-3 group-hover:bg-white">
                           <Image
                             src={subItem?.image}
                             width={50}
@@ -240,10 +240,10 @@ const Navbar = () => {
         <MobileMenu />
 
         <Link
-          href={"/contact-us"}
+          href={"tel:0411537183"}
           className="border hidden lg:block border-gray-50 px-5 py-2 text-gray-50"
         >
-          Contact Us
+          Call Us Now
         </Link>
       </div>
     </nav>

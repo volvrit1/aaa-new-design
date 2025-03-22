@@ -7,12 +7,12 @@ export default function Achievements() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 flex flex-col lg:flex-row justify-center items-center bg-[#242424]">
       <div className="w-full lg:w-1/2 p-4 lg:p-8">
         <h2
-          className={`text-3xl font-normal mb-4 mx-auto text-gray-50 text-left`}
+          className={`text-4xl font-semibold mb-4 mx-auto text-gray-50 text-left`}
         >
           Excellence is nothing but a <br />
           <span className="text-[#EE3639]">Client’s Smile. </span>
         </h2>
-        <p className="font-[cabin] tracking-widest text-gray-50 text-sm  mr-auto mb-6 text-left">
+        <p className="font-[poppins] tracking-widest text-gray-50 text-sm  mr-auto mb-6 text-left">
           we believe that true excellence lies in the happiness of our clients.
           We focus on creating lasting relationships through providing superior
           services beyond expectations. Your success is ours, and our ultimate

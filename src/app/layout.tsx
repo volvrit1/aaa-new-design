@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cabin, Urbanist, Inter } from "next/font/google";
+import { Cabin, Urbanist, Inter, Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/common/Navbar";
 import Footer from "@/app/components/common/Footer";
@@ -8,6 +8,20 @@ const urbanist = Urbanist({
   variable: "--font-urbanist", // Custom CSS variable
   subsets: ["latin"], // Optional: subsets to load
   weight: ["400", "500", "600"], // Optional: specify the font weights you want
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"], // Choose the weights you need
+  variable: "--font-roboto", // Define a CSS variable for use in Tailwind
+  display: "swap",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"], // Choose the weights you need
+  variable: "--font-poppins", // Define a CSS variable for use in Tailwind
+  display: "swap",
 });
 
 const cabin = Cabin({
@@ -29,6 +43,9 @@ export const metadata: Metadata = {
   description: "Above All Agency",
 };
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"; // Import Toastify styles
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -37,11 +54,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cabin.variable} ${urbanist.variable} ${inter.variable} antialiased`}
+        className={`${poppins.variable} antialiased`}
       >
         <Navbar />
+        <div id="modal-root"></div>
         {children}
         <Footer />
+        <ToastContainer
+          rtl={false}
+          autoClose={2000}
+          newestOnTop={true}
+          position="top-right"
+          hideProgressBar={false}
+        />
       </body>
     </html>
   );

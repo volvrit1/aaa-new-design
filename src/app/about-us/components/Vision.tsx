@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Vision() {
   return (
-    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[cabin] tracking-widest">
+    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
       <div className="flex flex-col md:flex-row justify-center items-center gap-20">
         <div className="lg:w-1/2 text-left">
           <h2
@@ -12,7 +12,7 @@ export default function Vision() {
             <span className="text-gray-800">Our Vision</span>{" "}
           </h2>
           <p
-            className={`text-gray-500 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
+            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
           >
             {
               "Our Vision is to create innovative technology solutions that simplify and improve the daily lives of individuals and businesses. At MobileCoderz, we strive to be a leader in Application Development and we constantly push the boundaries of what is possible with software development. We value diversity, inclusivity, and sustainability in our operations and culture. We aim to provide excellent customer service and build long-lasting relationships with our clients."
@@ -24,7 +24,7 @@ export default function Vision() {
             <span className="text-gray-800">Our Mission</span>{" "}
           </h2>
           <p
-            className={`text-gray-500 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
+            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
           >
             {
               "Our Vision is to create innovative technology solutions that simplify and improve the daily lives of individuals and businesses. At MobileCoderz, we strive to be a leader in Application Development and we constantly push the boundaries of what is possible with software development. We value diversity, inclusivity, and sustainability in our operations and culture. We aim to provide excellent customer service and build long-lasting relationships with our clients."

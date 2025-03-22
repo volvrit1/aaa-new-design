@@ -12,7 +12,7 @@ export default function OurCoreValue() {
           <span className="text-gray-50"> Our Core Values</span>
         </h2>
         <p
-          className={`text-gray-50 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
             "Web-integrated services encompass a wide range of tools and technologies that allow applications to communicate, share data, and enhance functionality over the internet. Here's a breakdown of key categories."
@@ -85,7 +85,7 @@ export default function OurCoreValue() {
               {service?.title}
             </h2>
 
-            <p className="font-[cabin] tracking-widest text-gray-100 font-light text-xs/5 tracking-widest w-full mx-auto text-left mb-12">
+            <p className="font-[poppins] tracking-widest text-gray-100 font-light text-xs/5 tracking-widest w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
             <Link

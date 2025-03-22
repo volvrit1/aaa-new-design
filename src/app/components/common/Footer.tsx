@@ -11,11 +11,60 @@ import {
 
 export default function Footer() {
   const services = [
-    { name: "Compline Expert", url: "/" },
-    { name: "Start-Up Expert", url: "/" },
-    { name: "Technology Expert", url: "/" },
-    { name: "Legal Expert", url: "/" },
-    { name: "Education Expert", url: "/" },
+    {
+      name: "Web Development",
+      image: "/assets/webdev.png",
+      path: "/services/web-development",
+      id: "web-development", // Unique ID for submenu
+    },
+    {
+      name: "App Development",
+      image: "/assets/appdev.png",
+      path: "/services/app-development",
+      id: "app-development", // Unique ID for submenu
+    },
+    {
+      name: "Artificial Intelligence",
+      image: "/assets/ai.png",
+      path: "/services/artificial-intelligence",
+      id: "ai", // Unique ID for submenu
+    },
+    {
+      name: "Saas Development",
+      image: "/assets/saas.png",
+      path: "/services/saas-development",
+      id: "saas", // Unique ID for submenu
+    },
+    {
+      name: "Blockchain Development",
+      image: "/assets/block.png",
+      path: "/services/blockchain-development",
+      id: "blockchain", // Unique ID for submenu
+    },
+    {
+      name: "CRM Development",
+      image: "/assets/crm.png",
+      path: "/services/crm-development",
+      id: "crm", // Unique ID for submenu
+    },
+    {
+      name: "UX/UI Designing",
+      image: "/assets/ux.png",
+      path: "/services/ux-ui-designing",
+      id: "ux-ui", // Unique ID for submenu
+    },
+    {
+      name: "Digital Marketing",
+      image: "/assets/webdev.png",
+      path: "/services/digital-marketing",
+      id: "digital-marketing", // Unique ID for submenu
+    },
+    // {
+    //   name: "API Development",
+    //   image: "/assets/api.png",
+    //   path: "/services/api-development",
+    //   id: "api", // Unique ID for submenu
+    // },
   ];
 
   const company = [
@@ -35,9 +84,9 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="text-gray-50 bg-[#242424] py-6 lg:min-h-[70vh] xl:min-h-auto px-4 lg:px-24 w">
+    <footer className="text-gray-50 font-[poppins] bg-[#242424] py-10 px-4 lg:px-10">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10 mx-auto">
           <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
@@ -49,7 +98,7 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="font-[inter] tracking-widest text-sm/7 text-gray-50 mb-2">
+              <p className="font-[poppins] tracking-wide text-sm/7 text-gray-50 mt-4 mb-2">
                 Above All Agency is your trusted IT partner in Sydney, offering
                 custom solutions for websites, mobile apps, and advanced
                 technologies like AI. Let's create something exceptional
@@ -59,12 +108,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-semibold">Services</h3>
+            <h3 className="mb-5 text-lg uppercase font-semibold">Services</h3>
             <ul className="text-sm text-gray-200 space-y-3.5">
               {services &&
                 services?.map((item, index) => (
                   <li key={index}>
-                    <Link href={item.url} className="hover:text-gray-500">
+                    <Link href={item.path} className="hover:text-gray-500">
                       {item.name}
                     </Link>
                   </li>
@@ -73,7 +122,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-semibold">Company</h3>
+            <h3 className="mb-5 text-lg uppercase font-semibold">Company</h3>
             <ul className="text-sm text-gray-200 space-y-3.5">
               {company &&
                 company?.map((item, index) => (
@@ -87,7 +136,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-2 font-semibold">Support</h3>
+            <h3 className="mb-5 text-lg uppercase font-semibold">Support</h3>
             <ul className="text-sm text-gray-200 space-y-3.5">
               {support &&
                 support?.map((item, index) => (
@@ -100,12 +149,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="mb-2 font-semibold">Contact Us</h3>
+          <div className="lg:col-span-2">
+            <h3 className="mb-5 text-lg uppercase font-semibold">Contact Us</h3>
             <div>
               <Link
                 href={"mailto:allabove@company.com"}
-                className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center"
+                className="text-sm mb-2 flex items-center"
               >
                 <strong>
                   <IoMailOutline className="text-xl mr-2" />
@@ -114,14 +163,14 @@ export default function Footer() {
               </Link>
               <Link
                 href={"tel:0411 537 183"}
-                className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center"
+                className="text-sm mb-2 flex items-center"
               >
                 <strong>
                   <IoCallOutline className="text-xl mr-2" />
                 </strong>{" "}
                 0411 537 183{" "}
               </Link>
-              <p className="font-[cabin] tracking-widest text-sm text-gray-200 mb-2 flex items-center">
+              <p className="text-sm mb-2 flex items-center">
                 <strong>
                   <IoLocationOutline className="text-xl mr-2" />
                 </strong>{" "}
@@ -131,16 +180,14 @@ export default function Footer() {
           </div>
         </div>
         <hr className="my-8 border-gray-200" />
-        <div className="flex justify-between items-center text-sm ">
-          <div>Copyright © 2025 Above All Agency</div>
-          <div>
-            All Rights Reserved |
-            <Link href={""} className="text-[#EE3639]">
-              Terms and Conditions
+        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+          <div className="text-white/80">© {new Date().getFullYear()} Above All Agency. All rights reserved.</div>
+          <div className="flex space-x-4 text-base mt-2 md:mt-0">
+            <Link href="#" className="text-[#EE3639] hover:underline">
+              Terms & Conditions
             </Link>
-            |
-            <Link href={""} className="text-[#EE3639]">
-              {" "}
+            <span className="hidden md:block">|</span>
+            <Link href="#" className="text-[#EE3639] hover:underline">
               Privacy Policy
             </Link>
           </div>

@@ -23,14 +23,14 @@ const HeroSection = ({
   breadcrumb?: any;
 }) => {
   return (
-    <div className="relative w-full h-[90vh] md:h-screen  2xl:h-[70vh] 4xl:h-[60vh] overflow-hidden">
+    <div className="relative w-full h-[90vh] md:h-screen overflow-hidden">
       <div className="absolute inset-0 bg-[#242424]"></div>
 
-      <div className="absolute top-[-15rem] left-0 inset-0 flex justify-center items-center">
-        <div className="w-3/5  h-screen bg-gradient-to-r from-[#242424] via-10% via-[#242424]  to-[#EE3639] opacity-30 rounded-full blur-3xl "></div>
+      <div className="absolute left-0 inset-0 flex justify-center items-center">
+        <div className="w-3/5 h-screen bg-gradient-to-r from-[#242424] via-10% via-[#242424]  to-[#EE3639] opacity-30 rounded-full blur-3xl "></div>
       </div>
 
-      <div className="absolute inset-0 font-['urbanist']  flex flex-col items-center justify-center lg:justify-end 2xl:justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
+      <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
         {breadcrumb && <Breadcrumb paths={breadcrumb} />}
         <h1 className="text-2xl md:text-4xl lg:text-4xl xl:text-[42px]/13 tracking- font-bold">
           {title || ""}
@@ -41,13 +41,13 @@ const HeroSection = ({
             <span className={`text-[${colorTitle2}]`}>{title2}</span>
           )}
         </h1>
-        <p className="font-[cabin] tracking-widest lg:w-4/5 text-sm line-clamp-4 md:line-clamp-none md:text-sm/6 2xl:text-sm mt-4 max-w-2xl left-6 mb-10">
+        <p className="font-[poppins] tracking-widest lg:w-4/5 text-sm line-clamp-4 md:line-clamp-none md:text-sm/6 2xl:text-sm mt-4 max-w-2xl left-6 mb-10">
           {description || ""}
         </p>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           <Link
             href={link || ""}
-            className=" p-3.5 w-44 text-center bg-[#EE3639] text-gray-50 hover:text-[#EE3639] hover:bg-transparent hover:border transition-colors ease-in-out flex justify-center items-center"
+            className=" p-3.5 w-44 text-center bg-[#EE3639] border-[#EE3639] text-gray-50 hover:text-[#EE3639] hover:bg-transparent border transition-colors ease-in-out flex justify-center items-center"
           >
             Call Now
           </Link>

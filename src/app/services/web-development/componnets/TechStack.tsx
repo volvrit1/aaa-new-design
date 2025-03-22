@@ -6,7 +6,7 @@ export default function TechStack() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 ">
       <div className="lg:w-5/6 m-auto mb-18 text-center">
         <h2
-          className={`text sm:text-sm md:text-sm lg:text-sm xl:text-sm font-semibold tracking-widest 
+          className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
               leading-8 mb-3`}
         >
@@ -19,7 +19,7 @@ export default function TechStack() {
           <span className="text-gray-800"> We Leverage to Build Future-Ready Solutions</span>
         </h2>
         <p
-          className={`text-gray-800 text-sm sm:text-lg md:text-xl lg:text-[16px] xl:text-[14px] line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
         >
           {
             "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
