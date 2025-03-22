@@ -9,19 +9,19 @@ export default function Services() {
         <h2
           className={`text sm:text-lg tracking-widest 
                  text-gray-50
-              leading-8 mb-3`}
+               mb-3`}
         >
           INTEGRATED SERVICES
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-50"> Comprehensive </span>
           {" IT Services "}
           <span className="text-gray-50"> for a Connected and Efficient Future</span>
         </h2>
         <p
-          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "Our IT services offer a suite  of tools and technologies that facilitate communication, data exchange, and functionality over the internet. By using the potential of networked applications and advanced web technologies, we build integrated digital ecosystems that deliver operational efficiency and business success."
@@ -105,7 +105,7 @@ export default function Services() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full min-h-[45vh] lg:min-h-[65vh] xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-between items-start "
+            className="w-full min-h-[45vh]  rounded-none border border-gray-50 p-8 flex flex-col justify-between items-start "
           >
             <Image
               width={400}

@@ -7,24 +7,24 @@ export default function Vision() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-20">
         <div className="lg:w-1/2 text-left">
           <h2
-            className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+            className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
           >
             <span className="text-gray-800">Our Vision</span>{" "}
           </h2>
           <p
-            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
+            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}
           >
             {
               "Our Vision is to create innovative technology solutions that simplify and improve the daily lives of individuals and businesses. At MobileCoderz, we strive to be a leader in Application Development and we constantly push the boundaries of what is possible with software development. We value diversity, inclusivity, and sustainability in our operations and culture. We aim to provide excellent customer service and build long-lasting relationships with our clients."
             }
           </p>
           <h2
-            className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+            className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
           >
             <span className="text-gray-800">Our Mission</span>{" "}
           </h2>
           <p
-            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
+            className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}
           >
             {
               "Our Vision is to create innovative technology solutions that simplify and improve the daily lives of individuals and businesses. At MobileCoderz, we strive to be a leader in Application Development and we constantly push the boundaries of what is possible with software development. We value diversity, inclusivity, and sustainability in our operations and culture. We aim to provide excellent customer service and build long-lasting relationships with our clients."

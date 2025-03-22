@@ -9,18 +9,18 @@ export default function WeServe() {
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-50
-              leading-8 mb-3`}
+               mb-3`}
         >
           Industries We Serve
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-50"> Helping Business In</span>
           {" All Domains"}
         </h2>
         <p
-          className={`lg:w-4/5 m-auto text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`lg:w-4/5 m-auto text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "Ready to turn your ideas into reality? Let’s collaborate and create something amazing! With our expertise and your vision, we’ll build a solution that drives success and stands out in the digital world."

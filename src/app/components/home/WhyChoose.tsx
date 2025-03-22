@@ -9,12 +9,12 @@ export default function WhyChoose() {
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
-              leading-8 mb-3`}
+               mb-3`}
         >
           Why choose us{" "}
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-4xl pb-5 font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-4xl pb-5 font-bold text-[#EE3639]  mb-4 `}
         >
           <span className="text-gray-800">Your </span>
           {"Trusted IT Partner for Custom "}
@@ -23,7 +23,7 @@ export default function WhyChoose() {
           </span>
         </h2>
         <p
-          className={`text-gray-800 text-sm sm:text-lg line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-800 text-sm sm:text-lg line-clamp-3 md:line-clamp-none mt-4`}
         >
           {
             "Our dedication to excellence and innovation has established us as one of Sydney's top IT companies. We recognize that each business is different, so we provide customized solutions that are tailored to your unique requirements, keeping you ahead in the digital era."
@@ -57,7 +57,7 @@ export default function WhyChoose() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full lg:min-h-[65vh] xl:min-h-auto rounded-none border border-black p-8 flex flex-col justify-between items-start "
+            className="w-full  rounded-none border border-black p-8 flex flex-col justify-between items-start "
           >
             <div className="h-18 w-18 border border-black rounded-full p-2">
               <Image
@@ -68,7 +68,7 @@ export default function WhyChoose() {
                 className="w-14 h-14  object-contain p-2"
               />
             </div>
-            <h2 className="text-gray-800 text-xl w-full mx-auto text-left mb-2">
+            <h2 className="text-gray-800 text-xl w-full mx-auto text-left my-2">
               {service?.title}
             </h2>
             <p className="font-[poppins] tracking-widest text-gray-700  font-light text-sm/5  w-full mx-auto text-left mb-12">
@@ -93,13 +93,13 @@ export default function WhyChoose() {
       {/* 
       <div className="w-full min-h-[45vh] lg:min-h-[60vh] xl:min-h-auto flex flex-col justify-center items-center m-auto text-center bg-[#242424] rounded-3xl p-4 lg:p-8 ">
         <h2
-          className={`lg:w-5/6 mx-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 mx-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-50"> Let's Start a </span>
           {" New Project Together "}
         </h2>
         <p
-          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 lg:w-4/5 m-auto leading-5`}
+          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 lg:w-4/5 m-auto`}
         >
           {
             "Ready to turn your ideas into reality? Let’s collaborate and create something amazing! With our expertise and your vision, we’ll build a solution that drives success and stands out in the digital world."

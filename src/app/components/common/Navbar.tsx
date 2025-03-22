@@ -155,13 +155,15 @@ const Navbar = () => {
       submenu: services,
     },
     { name: "Our Work", path: "/our-work" },
-    {
-      name: "Industries",
-      path: "/industries",
-      submenu: industries,
-    },
+    // {
+    //   name: "Industries",
+    //   path: "/industries",
+    //   submenu: industries,
+    // },
     { name: "Contact Us", path: "/contact-us" },
   ];
+
+  const handleLinkClick = () => setActiveSubmenuId(null);
 
   return (
     <nav className="bg-transparent flex justify-between px-10 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[100] w-full">
@@ -214,6 +216,7 @@ const Navbar = () => {
                     <li key={subItem.id}>
                       <Link
                         href={subItem.path}
+                        onClick={handleLinkClick}
                         className="px-4 py-2 text-base text-gray-700 rounded-xl hover:bg-gray-200 flex justify-start items-center gap-4"
                       >
                         <span className="text-3xl rounded-full p-3 group-hover:bg-white">

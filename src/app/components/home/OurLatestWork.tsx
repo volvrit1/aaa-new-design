@@ -23,7 +23,7 @@ export default function OurLatestWork() {
         <h3
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-500
-              leading-8 mb-3`}
+               mb-3`}
         >
           Our Latest Work
         </h3>
@@ -31,7 +31,7 @@ export default function OurLatestWork() {
           <GetStartedForm handleClose={handleIOpenModal} />
         </Modal>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-800"> Showcasing</span>
           {" Our Latest Work "}
@@ -41,7 +41,7 @@ export default function OurLatestWork() {
           </span>
         </h2>
         <p
-          className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "We’re proud to present our latest projects that reflect our commitment to quality and innovation. From cutting-edge web development to impactful solutions, our work speaks for itself. Explore our portfolio to see how we’re helping clients achieve their goals with precision and excellence."

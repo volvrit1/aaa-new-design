@@ -46,12 +46,12 @@ export default function OurClients() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
       <div className="lg:w-5/6 m-auto mb-14 text-center">
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-800"> Our Clients</span>
         </h2>
         <p
-          className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "Above All Agency feels pride in developing mobile apps for various iconic brands. Throughout our entire journey, we have built loyal relationships with every client and established trust with solid friendships."

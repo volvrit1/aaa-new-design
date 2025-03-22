@@ -22,12 +22,12 @@ export default function Agency() {
         <h3
           className={`text-sm lg:text-lg font-semibold tracking-widest 
                  text-gray-500
-              leading-8 mb-3`}
+               mb-3`}
         >
           We Are Creative Agency
         </h3>
         <h2
-          className={`lg:w-5/6 m-auto pb-5 text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto pb-5 text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           {" We Are the Pioneers "}
           <span className="text-gray-800">
@@ -35,7 +35,7 @@ export default function Agency() {
           </span>
         </h2>
         <p
-          className={`text-gray-800 pb-10 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-10 lg:w-4/5 m-auto leading-5`}
+          className={`text-gray-800 pb-10 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-10 lg:w-4/5 m-auto`}
         >
           {
             "As a top-ranked mobile and web application development company, we are dedicated to bringing your ideas to life through customized, user-centric digital solutions. Our experienced developers, UI/UX designers, and digital strategists collaborate to craft simple-to-use mobile applications and adaptable websites that offer superior performance and user experience on any device."
@@ -53,14 +53,14 @@ export default function Agency() {
           </div>
           <div className="lg:w-2/5 text-left">
             <h2
-              className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+              className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
             >
               <span className="text-gray-800">Pushing Boundaries with</span>{" "}
               {" New Technology "}
               <span className="text-gray-800"> and Creative Thinking</span>
             </h2>
             <p
-              className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto leading-5`}
+              className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}
             >
               {
                 "We combine creative minds with the latest technology to bring future-ready solutions. From designing engaging digital experiences to leveraging the newest technological breakthroughs to build fluid apps, our goal is to help businesses thrive in the rapidly evolving digital age of Sydney."

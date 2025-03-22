@@ -79,19 +79,19 @@ export default function Testimonials() {
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                   text-gray-800
-               leading-8 mb-3`}
+                mb-3`}
         >
           Testimonials
         </h2>
         <h2
-          className={`lg:w-full m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-full m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-800">What Our Clients Say:</span>
           {" Trusted Testimonials "}
           <span className="text-gray-800">& Success Stories</span>
         </h2>
         <p
-          className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "Our clients' success is our top priority. We've had the privilege of working with businesses across Sydney, delivering customised  web and mobile solutions that drive growth, enhance online presence, and help them achieve long-term digital success in an ever-evolving market."

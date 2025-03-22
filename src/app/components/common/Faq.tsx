@@ -21,12 +21,12 @@ export default function Faq() {
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
               text-gray-800
-           leading-8 mb-3`}
+            mb-3`}
         >
           FAQ's
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
           {"Frequently Asked Questions:"}{" "}
           <span className="text-gray-800">
@@ -35,7 +35,7 @@ export default function Faq() {
           </span>
         </h2>
         <p
-          className={`text-gray-700 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-700 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "We know that selecting the appropriate IT partner is an important decision. To assist you in making a well-informed decision, here are some of the most frequently asked questions we get:"

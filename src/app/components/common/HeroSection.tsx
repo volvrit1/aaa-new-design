@@ -1,7 +1,7 @@
-import Link from "next/link";
 import React from "react";
-import { GoArrowUpRight } from "react-icons/go";
-import Breadcrumb from "./Breadcrumb";
+import Link from "next/link";
+// import Breadcrumb from "./Breadcrumb";
+// import { GoArrowUpRight } from "react-icons/go";
 
 const HeroSection = ({
   title,
@@ -31,8 +31,8 @@ const HeroSection = ({
       </div>
 
       <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
-        {breadcrumb && <Breadcrumb paths={breadcrumb} />}
-        <h1 className="text-2xl md:text-4xl lg:text-4xl xl:text-[42px]/13 tracking- font-bold">
+        {/* {breadcrumb && <Breadcrumb paths={breadcrumb} />} */}
+        <h1 className="text-2xl md:text-4xl lg:text-4xl tracking- font-bold">
           {title || ""}
           {colorTitle1 && (
             <span className={`text-[${colorTitle1}]`}>{title1}</span>

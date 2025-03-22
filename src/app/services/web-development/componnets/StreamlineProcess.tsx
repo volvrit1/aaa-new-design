@@ -9,18 +9,18 @@ export default function StreamlineProcess() {
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-50
-              leading-8 mb-3`}
+               mb-3`}
         >
           Our Streamlined Process
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639] leading-8 mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
           <span className="text-gray-50">Turning Your Vision into a </span>
           {"  High-Performing Website "}
         </h2>
         <p
-          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 leading-5`}
+          className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
             "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
