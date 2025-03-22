@@ -182,14 +182,14 @@ const HomeGetStartedForm = () => {
                         width={400}
                         height={400}
                         alt="image"
-                        src={"/assets/IMG_8896.png"}
+                        src={"/assets/IMG_8896.PNG"}
                         className="w-full rounded-tr-4xl object-contain"
                     />
                     <Image
                         width={400}
                         height={400}
                         alt="image"
-                        src={"/assets/IMG_8895.png"}
+                        src={"/assets/IMG_8895.PNG"}
                         className="w-full rounded-br-4xl object-contain"
                     />
                 </div>
