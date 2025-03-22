@@ -9,6 +9,7 @@ import NewProject from "./componnets/NewProject";
 import Faq from "@/app/components/common/Faq";
 import Contact from "@/app/components/common/Contact";
 import WhyChooseAgency from "./componnets/WhyChooseAgency";
+import OurWorkSwiper from "./componnets/OurWorkSwiper";
 
 export default function page() {
   return (
@@ -25,7 +26,7 @@ export default function page() {
       <div className="bg-white">
         <DevSolutions />
         <StreamlineProcess />
-        <OurWork />
+        <OurWorkSwiper />
         <WeServe />
         <TechStack />
         <NewProject />
