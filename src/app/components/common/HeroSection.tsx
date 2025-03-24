@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import ButtonToCall from "../home/ButtonToCall";
+import Breadcrumb from "./Breadcrumb";
 
 const HeroSection = ({
   title,
@@ -30,8 +31,8 @@ const HeroSection = ({
       </div>
 
       <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
-        {/* {breadcrumb && <Breadcrumb paths={breadcrumb} />} */}
-        <h1 className="text-2xl md:text-4xl lg:text-4xl tracking- font-bold">
+        {breadcrumb && <Breadcrumb paths={breadcrumb} />}
+        <h2 className="text-2xl md:text-4xl lg:text-4xl tracking- font-bold">
           {title || ""}
           {colorTitle1 && (
             <span className={`text-[${colorTitle1}]`}>{title1}</span>
@@ -39,7 +40,7 @@ const HeroSection = ({
           {colorTitle2 && (
             <span className={`text-[${colorTitle2}]`}>{title2}</span>
           )}
-        </h1>
+        </h2>
         <p className="font-[poppins] tracking-widest lg:w-4/5 text-sm line-clamp-4 md:line-clamp-none md:text-sm/6 2xl:text-sm mt-4 max-w-2xl left-6 mb-10">
           {description || ""}
         </p>

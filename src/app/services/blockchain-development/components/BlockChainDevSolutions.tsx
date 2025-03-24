@@ -82,7 +82,6 @@ export default function BlockChainDevSolutions() {
             <p className="w-14 h-14 font-medium text-xl flex justify-center items-center border p-2 mb-0 bg-[#EE3639] rounded-full">
               {"0"}
               {index + 1}{" "}
-              
             </p>
             <h2 className="text-gray-900 font-semibold text-xl w-full mx-auto text-left mb-2 relative">
               {service?.title}

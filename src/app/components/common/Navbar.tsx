@@ -154,12 +154,12 @@ const Navbar = () => {
       path: "/services",
       submenu: services,
     },
-    { name: "Our Work", path: "/our-work" },
-    // {
-    //   name: "Industries",
-    //   path: "/industries",
-    //   submenu: industries,
-    // },
+    { name: "Our Work", path: "/our-work"},
+    {
+      name: "Industries",
+      path: "/industries",
+      submenu: industries,
+    },
     { name: "Contact Us", path: "/contact-us" },
   ];
 

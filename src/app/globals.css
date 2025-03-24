@@ -34,3 +34,11 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column; /* This ensures that the items inside the slide are stacked vertically */
+  height: 100%; /* Ensure that the slide takes up the full space */
+}
