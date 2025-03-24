@@ -30,13 +30,15 @@ export default function WiningAwards() {
       </div>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
         {[1, 2, 3, 4].map((faq, index) => (
-          <div key={index} className="lg:w-2/12">
+          <div key={index} className="lg:w-full">
             <Image
               width={400}
               height={400}
               alt="image"
+              unoptimized
+              priority
               src={`/assets/award${[index + 1]}.png`}
-              className="w-full  object-fill rounded-xl"
+              className="w-full object-contain rounded-xl"
             />
           </div>
         ))}

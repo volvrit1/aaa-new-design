@@ -8,7 +8,7 @@ const ProjectCard = ({ work, index }: any) => {
       key={index}
       className={`w-full lg:h-screen xl:h-auto flex flex-col-reverse lg:flex-row justify-center mb-10 ${work?.cardBgColor}`}
     >
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/3">
         <h2
           className={`${work?.textColor} uppercase text-4xl font-semibold mb-4 mx-auto text-left`}
         >
@@ -48,8 +48,10 @@ const ProjectCard = ({ work, index }: any) => {
         width={400}
         height={400}
         alt="image"
+        priority
+        unoptimized
         src={`/assets/work${[index + 1]}.png`}
-        className="lg:w-3/4 object-contain rounded-xl"
+        className="lg:w-2/3 object-contain rounded-xl"
       />
     </div>
   );

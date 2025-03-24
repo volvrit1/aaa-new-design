@@ -155,18 +155,18 @@ const Navbar = () => {
       submenu: services,
     },
     { name: "Our Work", path: "/our-work" },
-    {
-      name: "Industries",
-      path: "/industries",
-      submenu: industries,
-    },
+    // {
+    //   name: "Industries",
+    //   path: "/industries",
+    //   submenu: industries,
+    // },
     { name: "Contact Us", path: "/contact-us" },
   ];
 
   const handleLinkClick = () => setActiveSubmenuId(null);
 
   return (
-    <nav className="bg-transparent flex justify-between px-10 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[100] w-full">
+    <nav className="bg-transparent flex justify-between px-4 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[100] w-full">
       <div>
         <Link href={"/"}>
           <Image
@@ -176,7 +176,7 @@ const Navbar = () => {
             unoptimized
             priority
             alt="Above All Agency"
-          // className="h-12"
+          className="h-12 lg:h-auto"
           />
         </Link>
       </div>
@@ -241,7 +241,6 @@ const Navbar = () => {
 
       <div>
         <MobileMenu />
-
         <Link
           href={"tel:0411537183"}
           className="border hidden lg:block border-gray-50 px-5 py-2 text-gray-50"

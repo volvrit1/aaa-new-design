@@ -12,6 +12,8 @@ export default function Agency() {
               width={400}
               height={400}
               alt="image"
+              unoptimized
+              priority
               src={`/assets/award${[index + 1]}.png`}
               className="w-full object-fill rounded-xl"
             />
@@ -47,6 +49,8 @@ export default function Agency() {
               width={400}
               height={400}
               alt="image"
+              unoptimized
+              priority
               src={`/assets/agency.png`}
               className="w-11/12 h-80 lg:h-full m-auto  object-fill rounded-full"
             />

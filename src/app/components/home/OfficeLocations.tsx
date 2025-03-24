@@ -14,7 +14,7 @@ const OfficeLocations = () => {
                         height={100}
                         unoptimized
                         priority
-                        className="w-full"
+                        className="w-full object-contain"
                     />
                     <h2 className="text-2xl text-black font-semibold mt-4">AUSTRALIA</h2>
                     <p className="text-gray-600 text-lg mt-2">
@@ -46,7 +46,7 @@ const OfficeLocations = () => {
                         height={100}
                         unoptimized
                         priority
-                        className="w-full"
+                        className="w-full object-contain"
                     />
                     <h2 className="text-2xl text-black font-semibold mt-4">DUBAI</h2>
                     <p className="text-gray-600 lg:whitespace-nowrap text-lg mt-2">

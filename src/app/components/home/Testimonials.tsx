@@ -106,7 +106,9 @@ export default function Testimonials() {
             width={500}
             height={500}
             alt="image"
-            className="object-fill "
+            unoptimized
+            priority
+            className="object-contain"
           />
           <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4 ">
             <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
@@ -124,7 +126,9 @@ export default function Testimonials() {
             width={500}
             height={500}
             alt="image"
-            className="object-fill"
+            unoptimized
+            priority
+            className="object-contain"
           />
           <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4 ">
             <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
