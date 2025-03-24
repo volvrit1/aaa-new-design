@@ -35,10 +35,10 @@ export default function Clients({ showHeading }: { showHeading?: any }) {
           >
             {/* Map clients to show in pairs */}
             {[...clients, ...clients, ...clients].map((client, index) => (
-              <div key={index} className="flex-shrink-0 w-40 h-24 p-4">
+              <div key={index} className="flex-shrink-0 w-60 h-24 p-4">
                 <Image
                   src={client.logo}
-                  width={150}
+                  width={280}
                   height={20}
                   alt={`Client ${index + 1}`}
                   className="w-full h-full object-contain p-2"

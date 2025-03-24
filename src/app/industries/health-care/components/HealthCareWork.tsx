@@ -1,13 +1,14 @@
 "use client";
 
 import React, { useRef } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
-import ProjectCard from "@/app/components/home/ProjectCard";
 import { Autoplay, Navigation } from "swiper/modules";
+import ProjectCard from "@/app/components/home/ProjectCard";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 export default function HealthCareWork() {
@@ -23,8 +24,8 @@ export default function HealthCareWork() {
       link: "/healthcare",
       bgColor: "bg-[#EE3639]",
       textColor: "text-gray-50",
-      cardBgColor:"bg-[#242424] rounded-2xl p-8",
-      pColor:"text-gray-50",
+      cardBgColor: "bg-[#242424] rounded-2xl p-8",
+      pColor: "text-gray-50",
       tags: [
         "UX/UI Design Strategy",
         "Development Process",
@@ -35,17 +36,17 @@ export default function HealthCareWork() {
   ];
 
   return (
-    <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-6">
-      <h1 className="font-[urbanist] text-[29px] font-semibold mb-4">
+    <div className="container max-w-7xl mx-auto p-4 lg:p-16 lg:pb-0 space-y-6">
+      <h1 className="font-[poppins] text-2xl font-medium text-black mb-4">
         {"Showcasing our work cutting-edge Healthcare Industry"}
       </h1>
 
-      <p className="font-[cabin] tracking-wide mb-6 text-[#7D7D7D]">
+      <p className="font-[poppins] mb-6 text-[#7D7D7D]">
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
         et quas molestias excepturi sint occaecati cupiditate non provident
       </p>
-      <div className="relative">
+      <div className="relative mt-10">
         <Swiper
           spaceBetween={50}
           slidesPerView={1}

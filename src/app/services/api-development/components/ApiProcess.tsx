@@ -71,10 +71,10 @@ export default function ApiProcess() {
                   className="w-12 h-12 object-contain m-auto"
                 />
               </div>
-              <h2 className="text-gray-900 font-semibold font-[urbanist] text-xl w-full mx-auto text-left">
+              <h2 className="text-gray-900 font-semibold font-[poppins] text-xl w-full mx-auto text-left">
                 {service?.title}
               </h2>
-              <p className="font-[cabin] tracking-widest text-gray-900 text-sm/5 mt-2 w-full mx-auto text-left mb-12">
+              <p className="font-[poppins] tracking-widest text-gray-900 text-sm/5 mt-2 w-full mx-auto text-left mb-12">
                 {service?.description}
               </p>
             </div>

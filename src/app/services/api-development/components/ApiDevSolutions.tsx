@@ -8,7 +8,7 @@ export default function ApiDevSolutions() {
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
       <div className="lg:w-5/6 m-auto mb-18 text-center">
         <h2
-          className={`text sm:text-lg font-semibold tracking-widest font-[urbanist]
+          className={`text sm:text-lg font-semibold tracking-widest font-[poppins]
                  text-gray-800
                mb-3`}
         >
@@ -63,10 +63,10 @@ export default function ApiDevSolutions() {
               {"0"}
               {index + 1}{" "}
             </p>
-            <h2 className="text-gray-900 font-semibold text-xl w-full mx-auto text-left mb-2 font-[urbanist] ">
+            <h2 className="text-gray-900 font-semibold text-xl w-full mx-auto text-left mb-2 font-[poppins] ">
               {service?.title}
             </h2>
-            <p className="font-[cabin] tracking-widest text-gray-800  font-light text-sm/5 w-full mx-auto text-left mb-12">
+            <p className="font-[poppins] tracking-widest text-gray-800  font-light text-sm/5 w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
           </div>

@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
 import ProjectCard from "@/app/components/home/ProjectCard";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Grid, Navigation } from "swiper/modules";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
@@ -50,13 +50,20 @@ export default function WeOffer() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate",
     },
   ];
+
+  const chunkArray = (arr: any, size: any) => {
+    return arr.reduce((acc: any, _: any, i: any) =>
+      (i % size ? acc : [...acc, arr.slice(i, i + size)]), []);
+  };
+  const groupedWebsites = chunkArray(websites, 6); // Each slide will contain 6 items
+
   return (
     <div className="max-w-7xl m-auto p-4 lg:p-16">
-      <h1 className="font-[urbanist] text-[29px] font-semibold mb-4">
+      <h1 className="font-[poppins] text-3xl font-medium text-black mb-4">
         {"Suite of Travel Application and Software Solutions We Offer"}
       </h1>
 
-      <p className="font-[cabin] tracking-wide mb-6 text-[#7D7D7D]">
+      <p className="font-[poppins] tracking-wide mb-6 text-[#7D7D7D]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim
       </p>
@@ -64,7 +71,7 @@ export default function WeOffer() {
         {/* Custom Navigation Arrows */}
         <div className="flex justify-between space-x-4 mb-4">
           <div className="custom-pagination">
-            <span className="text-xl font-semibold">{`0${currentSlide} -`}</span>
+            <span className="text-xl font-semibold text-black">{`0${currentSlide} -`}</span>
             <span className="text-xl font-semibold text-[#7d7d7d]">{` 0${websites.length}`}</span>
           </div>
           <div className="flex justify-end space-x-4">
@@ -83,32 +90,29 @@ export default function WeOffer() {
           </div>
         </div>
         <Swiper
-          spaceBetween={20} // Space between slides
-          slidesPerView={3} // Number of slides per row
-          grid={{
-            rows: 2, // 2 rows per slide
-            fill: "row", // Make sure the rows fill up the space of the container
-          }}
-          loop={true} // Loop the slider
-          autoplay={{ delay: 3000 }} // Autoplay with a delay of 3000ms
-          navigation={false} // Disable navigation
-          modules={[Autoplay, Navigation]} // Include the Autoplay and Navigation modules
+          spaceBetween={20}
+          slidesPerView={1} // Each slide contains 6 items
+          loop={true}
+          autoplay={{ delay: 3000 }}
+          navigation={false}
+          modules={[Autoplay]}
           className="h-full"
           onSlideChange={handleSlideChange}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
         >
-          {websites.map((work, index) => (
-            <SwiperSlide key={index}>
-              <div
-                key={index}
-                className="flex flex-col border p-4 border-[#7D7D7D] h-60"
-              >
-                <h2 className="font-[urbanist] text-[21px] font-semibold mb-4">
-                  {work?.title}
-                </h2>
-                <p className="text-sm font-[cabin] text-[#7D7D7D] line-clamp-6">
-                  {work?.description}
-                </p>
+          {groupedWebsites.map((group: any, groupIndex: any) => (
+            <SwiperSlide key={groupIndex}>
+              <div className="grid grid-cols-3 gap-4">
+                {group.map((work: any, index: any) => (
+                  <div key={index} className="border p-4 border-[#7D7D7D]/70 h-60">
+                    <h2 className="font-[poppins] text-xl font-medium text-black mb-4">
+                      {work?.title}
+                    </h2>
+                    <p className="text-sm font-[poppins] text-[#7D7D7D] line-clamp-6">
+                      {work?.description}
+                    </p>
+                  </div>
+                ))}
               </div>
             </SwiperSlide>
           ))}

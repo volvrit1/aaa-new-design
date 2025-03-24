@@ -28,18 +28,18 @@ export default function HowAppWork() {
     },
   ];
   return (
-    <div className="max-w-7xl m-auto p-4 lg:p-16">
-      <h1 className="text-[32px] font-medium font[urbanist] mb-4">
+    <div className="max-w-7xl m-auto p-4 lg:p-16 lg:pb-0">
+      <h1 className="text-3xl font-medium text-black font-[poppins] mb-4">
         Here is everything about how the healthcare app works
       </h1>
-      <div>
+      <div className="mt-10">
         {data.map((content, index) => (
           <div key={index} className="border-[1.5px border-transparent bg-gradient-to-t from-[#242424] to-[#EE3639] bg-clip-border p-[1px] mb-4">
             <div className="bg-gray-50 px-4 py-2">
-              <h2 className="text-xl font-[urbanist] font-semibold mb-2">
+              <h2 className="text-xl font-[poppins] text-black font-medium mb-2">
                 {content?.title}
               </h2>
-              <p className="font-[cabin] text-base text-[#7D7D7D]">
+              <p className="font-[poppins] text-base text-[#7D7D7D]">
                 {content?.description}
               </p>
             </div>

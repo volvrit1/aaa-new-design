@@ -82,48 +82,48 @@ const industries = [
     image: "/assets/serve3.png",
     path: "/industries/retails-e-commerce",
   },
-  {
-    id: "real-estate-construction", // Added id
-    name: "Real Estate & Construction",
-    image: "/assets/serve4.png",
-    path: "/industries/real-estate-construction",
-  },
-  {
-    id: "finance-banking", // Added id
-    name: "Finance & Banking",
-    image: "/assets/serve5.png",
-    path: "/industries/finance-banking",
-  },
-  {
-    id: "government-smart-cities", // Added id
-    name: "Goverment & Smart Cities",
-    image: "/assets/serve6.png",
-    path: "/industries/government-smart-cities",
-  },
-  {
-    id: "education-service", // Added id
-    name: "Education Service",
-    image: "/assets/serve7.png",
-    path: "/industries/education-service",
-  },
-  {
-    id: "logistic-transportation", // Added id
-    name: "Logistic & Transportation",
-    image: "/assets/serve8.png",
-    path: "/industries/logistic-transportation",
-  },
-  {
-    id: "hospitality-tourism", // Added id
-    name: "Hospitality & Tourism",
-    image: "/assets/serve9.png",
-    path: "/industries/hospitality-tourism",
-  },
-  {
-    id: "legal-compliance", // Added id
-    name: "Legal & Compliance",
-    image: "/assets/serve10.png",
-    path: "/industries/legal-compliance",
-  },
+  // {
+  //   id: "real-estate-construction", // Added id
+  //   name: "Real Estate & Construction",
+  //   image: "/assets/serve4.png",
+  //   path: "/industries/real-estate-construction",
+  // },
+  // {
+  //   id: "finance-banking", // Added id
+  //   name: "Finance & Banking",
+  //   image: "/assets/serve5.png",
+  //   path: "/industries/finance-banking",
+  // },
+  // {
+  //   id: "government-smart-cities", // Added id
+  //   name: "Goverment & Smart Cities",
+  //   image: "/assets/serve6.png",
+  //   path: "/industries/government-smart-cities",
+  // },
+  // {
+  //   id: "education-service", // Added id
+  //   name: "Education Service",
+  //   image: "/assets/serve7.png",
+  //   path: "/industries/education-service",
+  // },
+  // {
+  //   id: "logistic-transportation", // Added id
+  //   name: "Logistic & Transportation",
+  //   image: "/assets/serve8.png",
+  //   path: "/industries/logistic-transportation",
+  // },
+  // {
+  //   id: "hospitality-tourism", // Added id
+  //   name: "Hospitality & Tourism",
+  //   image: "/assets/serve9.png",
+  //   path: "/industries/hospitality-tourism",
+  // },
+  // {
+  //   id: "legal-compliance", // Added id
+  //   name: "Legal & Compliance",
+  //   image: "/assets/serve10.png",
+  //   path: "/industries/legal-compliance",
+  // },
 ];
 
 const Navbar = () => {
@@ -154,7 +154,7 @@ const Navbar = () => {
       path: "/services",
       submenu: services,
     },
-    { name: "Our Work", path: "/our-work"},
+    { name: "Our Work", path: "/our-work" },
     {
       name: "Industries",
       path: "/industries",

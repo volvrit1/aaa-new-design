@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import ButtonToCall from "../home/ButtonToCall";
-import Breadcrumb from "./Breadcrumb";
+// import Breadcrumb from "./Breadcrumb";
 
 const HeroSection = ({
   title,
@@ -31,7 +31,7 @@ const HeroSection = ({
       </div>
 
       <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
-        {breadcrumb && <Breadcrumb paths={breadcrumb} />}
+        {/* {breadcrumb && <Breadcrumb paths={breadcrumb} />} */}
         <h2 className="text-2xl md:text-4xl lg:text-4xl tracking- font-bold">
           {title || ""}
           {colorTitle1 && (
