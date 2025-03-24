@@ -8,8 +8,8 @@ import WeOffer from "./components/WeOffer";
 import HealthBenefit from "./components/HealthBenefit";
 import WeAreYourPartner from "./components/WeAreYourPartner";
 import HealthCareWork from "./components/HealthCareWork";
-import Contact from "@/app/components/common/Contact";
 import Faq from "@/app/components/common/Faq";
+import Contact from "@/app/components/common/Contact";
 
 export default function page() {
   const breadcrumbPaths = [
