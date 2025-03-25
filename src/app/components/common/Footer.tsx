@@ -159,7 +159,7 @@ export default function Footer() {
                 <strong>
                   <IoMailOutline className="text-xl mr-2" />
                 </strong>{" "}
-                allabove@company.com
+                sales@aboveallagency.com.au
               </Link>
               <Link
                 href={"tel:0411 537 183"}

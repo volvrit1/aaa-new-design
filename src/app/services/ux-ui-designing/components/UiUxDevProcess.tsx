@@ -2,11 +2,11 @@ import { image } from "framer-motion/client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import image1 from "../../../../../public/assets/ui/uipro1.png";
-import image2 from "../../../../../public/assets/ui/uipro2.png";
-import image3 from "../../../../../public/assets/ui/uipro3.png";
-import image4 from "../../../../../public/assets/ui/uipro4.png";
-import arrow from "../../../../../public/assets/ui/uiarrow.png";
+import image1 from "../../../../../public/assets/UI/uipro1.png";
+import image2 from "../../../../../public/assets/UI/uipro2.png";
+import image3 from "../../../../../public/assets/UI/uipro3.png";
+import image4 from "../../../../../public/assets/UI/uipro4.png";
+import arrow from "../../../../../public/assets/UI/uiarrow.png";
 
 export default function UiUxDevProcess() {
   return (
@@ -41,7 +41,6 @@ export default function UiUxDevProcess() {
         {[
           {
             title: "Ideation",
-
             description: "We are a leading web and mobile app development .",
             image: image1,
           },

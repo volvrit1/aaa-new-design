@@ -210,13 +210,13 @@ const ContactSection = () => {
         </div>
 
         {/* Email Address */}
-        <Link href="mailto:www.allaboveagency.com" className="flex flex-col items-center lg:items-start text-center lg:text-left">
+        <Link href="mailto:sales@aboveallagency.com.au" className="flex flex-col items-center lg:items-start text-center lg:text-left">
           <div className="flex items-center gap-3">
             <IoMail className="bg-black text-white text-2xl rounded-full p-2 w-10 h-10" />
             <span className="text-black text-lg font-medium">Email Address</span>
           </div>
           <p className="font-[poppins] tracking-widest text-xs text-gray-500 mt-1">
-            www.allaboveagency.com.au
+          sales@aboveallagency.com.au
           </p>
         </Link>
 

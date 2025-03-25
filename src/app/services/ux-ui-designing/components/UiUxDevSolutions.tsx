@@ -38,37 +38,37 @@ export default function UiUxDevSolutions() {
 
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui1.png",
+            image: "/assets/UI/ui1.png",
           },
           {
             title: "UI/UX Design Consulting",
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui2.png",
+            image: "/assets/UI/ui2.png",
           },
           {
             title: "Wireframing & Prototyping",
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui3.png",
+            image: "/assets/UI/ui3.png",
           },
           {
             title: "Web App UX/UI Design",
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui4.png",
+            image: "/assets/UI/ui4.png",
           },
           {
             title: "Mobile App UX/UI Design",
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui5.png",
+            image: "/assets/UI/ui5.png",
           },
           {
             title: "Responsive Design",
             description:
               "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
-            image: "/assets/ui/ui6.png",
+            image: "/assets/UI/ui6.png",
           },
         ].map((service, index) => (
           <div
