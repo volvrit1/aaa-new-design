@@ -6,7 +6,7 @@ export default function WeServe() {
   return (
     <div className="p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="container max-w-7xl mx-auto ">
-        <div className="lg:w-5/6 m-auto mb-18 text-center">
+        <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
           <h2
             className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-50
@@ -28,7 +28,7 @@ export default function WeServe() {
             }
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-col-2 lg:grid-cols-4 gap-4">
           {[
             "Health Care",
             "Oil & Gas Energy",
@@ -45,7 +45,7 @@ export default function WeServe() {
           ].map((serve, index) => (
             <div
               key={index}
-              className="w-full h-72 rounded-xl bg-[#3D3D3D] p-4 flex flex-col justify-center items-center "
+              className="w-full h-auto lg:h-72 rounded-xl bg-[#3D3D3D] p-4 flex flex-col justify-center items-center "
             >
               <Image
                 width={400}

@@ -4,7 +4,7 @@ import React from "react";
 export default function Vision() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-20">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 lg:gap-20">
         <div className="lg:w-1/2 text-left">
           <h2
             className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}

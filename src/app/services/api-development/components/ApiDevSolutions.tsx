@@ -6,7 +6,7 @@ import React from "react";
 export default function ApiDevSolutions() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest font-[poppins]
                  text-gray-800
@@ -31,7 +31,7 @@ export default function ApiDevSolutions() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-5">
         {[
           {
             title: "Social Networking API Integration",
@@ -55,11 +55,9 @@ export default function ApiDevSolutions() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full lg:min-h-[65vh] 2xl:min-h-auto font-[poppins] rounded-none   ${
-              (index === 1 || index === 4) && "lg:border-l-[1.3px] lg:border-r-[1.3px] border-[#EE3639]"
-            } p-8 flex flex-col justify-between items-start `}
+            className={`w-full font-[poppins] rounded-none border p-4 lg:p-8 border-[#EE3639] flex flex-col justify-between items-start `}
           >
-            <p className="w-14 h-14 font-medium text-xl flex justify-center items-center border p-2 mb-0 border-[#EE3639] rounded-full">
+            <p className="w-14 h-14 font-medium text-xl text-[#EE3639] flex justify-center items-center border p-2 my-5 lg:my-0 border-[#EE3639] rounded-full">
               {"0"}
               {index + 1}{" "}
             </p>
@@ -75,3 +73,6 @@ export default function ApiDevSolutions() {
     </div>
   );
 }
+
+// ${(index === 1 || index === 4) && "lg:border-l-[1.3px] lg:border-r-[1.3px] border-[#EE3639]"
+// }

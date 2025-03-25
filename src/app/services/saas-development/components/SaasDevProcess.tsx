@@ -6,7 +6,7 @@ import React from "react";
 export default function SaasDevProcess() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -61,7 +61,7 @@ export default function SaasDevProcess() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full font-[poppins]  p-6 flex flex-col justify-between items-start ${index>0 && "border-l-2 border-[#EE3639]"}`}
+            className={`w-full font-[poppins] lg:p-6 flex flex-col justify-between items-start ${index>0 && "lg:border-l-2 border-[#EE3639]"}`}
           >
             <p className="w-14 h-14 font-medium text-black text-2xl flex justify-center items-center mb-2 text-center rounded-full border border-black">
               {"0"}

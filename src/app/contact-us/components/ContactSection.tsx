@@ -182,8 +182,8 @@ const ContactSection = () => {
             </button>
           </form>
         </div>
-        <div className="py-16 relative">
-          <div className="w-full h-full bg-gray-200 rounded-r-lg overflow-hidden">
+        <div className="py-4 lg:py-16 relative">
+          <div className="w-full aspect-square bg-gray-200 rounded-r-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.021973796334!2d150.9718427746137!3d-33.73424791210037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a1ec561ee8ad%3A0xd3a2253eb1ba9dbd!2s10%20Gladstone%20Rd%2C%20Castle%20Hill%20NSW%202164%2C%20Australia!5e0!3m2!1sen!2sin!4v1742380419831!5m2!1sen!2sin"
               width="600"
@@ -196,51 +196,42 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center">
-        <div className="flex flex-col justify-center pt-20">
-          <div className="mb-2 flex items-center gap-3">
-            <IoLocation
-              width={50}
-              height={50}
-              className="bg-black inline-block text-2xl rounded-full p-1"
-            />{" "}
-            <span className="text-black text-lg">Office Address</span>
+
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-10 lg:gap-20 py-5 lg:py-10">
+        {/* Office Address */}
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="flex items-center gap-3">
+            <IoLocation className="bg-black text-white text-2xl rounded-full p-2 w-10 h-10" />
+            <span className="text-black text-lg font-medium">Office Address</span>
           </div>
-          <p className="font-[poppins] tracking-widest text-xs text-gray-500">
-            U19/10 Gladstone Rd, castle Hill NSW 2154
+          <p className="font-[poppins] tracking-widest text-xs text-gray-500 mt-1">
+            U19/10 Gladstone Rd, Castle Hill NSW 2154
           </p>
         </div>
-        <Link href={"mailto:www.allaboveagency.com"}>
-          <div className="flex flex-col justify-center pt-20">
-            <div className="mb-2 flex items-center gap-3">
-              <IoMail
-                width={50}
-                height={50}
-                className="bg-black inline-block text-2xl rounded-full p-1"
-              />{" "}
-              <span className="text-black text-lg">Email address</span>
-            </div>
-            <p className="font-[poppins] tracking-widest text-xs text-gray-500">
-              www.allaboveagency.com.au
-            </p>
+
+        {/* Email Address */}
+        <Link href="mailto:www.allaboveagency.com" className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="flex items-center gap-3">
+            <IoMail className="bg-black text-white text-2xl rounded-full p-2 w-10 h-10" />
+            <span className="text-black text-lg font-medium">Email Address</span>
           </div>
+          <p className="font-[poppins] tracking-widest text-xs text-gray-500 mt-1">
+            www.allaboveagency.com.au
+          </p>
         </Link>
-        <Link href={"tel:0411 537 183"}>
-          <div className="flex flex-col justify-center pt-20">
-            <div className="mb-2 flex items-center gap-3">
-              <IoCall
-                width={50}
-                height={50}
-                className="bg-black inline-block text-2xl rounded-full p-1"
-              />{" "}
-              <span className="text-black text-lg">Office Address</span>
-            </div>
-            <p className="font-[poppins] tracking-widest text-xs text-gray-500">
-              0411 537 183{" "}
-            </p>
+
+        {/* Phone Number */}
+        <Link href="tel:0411 537 183" className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="flex items-center gap-3">
+            <IoCall className="bg-black text-white text-2xl rounded-full p-2 w-10 h-10" />
+            <span className="text-black text-lg font-medium">Phone</span>
           </div>
+          <p className="font-[poppins] tracking-widest text-xs text-gray-500 mt-1">
+            0411 537 183
+          </p>
         </Link>
       </div>
+
     </div>
   );
 };

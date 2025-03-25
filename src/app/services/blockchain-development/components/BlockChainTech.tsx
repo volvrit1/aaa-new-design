@@ -4,7 +4,7 @@ import React from "react";
 export default function BlockChainTech() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 ">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -29,7 +29,7 @@ export default function BlockChainTech() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-6 gap-y-16">
+      <div className="grid grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-y-16">
         {[
           { name: "Solidity", image: "/assets/tech/solidity.png" },
           { name: "Java", image: "/assets/tech/java.png" },
@@ -47,7 +47,7 @@ export default function BlockChainTech() {
               height={400}
               alt="image"
               src={serve?.image}
-              className="w-20 h-20 object-contain mb-4"
+              className="w-3/4 lg:w-20 lg:h-20 object-contain mb-4"
             />
             <h2 className="text-gray-800 text-base font-semibold w-4/5 mx-auto text-center">
               {serve?.name}

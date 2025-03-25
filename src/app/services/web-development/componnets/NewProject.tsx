@@ -4,7 +4,7 @@ import ButtonToCall from "@/app/components/home/ButtonToCall";
 export default function NewProject() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
-      <div className=" m-auto p-18 bg-[#242424] rounded-3xl text-center">
+      <div className="m-auto p-8 lg:p-18 bg-[#242424] rounded-3xl text-center">
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-[poppins] font-bold text-[#EE3639]  mb-4 `}
         >

@@ -5,7 +5,7 @@ export default function ApiProcess() {
   return (
     <div className="p-4 lg:p-16 space-y-4">
       <div className="container max-w-7xl mx-auto">
-        <div className="lg:w-5/6 m-auto mb-18 text-center">
+        <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
           <h2
             className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -58,7 +58,7 @@ export default function ApiProcess() {
           ].map((service, index) => (
             <div
               key={index}
-              className={`w-full lg:min-h-[40vh]  2xl:min-h-auto font-[poppins] rounded-xl shadow-[0_5px_10px_5px_rgba(0,0,0,0.15)] px-8 py-4 flex flex-col justify-center items-center ${
+              className={`w-full lg:min-h-[40vh]  2xl:min-h-auto font-[poppins] rounded-xl shadow-[0_5px_10px_5px_rgba(0,0,0,0.15)] px-4 lg:px-8 py-4 flex flex-col justify-center items-center ${
                 index % 2 === 0 ? "lg:mb-16" : "lg:mt-16"
               } `}
             >
@@ -74,7 +74,7 @@ export default function ApiProcess() {
               <h2 className="text-gray-900 font-semibold font-[poppins] text-xl w-full mx-auto text-left">
                 {service?.title}
               </h2>
-              <p className="font-[poppins] tracking-widest text-gray-900 text-sm/5 mt-2 w-full mx-auto text-left mb-12">
+              <p className="font-[poppins] tracking-widest text-gray-900 text-sm/5 mt-2 w-full mx-auto text-left lg:mb-12">
                 {service?.description}
               </p>
             </div>

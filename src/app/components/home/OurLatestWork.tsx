@@ -19,7 +19,7 @@ export default function OurLatestWork() {
 
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 lg:py-0 space-y-4 font-[poppins] tracking-widest">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h3
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-500

@@ -5,7 +5,7 @@ import React from "react";
 export default function WhyChoose() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -14,7 +14,7 @@ export default function WhyChoose() {
           Why choose us{" "}
         </h2>
         <h2
-          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-4xl pb-5 font-bold text-[#EE3639]  mb-4 `}
+          className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-4xl pb-5 font-bold text-[#EE3639] mb-4 `}
         >
           <span className="text-gray-800">Your </span>
           {"Trusted IT Partner for Custom "}
@@ -57,7 +57,7 @@ export default function WhyChoose() {
         ].map((service, index) => (
           <div
             key={index}
-            className="w-full  rounded-none border border-black p-8 flex flex-col justify-between items-start "
+            className="w-full  rounded-none border border-black p-4 md:p-8 flex flex-col justify-between items-start "
           >
             <div className="h-18 w-18 border border-black rounded-full p-2">
               <Image

@@ -5,16 +5,16 @@ import React from "react";
 export default function Agency() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
-      <div className="flex py-10 flex-col lg:flex-row justify-between items-center gap-20">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-20 py-10">
         {[1, 2, 3, 4].map((faq, index) => (
-          <div key={index}>
+          <div key={index} className="flex justify-center">
             <Image
               width={400}
               height={400}
               alt="image"
               unoptimized
               priority
-              src={`/assets/award${[index + 1]}.png`}
+              src={`/assets/award${index + 1}.png`}
               className="w-full object-fill rounded-xl"
             />
           </div>
@@ -43,7 +43,7 @@ export default function Agency() {
             "As a top-ranked mobile and web application development company, we are dedicated to bringing your ideas to life through customized, user-centric digital solutions. Our experienced developers, UI/UX designers, and digital strategists collaborate to craft simple-to-use mobile applications and adaptable websites that offer superior performance and user experience on any device."
           }
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 lg:gap-20">
           <div className="lg:w-3/5 h-80 lg:h-96 rounded-full border-[#EE3639] border ">
             <Image
               width={400}

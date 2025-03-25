@@ -59,34 +59,34 @@ export default function Footer() {
       path: "/services/digital-marketing",
       id: "digital-marketing", // Unique ID for submenu
     },
-    // {
-    //   name: "API Development",
-    //   image: "/assets/api.png",
-    //   path: "/services/api-development",
-    //   id: "api", // Unique ID for submenu
-    // },
+    {
+      name: "API Development",
+      image: "/assets/api.png",
+      path: "/services/api-development",
+      id: "api", // Unique ID for submenu
+    },
   ];
 
   const company = [
     { name: "About", url: "/about-us" },
     { name: "Contact Us", url: "/contact-us" },
-    { name: "Careers", url: "/careers" },
-    { name: "Culture", url: "/culture" },
-    { name: "Blog", url: "/blog" },
+    // { name: "Careers", url: "/careers" },
+    // { name: "Culture", url: "/culture" },
+    // { name: "Blog", url: "/blog" },
   ];
 
-  const support = [
-    { name: "Getting started", url: "/" },
-    { name: "Help center", url: "/" },
-    { name: "Server status", url: "/" },
-    { name: "Report a bug", url: "/" },
-    { name: "Chat support", url: "/" },
-  ];
+  // const support = [
+  //   { name: "Getting started", url: "/" },
+  //   { name: "Help center", url: "/" },
+  //   { name: "Server status", url: "/" },
+  //   { name: "Report a bug", url: "/" },
+  //   { name: "Chat support", url: "/" },
+  // ];
 
   return (
     <footer className="text-gray-50 font-[poppins] bg-[#242424] py-10 px-4 lg:px-10">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mx-auto">
           <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
@@ -135,7 +135,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="mb-5 text-lg uppercase font-semibold">Support</h3>
             <ul className="text-sm text-gray-200 space-y-3.5">
               {support &&
@@ -147,7 +147,7 @@ export default function Footer() {
                   </li>
                 ))}
             </ul>
-          </div>
+          </div> */}
 
           <div className="lg:col-span-2">
             <h3 className="mb-5 text-lg uppercase font-semibold">Contact Us</h3>
@@ -183,11 +183,11 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <div className="text-white/80">© {new Date().getFullYear()} Above All Agency. All rights reserved.</div>
           <div className="flex space-x-4 text-base mt-2 md:mt-0">
-            <Link href="#" className="text-[#EE3639] hover:underline">
+            <Link href="/terms-and-conditions" className="text-[#EE3639] hover:underline">
               Terms & Conditions
             </Link>
             <span className="hidden md:block">|</span>
-            <Link href="#" className="text-[#EE3639] hover:underline">
+            <Link href="/privacy-policy" className="text-[#EE3639] hover:underline">
               Privacy Policy
             </Link>
           </div>

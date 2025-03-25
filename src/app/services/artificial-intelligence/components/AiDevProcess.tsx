@@ -6,7 +6,7 @@ import React from "react";
 export default function AiDevProcess() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -61,7 +61,7 @@ export default function AiDevProcess() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full font-[poppins] border bg-[#3D3D3D] p-8 flex flex-col justify-between items-start rounded-xl`}
+            className={`w-full font-[poppins] border bg-[#3D3D3D] p-4 lg:p-8 flex flex-col justify-between items-start rounded-xl`}
           >
             <Image
               width={400}
@@ -73,7 +73,7 @@ export default function AiDevProcess() {
             <h2 className="text-gray-50 font-semibold text-lg w-full mx-auto text-left mb-3 relative">
               {service?.title}
             </h2>
-            <p className="font-[poppins] tracking-widest text-gray-50   text-sm/5 w-full mx-auto text-left mb-8">
+            <p className="font-[poppins] tracking-widest text-gray-50 text-sm/5 w-full mx-auto text-left lg:mb-8">
               {service?.description}
             </p>
           </div>

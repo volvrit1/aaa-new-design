@@ -6,7 +6,7 @@ import React from "react";
 export default function AppDevSolutions() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -29,7 +29,7 @@ export default function AppDevSolutions() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-5">
         {[
           {
             title: "Android App Development",
@@ -71,11 +71,7 @@ export default function AppDevSolutions() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full lg:min-h-[65vh] 2xl:min-h-auto font-[poppins] rounded-none ${
-              index < 3 && "border-b"
-            } ${
-              (index === 1 || index=== 4) && "border-l border-r"
-            } border-black p-8 flex flex-col justify-between items-start `}
+            className={`w-full font-[poppins] rounded-none border-black p-4 lg:p-8 flex flex-col border justify-between items-start `}
           >
             <Image
               width={400}
@@ -96,3 +92,8 @@ export default function AppDevSolutions() {
     </div>
   );
 }
+
+// ${
+//   index < 3 && "border-b"
+// } ${
+//   (index === 1 || index=== 4) && "border-l border-r"

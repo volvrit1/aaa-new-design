@@ -5,7 +5,7 @@ export default function StreamlineProcess() {
   return (
     <div className="p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="container max-w-7xl mx-auto">
-        <div className="lg:w-5/6 m-auto mb-18 text-center">
+        <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
           <h2
             className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-50
@@ -27,7 +27,7 @@ export default function StreamlineProcess() {
             }
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
             {
               title: "Requirement Gathering",
@@ -52,7 +52,7 @@ export default function StreamlineProcess() {
           ].map((service, index) => (
             <div
               key={index}
-              className={`w-full lg:min-h-[40vh]  2xl:min-h-auto font-[poppins] rounded-xl bg-[#3D3D3D] p-8 flex flex-col justify-center gap-y-2 items-center ${index % 2 === 0 ? "mb-32" : "mt-32"
+              className={`w-full lg:min-h-[40vh]  2xl:min-h-auto font-[poppins] rounded-xl bg-[#3D3D3D] p-4 lg:p-8 flex flex-col justify-center gap-y-2 items-center ${index % 2 === 0 ? "lg:mb-32" : "lg:mt-32"
                 } `}
             >
               <div className="border border-gray-50 h-16 w-16 p-4 m-auto mb-4 rounded-full">

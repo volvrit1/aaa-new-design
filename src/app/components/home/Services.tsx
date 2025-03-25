@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div className="p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="container max-w-7xl mx-auto ">
-        <div className="lg:w-5/6 m-auto mb-18 text-center">
+        <div className="lg:w-5/6 mt-10 lg:mt-0 m-auto mb-18 text-center">
           <h2
             className={`text sm:text-lg tracking-widest 
                  text-gray-50
@@ -106,7 +106,7 @@ export default function Services() {
           ].map((service, index) => (
             <div
               key={index}
-              className="w-full rounded-none border border-gray-50 p-8 flex flex-col justify-between items-start "
+              className="w-full rounded-none border border-gray-50 p-4 md:p-8 flex flex-col justify-between items-start "
             >
               <Image
                 width={400}

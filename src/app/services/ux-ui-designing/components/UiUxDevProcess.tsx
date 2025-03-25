@@ -11,7 +11,7 @@ import arrow from "../../../../../public/assets/ui/uiarrow.png";
 export default function UiUxDevProcess() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -70,9 +70,8 @@ export default function UiUxDevProcess() {
               height={400}
               alt="image"
               src={arrow}
-              className={`w-24 h-24 object-contain rounded-xl absolute left-4/5 top-0  ${
-                index === 3 && "hidden"
-              }`}
+              className={`w-24 h-24 object-contain rounded-xl absolute left-4/5 top-0  ${index === 3 ? "hidden" : "hidden lg:block"
+                }`}
             />
             <Image
               width={400}

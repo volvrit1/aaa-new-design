@@ -6,7 +6,7 @@ import React from "react";
 export default function OurAppDevProcess() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -30,7 +30,7 @@ export default function OurAppDevProcess() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 gap-10 lg:gap-0 mb-5">
         {[
           {
             title: "01. Ideation",
@@ -72,9 +72,8 @@ export default function OurAppDevProcess() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full h-52 font-[poppins] rounded-none border-[#EE3639] px-8 relative flex ${
-              index % 2 === 0 ? "justify-start" : "justify-end"
-            } items-start gap-4 `}
+            className={`w-full lg:h-52 font-[poppins] rounded-none border-[#EE3639] lg:px-8 relative flex ${index % 2 === 0 ? "justify-start" : "justify-end"
+              } items-start gap-4 `}
           >
             <Image
               width={400}
@@ -84,10 +83,10 @@ export default function OurAppDevProcess() {
               className="w-24 h-24 object-contain rounded-xl mb-4"
             />
             <div className="lg:w-96">
-              <h2 className="text-gray-900 font-semibold text-3xl w-full mx-auto text-left mb-2">
+              <h2 className="text-gray-900 font-semibold text-2xl md:text-3xl w-full mx-auto text-left mb-2">
                 {service?.title}
               </h2>
-              <p className="font-[poppins] tracking-widest text-gray-900  font-light text-sm/5 text-left mb-12">
+              <p className="font-[poppins] tracking-widest text-gray-900  font-light text-sm/5 text-left lg:mb-12">
                 {service?.description}
               </p>
             </div>
@@ -95,8 +94,8 @@ export default function OurAppDevProcess() {
               width={400}
               height={400}
               alt="image"
-              src={index%2===0 ? "/assets/appdev/rightArrow.png" : "/assets/appdev/leftArrow.png"}
-              className={`w-32 h-36 absolute bottom-[-4rem] ${index%2===0?"left-[40%]":"right-[40%]"}  z-[5000]  object-contain rounded-xl mb-4`}
+              src={index % 2 === 0 ? "/assets/appdev/rightArrow.png" : "/assets/appdev/leftArrow.png"}
+              className={`w-32 h-36 hidden md:block absolute bottom-[-4rem] ${index % 2 === 0 ? "left-[40%]" : "right-[40%]"}  z-[5000]  object-contain rounded-xl mb-4`}
             />
           </div>
         ))}

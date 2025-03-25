@@ -166,7 +166,7 @@ const Navbar = () => {
   const handleLinkClick = () => setActiveSubmenuId(null);
 
   return (
-    <nav className="bg-transparent flex justify-between px-4 lg:px-0 lg:justify-evenly items-center h-28 lg:h-36 absolute top-0 z-[100] w-full">
+    <nav className="bg-transparent flex justify-between pl-0 p-4 lg:px-0 lg:justify-evenly items-center lg:h-36 absolute top-0 z-[100] w-full">
       <div>
         <Link href={"/"}>
           <Image
@@ -176,7 +176,7 @@ const Navbar = () => {
             unoptimized
             priority
             alt="Above All Agency"
-          className="h-12 lg:h-auto"
+          className="h-16 lg:h-auto"
           />
         </Link>
       </div>

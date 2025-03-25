@@ -75,7 +75,7 @@ export default function Testimonials() {
 
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                   text-gray-800
@@ -98,7 +98,7 @@ export default function Testimonials() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-4  gap-6">
+      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-4 lg:gap-6">
         <div className="relative rounded-t-2xl overflow-hidden">
           {" "}
           <Image
@@ -162,7 +162,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div> */}
-        <div className="col-span-2">
+        <div className="col-span-2 mt-5 lg:mt-0">
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -171,14 +171,13 @@ export default function Testimonials() {
               delay: 3000,
             }}
             navigation={false}
-            pagination={{ clickable: false }}
-            modules={[Autoplay, Navigation, Pagination]}
+            modules={[Autoplay, Navigation]}
             className="h-full"
           >
             {testimonials &&
               testimonials.map((data, index) => (
                 <SwiperSlide key={index}>
-                  <div className="lg:col-span-2 text-black flex flex-col justify-center pl-5">
+                  <div className="lg:col-span-2 text-black flex flex-col justify-center lg:pl-5">
                     <p>{data?.description}</p>
                     <div className="flex' items-center gap-2 py-4">
                       <Image

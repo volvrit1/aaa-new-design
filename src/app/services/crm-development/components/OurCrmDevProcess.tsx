@@ -65,20 +65,20 @@ export default function OurCrmDevProcess() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full h-52 font-[poppins] rounded-none border-[#EE3639] px-8 relative flex ${
+            className={`w-full lg:h-52 font-[poppins] rounded-none border-[#EE3639] lg:px-8 relative flex ${
               index % 2 === 0 ? "" : "flex-row-reverse"
             } items-center gap-4 `}
           >
-            <div className="border rounded-full p-2 h-44 w-44 flex justify-center items-center">
+            <div className="border rounded-full p-2 w-32 h-32 lg:h-44 lg:w-44 flex justify-center items-center">
               <Image
                 width={400}
                 height={400}
                 alt="image"
                 src={service?.image}
-                className="w-24 h-24 object-contain mb-4"
+                className="min-w-24 min-h-24 max-w-24 max-h-24 object-contain mb-4"
               />
             </div>
-            <span className="tracking-tight font-xs text-gray-500">
+            <span className="tracking-tight hidden md:block font-xs text-gray-500">
               .........................
             </span>
             <div className="lg:w-5/12 pt-20">

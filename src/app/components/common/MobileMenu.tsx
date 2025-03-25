@@ -1,64 +1,177 @@
 "use client";
 
-import { useState } from "react";
-import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
 import Link from "next/link";
-import { IoClose, IoMenu } from "react-icons/io5";
+import Accordion from "./FooterAccordion";
+import { IoIosMenu } from "react-icons/io";
+import { useEffect, useState } from "react";
+import SocialMediaLinks from "./SocialMediaLinks";
+import Image from "next/image";
 
-export default function MobileMenu() {
+export const footerTabs = [
+  { id: 1, label: "Privacy Policy", path: "/privacy-policy" },
+  {
+    id: 2,
+    label: "Terms And Conditions",
+    path: "/terms-and-conditions",
+  },
+];
+
+export const services = [
+  {
+    title: "IT Services",
+    links: [
+      {
+        label: "Web Development",
+        image: "/assets/webdev.png",
+        href: "/services/web-development",
+        id: "web-development", // Unique ID for submenu
+      },
+      {
+        label: "App Development",
+        image: "/assets/appdev.png",
+        href: "/services/app-development",
+        id: "app-development", // Unique ID for submenu
+      },
+      {
+        label: "Artificial Intelligence",
+        image: "/assets/ai.png",
+        href: "/services/artificial-intelligence",
+        id: "ai", // Unique ID for submenu
+      },
+      {
+        label: "Saas Development",
+        image: "/assets/saas.png",
+        href: "/services/saas-development",
+        id: "saas", // Unique ID for submenu
+      },
+      {
+        label: "Blockchain Development",
+        image: "/assets/block.png",
+        href: "/services/blockchain-development",
+        id: "blockchain", // Unique ID for submenu
+      },
+      {
+        label: "CRM Development",
+        image: "/assets/crm.png",
+        href: "/services/crm-development",
+        id: "crm", // Unique ID for submenu
+      },
+      {
+        label: "UX/UI Designing",
+        image: "/assets/ux.png",
+        href: "/services/ux-ui-designing",
+        id: "ux-ui", // Unique ID for submenu
+      },
+      {
+        label: "Digital Marketing",
+        image: "/assets/webdev.png",
+        href: "/services/digital-marketing",
+        id: "digital-marketing", // Unique ID for submenu
+      },
+      {
+        label: "API Development",
+        image: "/assets/api.png",
+        href: "/services/api-development",
+        id: "api", // Unique ID for submenu
+      },
+    ]
+  },
+];
+
+export const SidebarTabs = [
+  { id: 1, label: "About Us", path: "/about-us" },
+  { id: 5, label: "Our Work", path: "/our-work" },
+  { id: 2, label: "Contact Us", path: "/contact-us" },
+  { id: 3, label: "Privacy Policy", path: "/privacy-policy" },
+  {
+    id: 4,
+    label: "Terms And Conditions",
+    path: "/terms-and-conditions",
+  },
+];
+
+const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname(); // Get current route
 
-  const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "About Us", path: "/about-us" },
-    { name: "Services", path: "/services" },
-    { name: "Our Work", path: "/our-work" },
-    { name: "Industries", path: "/industries" },
-    { name: "Contact Us", path: "/contact-us" },
-  ];
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"; // prevent overflow
+    } else document.body.style.overflow = "scroll";
+  }, [isOpen]);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
-    <nav className="relative">
-      {/* Hamburger Button */}
-      <button
-        className="lg:hidden text-gray-50 focus:outline-none"
-        onClick={() => setIsOpen(!isOpen)}
+    <div className="relative font-[poppins]">
+      <div
+        className={`fixed top-0 right-0 h-full bg-gray-900 text-primary z-50 transform ${isOpen ? "w-[85%] md:w-3/4" : "w-0"
+          } transition-all duration-500 ease-in-out`}
       >
-        {isOpen ? <IoClose size={32} /> : <IoMenu size={32} />}
-      </button>
-
-      {/* Mobile Menu */}
-      <motion.div
-        initial={{ x: "100%" }}
-        animate={{ x: isOpen ? 0 : "100%" }}
-        transition={{ type: "tween", duration: 0.3 }}
-        className="fixed top-0 right-0 h-screen w-2/3 bg-gray-900 text-gray-50 shadow-lg z-50 lg:hidden flex flex-col items-center justify-center gap-6"
-      >
-        {/* Close Button */}
-        <button className="absolute top-5 right-5 text-gray-50" onClick={() => setIsOpen(false)}>
-          <IoClose size={32} />
-        </button>
-
-        {/* Menu Items */}
-        <ul className="flex flex-col items-center gap-6 text-lg">
-          {menuItems.map((item) => (
-            <Link key={item.path} href={item.path} onClick={() => setIsOpen(false)}>
-              <li
-                className={`${
-                  pathname === item.path
-                    ? "border-b-4 border-[#EE3639] text-[#EE3639] font-bold"
-                    : "text-gray-300"
-                }`}
-              >
-                {item.name}
-              </li>
+        <div className="bg-gray-900">
+          <div className="flex p-3 shadow-md z-50 justify-between items-center">
+            <Link href={"/"}>
+              <Image
+                src={"/assets/logo/logo.svg"}
+                width={150}
+                height={70}
+                unoptimized
+                priority
+                alt="Above All Agency"
+                className="w-3/4"
+              />
             </Link>
-          ))}
-        </ul>
-      </motion.div>
-    </nav>
+            <p className="font-extrabold text-2xl" onClick={toggleSidebar}>
+              x
+            </p>
+          </div>
+          <div className="p-4 pb-40 bg-gray-900 overflow-auto h-screen">
+            <Link
+              href={"/"}
+              aria-label={"Home"}
+              onClick={handleLinkClick}
+              className="relative text-lg font-medium inline-block py-3 border-b w-full border-white/20 cursor-pointer"
+            >
+              Home
+            </Link>
+            <Accordion
+              sidebar={true}
+              services={services}
+              handleLinkClick={handleLinkClick}
+            />
+            {SidebarTabs.map((item) => (
+              <div key={item.id} className="relative group">
+                <Link
+                  href={item.path}
+                  aria-label={item.label}
+                  onClick={handleLinkClick}
+                  className="relative text-lg font-medium inline-block py-3 border-b w-full border-white/20 cursor-pointer"
+                >
+                  {item.label}
+                </Link>
+              </div>
+            ))}
+            <div className="py-4">
+              <p className="pb-2">Follow us at:</p>
+              <SocialMediaLinks size={30} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <IoIosMenu size={30} onClick={toggleSidebar} className="lg:hidden" />
+      {isOpen && (
+        <div
+          onClick={toggleSidebar}
+          className="fixed inset-0 bg-black opacity-50 z-40"
+        ></div>
+      )}
+    </div>
   );
-}
+};
+
+export default Sidebar;

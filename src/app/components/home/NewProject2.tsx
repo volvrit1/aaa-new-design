@@ -3,9 +3,9 @@ import ButtonToCall from "./ButtonToCall";
 export default function NewProject2() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4 font-[poppins] tracking-widest">
-      <div className=" m-auto p-18  rounded-3xl text-center">
+      <div className="m-auto p-4 lg:p-18 rounded-3xl text-center">
         <h2
-          className={`lg:w-full m-auto text-xl sm:text-2xl md:text-2xl lg:text-5xl font-[poppins] font-bold text-[#EE3639]  mb-4 `}
+          className={`lg:w-full m-auto text-2xl md:text-2xl lg:text-5xl font-[poppins] font-bold text-[#EE3639]  mb-4 `}
         >
           <span className="text-gray-800"> Let's Start a </span>
           {" New Project Together "}

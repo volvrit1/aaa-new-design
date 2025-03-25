@@ -3,7 +3,7 @@ import React from "react";
 export default function CrmDevSolutions() {
   return (
     <div className="container max-w-7xl mx-auto p-4 lg:p-16 space-y-4">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
                  text-gray-800
@@ -71,7 +71,7 @@ export default function CrmDevSolutions() {
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full font-[poppins] rounded-none border border-black p-8 flex flex-col justify-around items-start `}
+            className={`w-full font-[poppins] rounded-none border border-black p-4 lg:p-8 flex flex-col justify-around items-start `}
           >
             <p className="w-14 h-14 font-medium text-black text-4xl p-2 mb-0 relative">
               {"0"}

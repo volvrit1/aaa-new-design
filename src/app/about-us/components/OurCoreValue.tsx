@@ -6,7 +6,7 @@ export default function OurCoreValue() {
   return (
     <div className="p-4 lg:p-16 space-y-4 bg-[#242424]">
       <div className="container max-w-7xl mx-auto">
-        <div className="lg:w-5/6 m-auto mb-18 text-center">
+        <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
           <h2
             className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
           >
@@ -73,7 +73,7 @@ export default function OurCoreValue() {
           ].map((service, index) => (
             <div
               key={index}
-              className="w-full min-h-[45vh] lg:min-h-[65vh] 2xl:min-h-auto rounded-none border border-gray-50 p-8 flex flex-col justify-start items-start "
+              className="w-full rounded-none border border-gray-50 p-4 lg:p-8 flex flex-col justify-start items-start "
             >
               <Image
                 width={400}

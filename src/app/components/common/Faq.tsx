@@ -17,7 +17,7 @@ export default function Faq() {
   };
   return (
     <div className="container max-w-7xl p-4 mx-auto lg:p-16 space-y-4 ">
-      <div className="lg:w-5/6 m-auto mb-18 text-center">
+      <div className="lg:w-5/6 m-auto mt-6 lg:mt-0 mb-10 md:mb-18 text-center">
         <h2
           className={`text sm:text-lg font-semibold tracking-widest 
               text-gray-800
@@ -42,7 +42,7 @@ export default function Faq() {
           }
         </p>
       </div>
-      <div className="grid grid-cols-1 place-items-start gap-6">
+      <div className="grid grid-cols-1 place-items-start gap-2 lg:gap-6">
         {[
           {
             question: "What are the services provided by Above All Agency?",
@@ -99,12 +99,12 @@ export default function Faq() {
         ].map((faq, index) => (
           <div
             key={index}
-            className={`w-full p-6 rounded-lg bg-blue-50 ${openIndex === index ? "" : ""
+            className={`w-full p-4 lg:p-6 rounded-lg bg-blue-50 ${openIndex === index ? "" : ""
               }`}
             onClick={() => toggleFAQ(index)}
           >
             <button
-              className={`w-full text-left cursor-pointer text-black font-[poppins] flex justify-start items-center gap-8`}
+              className={`w-full text-left cursor-pointer text-black font-[poppins] flex justify-start items-center gap-4 lg:gap-8`}
             >
               <span className="text-3xl">
                 {openIndex === index ? (
