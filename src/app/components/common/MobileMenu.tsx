@@ -74,7 +74,72 @@ export const services = [
         href: "/services/api-development",
         id: "api", // Unique ID for submenu
       },
-    ]
+    ],
+  },
+  {
+    title: "Industries",
+    links: [
+      {
+        id: "health-care", // Added id
+        label: "Health Care",
+        image: "/assets/serve1.png",
+        href: "/industries/health-care",
+      },
+      {
+        id: "oil-gas-energy", // Added id
+        label: "Oil & Gas Energy",
+        image: "/assets/serve2.png",
+        href: "/industries/oil-gas-energy",
+      },
+      {
+        id: "retails-e-commerce", // Added id
+        label: "Retails & E-Commerce",
+        image: "/assets/serve3.png",
+        href: "/industries/retails-e-commerce",
+      },
+      {
+        id: "real-estate-construction", // Added id
+        label: "Real Estate & Construction",
+        image: "/assets/serve4.png",
+        href: "/industries/real-estate-construction",
+      },
+      // {
+      //   id: "finance-banking", // Added id
+      //   label: "Finance & Banking",
+      //   image: "/assets/serve5.png",
+      //   href: "/industries/finance-banking",
+      // },
+      // {
+      //   id: "government-smart-cities", // Added id
+      //   label: "Goverment & Smart Cities",
+      //   image: "/assets/serve6.png",
+      //   href: "/industries/government-smart-cities",
+      // },
+      // {
+      //   id: "education-service", // Added id
+      //   label: "Education Service",
+      //   image: "/assets/serve7.png",
+      //   href: "/industries/education-service",
+      // },
+      // {
+      //   id: "logistic-transportation", // Added id
+      //   label: "Logistic & Transportation",
+      //   image: "/assets/serve8.png",
+      //   href: "/industries/logistic-transportation",
+      // },
+      // {
+      //   id: "hospitality-tourism", // Added id
+      //   label: "Hospitality & Tourism",
+      //   image: "/assets/serve9.png",
+      //   href: "/industries/hospitality-tourism",
+      // },
+      // {
+      //   id: "legal-compliance", // Added id
+      //   label: "Legal & Compliance",
+      //   image: "/assets/serve10.png",
+      //   href: "/industries/legal-compliance",
+      // },
+    ],
   },
 ];
 
@@ -110,10 +175,11 @@ const Sidebar = () => {
   return (
     <div className="relative font-[poppins]">
       <div
-        className={`fixed top-0 right-0 h-full bg-gray-900 text-primary z-50 transform ${isOpen ? "w-[85%] md:w-3/4" : "w-0"
-          } transition-all duration-500 ease-in-out`}
+        className={`fixed top-0 right-0 h-full bg-gray-900 text-primary z-50 transform ${
+          isOpen ? "w-[85%] md:w-3/4" : "w-0"
+        } transition-all duration-500 ease-in-out`}
       >
-        <div className="bg-gray-900">
+        <div className="bg-gray-900 text-gray-50">
           <div className="flex p-3 shadow-md z-50 justify-between items-center">
             <Link href={"/"}>
               <Image
@@ -163,7 +229,11 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <IoIosMenu size={30} onClick={toggleSidebar} className="lg:hidden" />
+      <IoIosMenu
+        size={30}
+        onClick={toggleSidebar}
+        className="lg:hidden text-white"
+      />
       {isOpen && (
         <div
           onClick={toggleSidebar}

@@ -50,8 +50,8 @@ const ProjectCard = ({ work, index }: any) => {
         alt="image"
         priority
         unoptimized
-        src={`/assets/work${[index + 1]}.png`}
-        className="lg:w-2/3 object-contain rounded-xl"
+        src={work?.image}
+        className="lg:w-2/3  h-fit rounded-xl"
       />
     </div>
   );

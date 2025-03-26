@@ -9,7 +9,7 @@ export default function ContentSection({ title, children }: any) {
       </h2>
       {children &&
         children?.map((data: any, index: any) => (
-          <p key={index} className="font-[poppins] tracking-wide mb-6 text-[#7D7D7D]">
+          <p key={index} className="font-[cabin] tracking-wide mb-6 text-[#7D7D7D]">
             {data}
           </p>
         ))}

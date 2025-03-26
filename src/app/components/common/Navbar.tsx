@@ -82,12 +82,12 @@ const industries = [
     image: "/assets/serve3.png",
     path: "/industries/retails-e-commerce",
   },
-  // {
-  //   id: "real-estate-construction", // Added id
-  //   name: "Real Estate & Construction",
-  //   image: "/assets/serve4.png",
-  //   path: "/industries/real-estate-construction",
-  // },
+  {
+    id: "real-estate-construction", // Added id
+    name: "Real Estate & Construction",
+    image: "/assets/serve4.png",
+    path: "/industries/real-estate-construction",
+  },
   // {
   //   id: "finance-banking", // Added id
   //   name: "Finance & Banking",
@@ -155,11 +155,11 @@ const Navbar = () => {
       submenu: services,
     },
     { name: "Our Work", path: "/our-work" },
-    // {
-    //   name: "Industries",
-    //   path: "/industries",
-    //   submenu: industries,
-    // },
+    {
+      name: "Industries",
+      path: "/industries",
+      submenu: industries,
+    },
     { name: "Contact Us", path: "/contact-us" },
   ];
 
