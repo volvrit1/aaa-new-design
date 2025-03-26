@@ -32,7 +32,7 @@ const HeroSection = ({
       </div>
 
       <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
-        {breadcrumb && <Breadcrumb paths={breadcrumb} />}
+        {/* {breadcrumb && <Breadcrumb paths={breadcrumb} />} */}
         <h2 className="text-3xl md:text-4xl lg:text-4xl tracking- font-bold">
           {title || ""}
           {colorTitle1 && (

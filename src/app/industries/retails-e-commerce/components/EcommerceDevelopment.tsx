@@ -20,7 +20,7 @@ export default function EcommerceDevelopment({
     ],
   };
   return (
-    <div className="p-4 lg:px-16 space-y-4 max-w-7xl m-auto">
+    <div className="p-4 lg:p-16 space-y-4 max-w-7xl m-auto">
       <h2 className="font-[poppins] text-3xl text-gray-50 font-medium mb-4">
         {title || ""}
       </h2>
