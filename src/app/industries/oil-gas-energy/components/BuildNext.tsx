@@ -16,7 +16,7 @@ export default function BuildNext() {
     "Energy Trading & Risk Management ",
   ];
   return (
-    <div className="p-4 lg:px-16 space-y-4">
+    <div className="p-4 lg:px-16 space-y-4 max-w-7xl m-auto">
       <div className="container max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
         {content.map((item, index) => (
           <div key={index} className="bg-white p-4 border-[1.5px] border-gray-300/70">

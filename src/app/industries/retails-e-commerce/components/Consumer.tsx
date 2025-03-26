@@ -28,7 +28,7 @@ export default function Consumer() {
     },
   ];
   return (
-    <div className="p-4 lg:px-16 space-y-4">
+    <div className="p-4 lg:px-16 space-y-4 max-w-7xl m-auto">
       <h2 className="font-[poppins] text-3xl text-black font-medium mb-4">
         {
           "Advanced Technologies for Powering Your Tailored Oil & Gas Software Development Solution"

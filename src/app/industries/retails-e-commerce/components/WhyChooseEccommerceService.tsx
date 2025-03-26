@@ -38,7 +38,7 @@ export default function WhyChooseEccommerceService() {
             key={index}
             className="border-[1.5px border-transparent bg-gradient-to-t from-[#242424]/70 to-[#EE3639]/70 bg-clip-border p-[1px] mb-4"
           >
-            <div className="bg-gray-50 p-4 h-24">
+            <div className="bg-gray-50 p-4 lg:h-24">
               <h2 className="text-xl font-[poppins] text-black font-medium mb-2">
                 {content?.title}
               </h2>

@@ -47,7 +47,7 @@ export default function WeAreYourPartner() {
             <div
               key={index}
               className={`gap-1 flex flex-col justify-start items-start p-5 ${index === 0 || index === 3 || index === 4
-                  ? "bg-[#FFF5F5] border border-[#EE3639]"
+                  ? "lg:bg-[#FFF5F5] lg:border lg:border-[#EE3639]"
                   : ""
                 }`}
             >

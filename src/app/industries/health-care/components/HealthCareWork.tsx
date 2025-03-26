@@ -65,20 +65,22 @@ export default function HealthCareWork() {
         </Swiper>
 
         {/* Custom Navigation Arrows */}
-        <div className="flex justify-center space-x-4">
-          <button
-            onClick={() => swiperRef.current?.slidePrev()}
-            className="p-3 rounded-full bg-[#EE3639] transition"
-          >
-            <AiOutlineLeft className="text-xl text-white" />
-          </button>
-          <button
-            onClick={() => swiperRef.current?.slideNext()}
-            className="p-3 rounded-full bg-[#EE3639] transition"
-          >
-            <AiOutlineRight className="text-xl text-white" />
-          </button>
-        </div>
+        {websites?.length > 1 && (
+          <div className="flex justify-center space-x-4">
+            <button
+              onClick={() => swiperRef.current?.slidePrev()}
+              className="p-3 rounded-full bg-[#EE3639] transition"
+            >
+              <AiOutlineLeft className="text-xl text-white" />
+            </button>
+            <button
+              onClick={() => swiperRef.current?.slideNext()}
+              className="p-3 rounded-full bg-[#EE3639] transition"
+            >
+              <AiOutlineRight className="text-xl text-white" />
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
