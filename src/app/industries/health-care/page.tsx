@@ -2,7 +2,7 @@ import Clients from "@/app/components/common/Clinets";
 import ContentSection from "@/app/components/common/ContentSection";
 import HeroSection from "@/app/components/common/HeroSection";
 import React from "react";
-import HowAppWork from "./components/HowAppWork";
+import HowAppWork from "./components/ResultDriven";
 import HealthHighlights from "./components/HealthHighlights";
 import WeOffer from "./components/WeOffer";
 import WeAreYourPartner from "./components/WeAreYourPartner";
@@ -43,6 +43,43 @@ export default function page() {
     "Hospice Care Providers ",
     "Medical Biotech Companies",
   ];
+
+  const WeAreYourData = {
+    title:
+      "   We Are Your Trusted Partner for Healthcare Software Development Service",
+    content: [
+      {
+        title: "HIPAA Compliant Development Service",
+        description:
+          "The growing popularity of mobile devices and the internet is driving the adoption of fintech applications, as they allow for easy access to financial services.",
+      },
+      {
+        title: "Transparent and Agile Processes",
+        description:
+          "Fintech applications can be used to facilitate digital payments and e-commerce, which is becoming increasingly popular as more and more people shop online.",
+      },
+      {
+        title: "Innovative Solutions",
+        description:
+          "Fintech applications can be used to facilitate digital lending, which can help to increase access to credit for individuals and small businesses.",
+      },
+      {
+        title: "Logically Designed Architecture ",
+        description:
+          "Fintech applications can be used to facilitate transactions and payments using blockchain technology and cryptocurrencies, which can provide a more secure and efficient way of doing transactions.",
+      },
+      {
+        title: "Superior Code Quality ",
+        description:
+          "The growing popularity of mobile devices and the internet is driving the adoption of fintech applications, as they allow for easy access to financial services.",
+      },
+      {
+        title: "Flexible Engagement Model",
+        description:
+          "Fintech applications can be used to facilitate digital payments and e-commerce, which is becoming increasingly popular as more and more people shop online.",
+      },
+    ],
+  };
   return (
     <div>
       {" "}
@@ -90,7 +127,10 @@ export default function page() {
           }
           data={benifit}
         />
-        <WeAreYourPartner />
+        <WeAreYourPartner
+          title={WeAreYourData?.title}
+          data={WeAreYourData?.content || []}
+        />
         <HealthCareWork />
         <Faq />
         <Contact />

@@ -88,24 +88,24 @@ const industries = [
     image: "/assets/serve4.png",
     path: "/industries/real-estate-construction",
   },
-  // {
-  //   id: "finance-banking", // Added id
-  //   name: "Finance & Banking",
-  //   image: "/assets/serve5.png",
-  //   path: "/industries/finance-banking",
-  // },
-  // {
-  //   id: "government-smart-cities", // Added id
-  //   name: "Goverment & Smart Cities",
-  //   image: "/assets/serve6.png",
-  //   path: "/industries/government-smart-cities",
-  // },
-  // {
-  //   id: "education-service", // Added id
-  //   name: "Education Service",
-  //   image: "/assets/serve7.png",
-  //   path: "/industries/education-service",
-  // },
+  {
+    id: "finance-banking", // Added id
+    name: "Finance & Banking",
+    image: "/assets/serve5.png",
+    path: "/industries/finance-banking",
+  },
+  {
+    id: "government-smart-cities", // Added id
+    name: "Goverment & Smart Cities",
+    image: "/assets/serve6.png",
+    path: "/industries/government-smart-cities",
+  },
+  {
+    id: "education-service", // Added id
+    name: "Education Service",
+    image: "/assets/serve7.png",
+    path: "/industries/education-service",
+  },
   // {
   //   id: "logistic-transportation", // Added id
   //   name: "Logistic & Transportation",

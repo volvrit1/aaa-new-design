@@ -90,7 +90,7 @@ export default function Footer() {
           <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
-                src="/assets/logo/logo.png"
+                src="/assets/logo/logo.svg"
                 width={200}
                 height={70}
                 alt="Above All Agency"

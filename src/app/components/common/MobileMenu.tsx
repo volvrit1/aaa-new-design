@@ -103,24 +103,24 @@ export const services = [
         image: "/assets/serve4.png",
         href: "/industries/real-estate-construction",
       },
-      // {
-      //   id: "finance-banking", // Added id
-      //   label: "Finance & Banking",
-      //   image: "/assets/serve5.png",
-      //   href: "/industries/finance-banking",
-      // },
-      // {
-      //   id: "government-smart-cities", // Added id
-      //   label: "Goverment & Smart Cities",
-      //   image: "/assets/serve6.png",
-      //   href: "/industries/government-smart-cities",
-      // },
-      // {
-      //   id: "education-service", // Added id
-      //   label: "Education Service",
-      //   image: "/assets/serve7.png",
-      //   href: "/industries/education-service",
-      // },
+      {
+        id: "finance-banking", // Added id
+        label: "Finance & Banking",
+        image: "/assets/serve5.png",
+        href: "/industries/finance-banking",
+      },
+      {
+        id: "government-smart-cities", // Added id
+        label: "Goverment & Smart Cities",
+        image: "/assets/serve6.png",
+        href: "/industries/government-smart-cities",
+      },
+      {
+        id: "education-service", // Added id
+        label: "Education Service",
+        image: "/assets/serve7.png",
+        href: "/industries/education-service",
+      },
       // {
       //   id: "logistic-transportation", // Added id
       //   label: "Logistic & Transportation",
