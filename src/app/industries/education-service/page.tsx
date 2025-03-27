@@ -4,6 +4,11 @@ import React from "react";
 import ELearning from "./components/ELearning";
 import EcommerceDevelopment from "../retails-e-commerce/components/EcommerceDevelopment";
 import WhyConnect from "./components/WhyConnect";
+import OilGasServices from "../oil-gas-energy/components/OilGasServices";
+import EducationSystem from "./components/EducationSystem";
+import OurWorkCutting from "../retails-e-commerce/components/OurWorkCutting";
+import Faq from "@/app/components/common/Faq";
+import Contact from "@/app/components/common/Contact";
 
 export default function page() {
   const ELearnContent = {
@@ -20,6 +25,71 @@ export default function page() {
       "lean & easy UI/UX",
     ],
   };
+
+  const EducationService = [
+    {
+      title: "Corporate Training Apps",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "Induction and Orientation Apps",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "Employee Engagement Apps",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "Skill Boosting Apps",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "Tuition Apps",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "E2c e-Learning App Development ",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "Virtual Classrooms and Video Confrerencing",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+    {
+      title: "LMS Development",
+      description:
+        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+    },
+  ];
+
+  const OurWorkData = [
+    {
+      title: "Hebrew Academy",
+      href: "https://www.hebrewacademy.co.nz",
+      image: "/assets/heybrew.png",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      link: "/industry",
+      bgColor: "bg-[#EE3639]",
+      textColor: "text-gray-50",
+      cardBgColor: "bg-[#242424] rounded-2xl p-8",
+      pColor: "text-gray-50",
+      tags: [
+        "UX/UI Design Strategy",
+        "Development Process",
+        "Testing Phase",
+        "Quality Assurance",
+      ],
+    },
+  ];
+
   return (
     <div>
       <HeroSection
@@ -54,6 +124,46 @@ export default function page() {
             "Mass adoption",
           ]}
         />
+        <EcommerceDevelopment
+          title={""}
+          description={""}
+          data={[
+            "Subscription",
+            "Freemium",
+            "Course Fee",
+            "In-App Ads",
+            "In-App Purchases",
+            "Paid Installs",
+          ]}
+          textColor="text-gray-800"
+        />
+        <OilGasServices data={EducationService} />
+        <EducationSystem />
+        <EcommerceDevelopment
+          title={"Advanced Features To Include In An eLearning Platform"}
+          description={""}
+          data={[
+            "Voice Command",
+            "Real Time Analytics",
+            "Multiple Language Support",
+            "Discussion Board",
+            "LeaderBoard",
+            "Quizzes and Assignments",
+            "Document Management",
+            "Lesson Download",
+            "Chat room + Video Streaming",
+          ]}
+          textColor="text-gray-800"
+        />
+        <OurWorkCutting
+          title={"Showcasing our work cutting-edge Education Industry"}
+          description={
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+          }
+          data={OurWorkData}
+        />
+        <Faq />
+        <Contact />
       </div>
     </div>
   );
