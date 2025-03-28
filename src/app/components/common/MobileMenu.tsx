@@ -183,7 +183,7 @@ const Sidebar = () => {
           <div className="flex p-3 shadow-md z-50 justify-between items-center">
             <Link href={"/"}>
               <Image
-                src={"/assets/logo/logo.svg"}
+                src={"/assets/logo/logo.png"}
                 width={150}
                 height={70}
                 unoptimized

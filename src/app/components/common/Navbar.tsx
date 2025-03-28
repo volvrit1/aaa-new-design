@@ -170,7 +170,7 @@ const Navbar = () => {
       <div>
         <Link href={"/"}>
           <Image
-            src={"/assets/logo/logo.svg"}
+            src={"/assets/logo/logo.png"}
             width={150}
             height={70}
             unoptimized
