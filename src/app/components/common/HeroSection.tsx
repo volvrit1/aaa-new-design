@@ -31,7 +31,7 @@ const HeroSection = ({
         <div className="w-3/5 h-screen bg-gradient-to-r from-[#242424] via-10% via-[#242424]  to-[#EE3639] opacity-30 rounded-full blur-3xl "></div>
       </div>
 
-      <div className="absolute inset-0 font-['urbanist'] top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
+      <div className="absolute inset-0 font-['urbanist'] top-[7%] lg:top-[20%]  flex flex-col items-center justify-center text-center text-white lg:w-3/5 m-auto p-4 lg:p-0 mb-10">
         {/* {breadcrumb && <Breadcrumb paths={breadcrumb} />} */}
         <h2 className="text-3xl md:text-4xl lg:text-4xl tracking- font-bold">
           {title || ""}

@@ -1,13 +1,14 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import {
+  IoMail,
   IoCall,
   IoCallOutline,
-  IoLocationOutline,
-  IoMail,
   IoMailOutline,
+  IoLocationOutline,
 } from "react-icons/io5";
+import Accordion from "./FooterAccordion";
 
 export default function Footer() {
   const services = [
@@ -83,10 +84,137 @@ export default function Footer() {
   //   { name: "Chat support", url: "/" },
   // ];
 
+  const servicesNew = [
+    {
+      title: "IT Services",
+      links: [
+        {
+          label: "Web Development",
+          image: "/assets/webdev.png",
+          href: "/services/web-development",
+          id: "web-development", // Unique ID for submenu
+        },
+        {
+          label: "App Development",
+          image: "/assets/appdev.png",
+          href: "/services/app-development",
+          id: "app-development", // Unique ID for submenu
+        },
+        {
+          label: "Artificial Intelligence",
+          image: "/assets/ai.png",
+          href: "/services/artificial-intelligence",
+          id: "ai", // Unique ID for submenu
+        },
+        {
+          label: "Saas Development",
+          image: "/assets/saas.png",
+          href: "/services/saas-development",
+          id: "saas", // Unique ID for submenu
+        },
+        {
+          label: "Blockchain Development",
+          image: "/assets/block.png",
+          href: "/services/blockchain-development",
+          id: "blockchain", // Unique ID for submenu
+        },
+        {
+          label: "CRM Development",
+          image: "/assets/crm.png",
+          href: "/services/crm-development",
+          id: "crm", // Unique ID for submenu
+        },
+        {
+          label: "UX/UI Designing",
+          image: "/assets/ux.png",
+          href: "/services/ux-ui-designing",
+          id: "ux-ui", // Unique ID for submenu
+        },
+        {
+          label: "Digital Marketing",
+          image: "/assets/webdev.png",
+          href: "/services/digital-marketing",
+          id: "digital-marketing", // Unique ID for submenu
+        },
+        {
+          label: "API Development",
+          image: "/assets/api.png",
+          href: "/services/api-development",
+          id: "api", // Unique ID for submenu
+        },
+      ],
+    },
+    {
+      title: "Industries",
+      links: [
+        {
+          id: "health-care", // Added id
+          label: "Health Care",
+          image: "/assets/serve1.png",
+          href: "/industries/health-care",
+        },
+        {
+          id: "oil-gas-energy", // Added id
+          label: "Oil & Gas Energy",
+          image: "/assets/serve2.png",
+          href: "/industries/oil-gas-energy",
+        },
+        {
+          id: "retails-e-commerce", // Added id
+          label: "Retails & E-Commerce",
+          image: "/assets/serve3.png",
+          href: "/industries/retails-e-commerce",
+        },
+        {
+          id: "real-estate-construction", // Added id
+          label: "Real Estate & Construction",
+          image: "/assets/serve4.png",
+          href: "/industries/real-estate-construction",
+        },
+        {
+          id: "finance-banking", // Added id
+          label: "Finance & Banking",
+          image: "/assets/serve5.png",
+          href: "/industries/finance-banking",
+        },
+        {
+          id: "government-smart-cities", // Added id
+          label: "Goverment & Smart Cities",
+          image: "/assets/serve6.png",
+          href: "/industries/government-smart-cities",
+        },
+        {
+          id: "education-service", // Added id
+          label: "Education Service",
+          image: "/assets/serve7.png",
+          href: "/industries/education-service",
+        },
+        // {
+        //   id: "logistic-transportation", // Added id
+        //   label: "Logistic & Transportation",
+        //   image: "/assets/serve8.png",
+        //   href: "/industries/logistic-transportation",
+        // },
+        // {
+        //   id: "hospitality-tourism", // Added id
+        //   label: "Hospitality & Tourism",
+        //   image: "/assets/serve9.png",
+        //   href: "/industries/hospitality-tourism",
+        // },
+        // {
+        //   id: "legal-compliance", // Added id
+        //   label: "Legal & Compliance",
+        //   image: "/assets/serve10.png",
+        //   href: "/industries/legal-compliance",
+        // },
+      ],
+    },
+  ];
+
   return (
     <footer className="text-gray-50 font-[poppins] bg-[#242424] py-10 px-4 lg:px-10">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-7 lg:gap-10 mx-auto">
           <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
@@ -98,7 +226,7 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="font-[poppins] tracking-wide text-sm/7 text-gray-50 mt-4 mb-2">
+              <p className="font-[poppins] tracking-wide text-sm/7 text-gray-50 mt-4 lg:mb-2">
                 Above All Agency is your trusted IT partner in Sydney, offering
                 custom solutions for websites, mobile apps, and advanced
                 technologies like AI. Let's create something exceptional
@@ -107,19 +235,11 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <h3 className="mb-5 text-lg uppercase font-semibold">Services</h3>
-            <ul className="text-sm text-gray-200 space-y-3.5">
-              {services &&
-                services?.map((item, index) => (
-                  <li key={index}>
-                    <Link href={item.path} className="hover:text-gray-500">
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
-            </ul>
-          </div>
+          <Accordion
+            sidebar={true}
+            diffColor={true}
+            services={servicesNew}
+          />
 
           <div>
             <h3 className="mb-5 text-lg uppercase font-semibold">Company</h3>

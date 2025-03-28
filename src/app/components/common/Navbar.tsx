@@ -166,7 +166,7 @@ const Navbar = () => {
   const handleLinkClick = () => setActiveSubmenuId(null);
 
   return (
-    <nav className="bg-transparent flex justify-between pl-0 p-4 lg:px-0 lg:justify-evenly items-center lg:h-36 absolute top-0 z-[100] w-full">
+    <nav className="bg-transparent flex justify-between p-4 lg:px-0 lg:justify-evenly items-center lg:h-36 absolute top-0 z-[100] w-full">
       <div>
         <Link href={"/"}>
           <Image

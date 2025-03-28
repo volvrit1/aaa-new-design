@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const   ProjectCard = ({ work, index }: any) => {
+const ProjectCard = ({ work, index }: any) => {
   return (
     <div
       key={index}
@@ -30,9 +30,8 @@ const   ProjectCard = ({ work, index }: any) => {
           </div>
         </div>
         <p
-          className={`font-[poppins] tracking-widest  text-sm mr-auto mb-6 text-left ${
-            work?.pColor ?? "text-gray-800"
-          }`}
+          className={`font-[poppins] tracking-widest  text-sm mr-auto mb-6 text-left ${work?.pColor ?? "text-gray-800"
+            }`}
         >
           {work?.description}
         </p>
@@ -51,7 +50,16 @@ const   ProjectCard = ({ work, index }: any) => {
         priority
         unoptimized
         src={work?.image}
-        className="lg:w-2/3  h-fit rounded-xl"
+        className="lg:w-2/3 hidden lg:block h-fit rounded-xl"
+      />
+      <Image
+        width={400}
+        height={400}
+        alt="image"
+        priority
+        unoptimized
+        src={work?.mobileimage || work?.image}
+        className="lg:hidden h-fit mb-4 rounded-xl"
       />
     </div>
   );

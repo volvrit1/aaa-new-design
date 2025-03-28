@@ -6,12 +6,14 @@ import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 interface AccordionItemProps {
   content: [];
   title: string;
+  diffColor?: boolean;
   handleLinkClick?: any;
 }
 
 const AccordionItem: React.FC<AccordionItemProps> = ({
   title,
   content,
+  diffColor,
   handleLinkClick,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +39,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         className={`duration-200 ease-linear ${!isOpen ? "max-h-0 overflow-y-hidden" : "max-h-auto"
           }`}
       >
-        <div className="py-2 bg-gray-900 space-y-3 mt-2">
+        <div className={`py-2 ${diffColor ? "" : "bg-gray-900"} space-y-3 mt-2`}>
           {content.map((link: any) => (
             <li key={link.href} className="text-[15px] pl-4 list-disc">
               <Link
@@ -60,10 +62,12 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
 const Accordion = ({
   sidebar,
   services,
+  diffColor,
   handleLinkClick,
 }: {
   services: any;
   sidebar?: boolean;
+  diffColor?: boolean;
   handleLinkClick?: any;
 }) => {
   return (
@@ -72,6 +76,7 @@ const Accordion = ({
         <React.Fragment key={service.title}>
           <AccordionItem
             title={service.title}
+            diffColor={diffColor}
             content={service.links}
             handleLinkClick={handleLinkClick}
           />
