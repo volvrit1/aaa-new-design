@@ -299,7 +299,7 @@ export default function Footer() {
                 </strong>{" "}
                 U19/10 Gladstone Rd, castle Hill NSW 2154
               </p>
-              <p className="uppercase pt-5 font-bold">Above All Agency PVT LTD</p>
+              <p className="uppercase pt-5 font-bold">Above All Agency PTY LTD</p>
               <p className="text-sm">Australian Company Number <Link href={"tel:681469536"} className="hover:underline">681 469 536</Link></p>
             </div>
           </div>
