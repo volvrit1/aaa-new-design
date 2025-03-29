@@ -17,15 +17,16 @@ export default function AiDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Cutting-Edge </span>
-          {"  AI Development Services "}
-          <span className="text-gray-800">for Smarter, Scalable Solutions</span>
+          <span className="text-gray-800">
+            Empowering Business Success Through Advanced AI and Creative
+            Solutions
+          </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "At our core, we bring together advanced AI solutions and innovative strategies to reimagine business processes. We are committed to delivering tailored services that yield actual outcomes and foster long-term business growth."
           }
         </p>
       </div>
@@ -35,37 +36,37 @@ export default function AiDevSolutions() {
             title: "Machine Learning",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Machine learning is changing the manner in which businesses conduct their operations, allowing systems to learn from data and get better automatically over time. We utilize advanced algorithms to improve accuracy and decision-making, driving business performance.",
             image: "/assets/ai/ml.png",
           },
           {
             title: "Natural Language Processing",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Natural Language Processing (NLP) enables machines to read, comprehend, and produce human language. We develop AI-driven solutions that facilitate communication, customer interaction, and automation through sophisticated NLP methodologies.",
             image: "/assets/ai/nl.png",
           },
           {
             title: "Business Intelligence",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Through AI-driven business intelligence, we empower organizations to make raw data insightful. Our products allow for decision-making based on data, thereby opening up strategic advantages that enhance success and productivity.",
             image: "/assets/ai/bi.png",
           },
           {
             title: "Generative AI",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Generative AI uses the power of algorithms to generate new, innovative content and solutions. We use this technology to build tailored, scalable solutions that fit your specific business requirements.",
             image: "/assets/ai/gi.png",
           },
           {
             title: "Chatbot Applications",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our chatbots are powered by AI, offering personalized customer care, automating processes, and driving user engagement. Our bots improve customer interactions with timely, accurate responses, 24/7.",
             image: "/assets/ai/ca.png",
           },
           {
             title: "AI Powered App Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We develop AI-powered apps that improve user experience. From automating to expanding functionality, our apps are designed to integrate into existing systems easily and streamline business processes.",
             image: "/assets/ai/ai.png",
           },
         ].map((service, index) => (

@@ -48,13 +48,13 @@ export default function OurClients() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
-          <span className="text-gray-800"> Our Clients</span>
+          <span className="text-gray-800"> Our Happy Clients: Partners in Growth</span>
         </h2>
         <p
           className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "Above All Agency feels pride in developing mobile apps for various iconic brands. Throughout our entire journey, we have built loyal relationships with every client and established trust with solid friendships."
+            "We take immense pride in the relationships we’ve built with iconic brands. Our success lies in understanding their needs, building trust, and working collaboratively to deliver solutions that drive growth and exceed expectations."
           }
         </p>
       </div>

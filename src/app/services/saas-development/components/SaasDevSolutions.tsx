@@ -17,17 +17,16 @@ export default function SaasDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Comprehensive </span>
-          {"  SaaS Development "}
+     
           <span className="text-gray-800">
-            Services for Scalable and Secure Solutions
+          Redefining SaaS Solutions with Innovation, Expertise, and Precision
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We bring a special combination of technology, design, and business strategy to each SaaS project. Our experts develop tailored solutions that are best suited for your business requirements with the guarantee of growth, productivity, and competitiveness in the marketplace."
           }
         </p>
       </div>
@@ -37,55 +36,55 @@ export default function SaasDevSolutions() {
             title: "Saas Product Design & UI/UX",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our strategy development services guide your SaaS product from idea to market launch. We build fact-based strategies centered on user requirements, demand in the market, and scalability for the long term, so your product is ready to succeed.",
             image: "/assets/ai/ml.png",
           },
           {
             title: "Saas Product Strategy Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our strategy development services take your SaaS product from idea to market launch. We build data-driven strategies centered on user needs, market demand, and scalability for the long-term, making your product poised for success.",
             image: "/assets/ai/nl.png",
           },
           {
             title: "Custom Saas Application Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We develop custom SaaS applications to meet your business requirements. Our custom development method guarantees that every solution is scalable, secure, and suited to your unique goals, laying the groundwork for your expansion.",
             image: "/assets/ai/bi.png",
           },
           {
             title: "Multi-Tenant Architecture Design",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our multi-tenant architecture solutions allow you to scale efficiently by hosting several clients from one instance. This solution optimizes resource usage, maintenance, and operational costs.",
             image: "/assets/ai/gi.png",
           },
           {
             title: "Cloud Migration and Integration",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We simplify your move to the cloud, ensuring transparent migration and integration with minimal interruption. Our services enable modernization of your infrastructure, increase accessibility, and enhance data security for maximum performance.",
             image: "/assets/ai/ca.png",
           },
           {
             title: "API Development & Integration",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We offer secure API development services that provide seamless integration with third-party services. Our APIs are flexible, scalable, and easy to use, allowing seamless communication between systems and platforms.",
             image: "/assets/ai/ai.png",
           },
           {
             title: "Saas Performance Optimization",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our optimization services focus on maximizing the speed, efficiency, and scalability of your SaaS products. We use data-driven insights to identify and address performance bottlenecks, resulting in improved user experiences and high uptime.",
             image: "/assets/ai/ai.png",
           },
           {
             title: "Technology and Third-Party Integration",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We merge innovative technologies and third-party tools to extend the functionality of your SaaS product. Our seamless integration services help your platform stay agile, current, and linked to key tools and services.",
             image: "/assets/ai/ai.png",
           },
           {
             title: "Ongoing Maintenance & Support",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We offer continuous support and maintenance of  your SaaS application so that it runs at its best. Our experts provide regular updates, bug fixes, and 24/7 support to resolve any issues that come up, freeing you to run your business.",
             image: "/assets/ai/ai.png",
           },
         ].map((service, index) => (

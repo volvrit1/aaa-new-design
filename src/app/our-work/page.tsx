@@ -11,12 +11,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Showcasing"
-        title1=" Our Expertise"
-        title2=": Innovative IT Solutions That Drive Success"
+        title=""
+        title1=""
+        title2="Driving Success with Innovative IT Solutions – Our Proven Impact Across Industries"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We specialize in providing innovative IT solutions with measurable success. With a solid track record, we develop custom strategies that equip businesses to grow, innovate, and prosper in the digital world of today."
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

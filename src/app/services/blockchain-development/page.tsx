@@ -20,12 +20,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Secure & Scalable   "
-        title1=" Blockchain Development "
-        title2=" Solutions for the Future"
+        title="   "
+        title1="  "
+        title2="Building Secure, Scalable, and Future-Ready Blockchain Solutions"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We specialize in crafting customized blockchain solutions that empower businesses to unlock new opportunities. From idea to widespread deployment, we drive integration of decentralized technologies in a hassle-free and frictionless way, which helps businesses increase security, transparency, and efficiency in an evolving digital landscape"
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

@@ -37,7 +37,7 @@ export default function WiningAwards() {
               alt="image"
               unoptimized
               priority
-              src={`/assets/award${index + 1}.png`}
+              src={`/assets/aaa${index + 1}.png`}
               className="w-full object-fill rounded-xl"
             />
           </div>

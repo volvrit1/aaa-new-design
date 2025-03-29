@@ -17,15 +17,14 @@ export default function OurCrmDevProcess() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Our Streamlined</span>
-          {"  CRM Development Process "}
-          <span className="text-gray-800">for Seamless Business Growth</span>
+          
+          <span className="text-gray-800">Streamlined CRM Development: From Concept to Launch</span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "Our CRM development process ensures that we provide a solution which is ideally suited to your business requirements. Right from consultation to deployment, every step of ours is undertaken with care so as to facilitate a smooth and successful CRM development experience that empowers your business to establish great customer relationships."
           }
         </p>
       </div>
@@ -35,31 +34,31 @@ export default function OurCrmDevProcess() {
             title: "01. Define Goals",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Clearly define business aims and CRM requirements to support an adapted, efficient solution that matches your vision.",
             image: "/assets/crm1.png",
           },
           {
             title: "02. Solution Architecture",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Create a scalable, flexible architecture that meets the needs of your CRM system with high performance and future growth.",
             image: "/assets/crm2.png",
           },
           {
             title: "03. Develop Data Models",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Develop effective, organized data models that maximize data storage, retrieval, and integration for smooth CRM functionality.",
             image: "/assets/crm3.png",
           },
           {
             title: "04. Implement Security",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Incorporate robust security measures to protect sensitive data and ensure compliance with privacy and regulatory standards.",
             image: "/assets/crm4.png",
           },
           {
             title: "05. Test and Validate",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Perform extensive testing to confirm the CRM system is free of bugs, secure, and optimally perfected prior to release.",
             image: "/assets/crm5.png",
           },
         ].map((service, index) => (

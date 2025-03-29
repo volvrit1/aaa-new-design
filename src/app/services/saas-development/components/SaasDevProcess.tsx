@@ -17,17 +17,16 @@ export default function SaasDevProcess() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl font-semibold xl:text-3xl text-[#EE3639]  mb-4 `}
         >
-          {"  Our SaaS Development Process: "}
           <span className="text-gray-800">
             {" "}
-            From Vision to Scalable Success
+            From Concept to Launch: A Smooth SaaS Development Process
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. "
+            "Our SaaS development methodology entails every phase with care and expertise. Beginning with discovery and planning, proceeding through design, development, and testing, we deliver quality solutions to your business needs and expectations."
           }
         </p>
       </div>
@@ -37,31 +36,33 @@ export default function SaasDevProcess() {
             title: "Discovery & Planning",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions.",
+              "We deeply evaluate your business needs, user requirements, and market dynamics to craft a customized SaaS solution strategy.",
             image: "/assets/ai/discover.png",
           },
           {
             title: "Design & Prototyping",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Our designers are keen on developing user-centric, aesthetically pleasing prototypes that actualize your SaaS vision.",
             image: "/assets/ai/design.png",
           },
           {
             title: "Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "We utilize innovative technologies to create a scalable, secure, and stable SaaS application that accomplishes your business objectives.",
             image: "/assets/ai/proof1.png",
           },
           {
             title: "Testing & Assurance",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Rigorous testing and quality assurance processes ensure that your application is bug-free, secure, and performs optimally before launch.",
             image: "/assets/ai/proof2.png",
           },
         ].map((service, index) => (
           <div
             key={index}
-            className={`w-full font-[poppins] lg:p-6 flex flex-col justify-between items-start ${index>0 && "lg:border-l-2 border-[#EE3639]"}`}
+            className={`w-full font-[poppins] lg:p-6 flex flex-col justify-between items-start ${
+              index > 0 && "lg:border-l-2 border-[#EE3639]"
+            }`}
           >
             <p className="w-14 h-14 font-medium text-black text-2xl flex justify-center items-center mb-2 text-center rounded-full border border-black">
               {"0"}

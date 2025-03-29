@@ -22,18 +22,16 @@ export default function UiUxDevProcess() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-900"> Our Proven</span>
-          {" UI/UX Design Process "}
           <span className="text-gray-900">
             {" "}
-            for Seamless and Engaging Experiences
+            User Friendly UI/UX Development from Concept to Completion
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "Our UI/UX design process is comprehensive and aimed at providing an effortless user experience. We adhere to a structured process to guarantee that each design decision supports your business objectives and user requirement"
           }
         </p>
       </div>

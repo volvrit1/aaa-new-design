@@ -16,12 +16,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Revolutionary  "
-        title1=" AI Development Solutions "
-        title2=" to Drive Innovation & Growth"
+        title=" "
+        title1=" "
+        title2="The Future of Innovation: Customised AI Solutions for Your Business Growth"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We bring advanced AI technologies to life, empowering businesses to unlock smarter, more efficient solutions. Our vision is to harness the power of AI to drive growth and transformation across all industries."
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

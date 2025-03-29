@@ -235,7 +235,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-span-2">
+          <div className="lg:col-span-2">
             <h3 className="mb-3 text-lg uppercase font-semibold hidden lg:block">Services</h3>
             <Accordion
               sidebar={true}

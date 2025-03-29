@@ -15,17 +15,17 @@ export default function BlockChainTech() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
-          {" Core Technologies "}
+          
           <span className="text-gray-800">
             {" "}
-            Powering Our Blockchain Development
+            Utilizing Advanced Blockchain Technologies for Innovative Solutions
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We utilize top-of-the-line blockchain technologies like Ethereum, Hyperledger, Solana, and Polkadot to build strong, scalable, and secure solutions. Our development methodology involves the use of AI, machine learning, and smart contract capabilities to make your blockchain solution efficient, reliable, and future-proof."
           }
         </p>
       </div>

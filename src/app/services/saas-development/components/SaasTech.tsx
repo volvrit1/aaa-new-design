@@ -17,16 +17,14 @@ export default function SaasTech() {
         >
           <span className="text-gray-800">
             {" "}
-            Cutting-Edge Our Innovative Solutions
+            Advanced Technologies for Cutting-Edge SaaS Solutions
           </span>
-          {" Technologies Powering "}
-          <span className="text-gray-800"> Our Innovative Solutions</span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We utilize a wide range of technologies to build innovative, scalable, and secure SaaS solutions. From cloud environments like AWS and Azure to microservices, AI, and machine learning, our development process harnesses the newest technologies to make your solution efficient, reliable, and future-proof. We focus on performance, security, and user-friendly experiences to offer you an out-of-the-box experience."
           }
         </p>
       </div>

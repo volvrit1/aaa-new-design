@@ -17,17 +17,16 @@ export default function BlockChainDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Comprehensive </span>
-          {"  Blockchain Development Services "}
+          
           <span className="text-gray-800">
-            for Secure and Decentralized Solutions
+          Innovative Blockchain Solutions with Precision and Expertise
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We combine blockchain technology, design, and business strategy together to develop disruptive solutions. Our experts design customised blockchain platforms that fit your business goals perfectly, providing scalability, efficiency, and competitive edge in the market."
           }
         </p>
       </div>
@@ -37,37 +36,37 @@ export default function BlockChainDevSolutions() {
             title: "Blockchain Consulting",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our blockchain consulting solutions lead companies through the intricacies of blockchain technology. We offer customized guidance on how to implement decentralized systems most effectively, with greater transparency, security, and operational efficiency. Let our experts guide you through the world of blockchain and make informed choices",
             image: "/assets/appdev/android.png",
           },
           {
             title: "Custom Blockchain",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We create custom blockchain solutions that suit your specific business needs. Whether it is private blockchain networks or public and hybrid models, we make your system secure, scalable, and efficient, making your business processes efficient and driving long-term growth.",
             image: "/assets/appdev/ios.png",
           },
           {
             title: "Smart Contract Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Smart contracts are the core of modern decentralized applications. We create secure, automated, and self-executing contracts that reduce operational risks, increase efficiency, and remove middlemen, allowing for seamless transactions and operations.",
             image: "/assets/appdev/native.png",
           },
           {
             title: "Decentralized Application (dApp) Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We specialize in creating decentralized applications (dApps) that run on blockchain platforms. Harness the power of decentralized systems to create dApps with improved security, transparency, and scalability, and let your business thrive in a blockchain economy.",
             image: "/assets/appdev/flutter.png",
           },
           {
             title: "NFT Platform Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our NFT platform development services enable businesses to become a part of the world of digital assets. Whether you are creating a marketplace or minting rare collectibles, our secure and scalable solutions enable you to open up the growing world of NFTs, offering your customers a great experience.",
             image: "/assets/appdev/desktop.png",
           },
           {
             title: "Cryptocurrency Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We offer cryptocurrency development services, helping organizations create their own digital currency and blockchain solutions. Our services include coin development, wallet integration, and blockchain architecture, with a secure and scalable system of cryptocurrency that meets your organization's requirements.",
             image: "/assets/appdev/web.png",
           },
         ].map((service, index) => (

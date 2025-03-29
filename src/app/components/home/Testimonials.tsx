@@ -10,6 +10,15 @@ import "swiper/css/effect-fade";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Testimonials() {
+  const videoRef = React.useRef<any>(null); // Using ref to control video playback
+
+  const handlePlayPause = () => {
+    if (videoRef?.current?.paused) {
+      videoRef?.current.play();
+    } else {
+      videoRef?.current.pause();
+    }
+  };
   const testimonials = [
     {
       name: "John D.",
@@ -99,19 +108,22 @@ export default function Testimonials() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-4 lg:gap-6">
-        <div className="relative rounded-t-2xl overflow-hidden">
-          {" "}
-          <Image
-            src={"/assets/testiboy.png"}
+        <div className="relative rounded-t-2xl overflow-hidden lg:h-64">
+          <video
+            ref={videoRef}
+            src={"/assets/testimonial.mp4"}
             width={500}
             height={500}
-            alt="image"
-            unoptimized
-            priority
-            className="object-contain"
+            className="object-cover "
+            controls
+            autoPlay
+            loop // Optional: you can loop the video if needed
           />
-          <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4 ">
-            <div className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50">
+          <div className="absolute bottom-2 w-full left-1 flex justify-start items-center gap-4">
+            <div
+              className="rounded-full p-1 h-12 w-12 flex justify-center items-center bg-gray-50 cursor-pointer"
+              onClick={handlePlayPause} // Toggle play/pause when clicked
+            >
               <IoIosPlay width={35} height={35} className="text-4xl" />
             </div>
             <span className="font-[poppins] tracking-widest text-2xl text-gray-50">
@@ -119,7 +131,7 @@ export default function Testimonials() {
             </span>
           </div>
         </div>
-        <div className="rounded-t-2xl relative overflow-hidden">
+        <div className="rounded-t-2xl relative overflow-hidden hidden lg:block">
           {" "}
           <Image
             src={"/assets/testigirl.png"}

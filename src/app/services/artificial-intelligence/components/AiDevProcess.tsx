@@ -20,14 +20,14 @@ export default function AiDevProcess() {
           {"  Our AI Development Process: "}
           <span className="text-gray-800">
             {" "}
-            Transforming Ideas into Intelligent Solutions
+            From Concept to Completion: A Smooth AI Development Journey
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. "
+            "We adhere to a careful, results-oriented process to take your AI project from first discovery through successful delivery, with efficiency, innovation, and alignment with your business objectives."
           }
         </p>
       </div>
@@ -37,25 +37,25 @@ export default function AiDevProcess() {
             title: "Discover",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "We start with getting to know your business problems and determining areas of opportunity where AI can bring value.",
             image: "/assets/ai/discover.png",
           },
           {
             title: "Design",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "We create a custom solution, outlining how AI is going to be incorporated within your business processes to achieve maximum impact.",
             image: "/assets/ai/design.png",
           },
           {
             title: "Proof Of Concept",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "A proof of concept is created to confirm the feasibility and effectiveness of the AI solution, ensuring that it will serve your purposes.",
             image: "/assets/ai/proof1.png",
           },
           {
             title: "Proof Of Concept",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "We execute the solution once established, integrating it into your processes smoothly and generating measurable outcomes.",
             image: "/assets/ai/proof2.png",
           }
         ].map((service, index) => (

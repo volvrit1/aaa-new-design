@@ -16,15 +16,15 @@ export default function JoinUs() {
           className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 lg:w-4/5 m-auto`}
         >
           {
-            "We are fond of creativity & dedication and are always open to add an extra pinch of savviness to our team. If you wish to be a part of our Above All Agency Squad, Check-out available positions on our job board or Contact Us at "
+            "Join our family and become a part of a team where innovation, growth, and success come together. We value talent, creativity, and dedication. Start your journey with us today!"
           }
           <br />
-          <Link
-            href={"mailto:hr@allaboveagency.com"}
-            className="text-[#EE3639]"
-          >
-            hr@allaboveagency.com.au
-          </Link>
+            {/* <Link
+              href={"mailto:hr@allaboveagency.com"}
+              className="text-[#EE3639]"
+            >
+              hr@allaboveagency.com.au
+            </Link> */}
         </p>
       </div>
     </div>

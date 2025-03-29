@@ -17,19 +17,14 @@ export default function ApiProcess() {
             className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
           >
             <span className="text-gray-900">
-              Our Seamless for Enhanced Connectivity and Performance{" "}
-            </span>
-            {"  API Integration Process "}
-            <span className="text-gray-900">
-              {" "}
-              for Enhanced Connectivity and Performance{" "}
+              Customised API Solutions for Your Unique Business Needs
             </span>
           </h2>
           <p
             className={`text-gray-900 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
           >
             {
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+              "Our API development process ensures seamless integration from start to finish. We work with you to understand your requirements and provide customized, high-performance APIs that integrate smoothly with your  systems, streamlining your business processe "
             }
           </p>
         </div>
@@ -38,22 +33,22 @@ export default function ApiProcess() {
             {
               title: "Design",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+                "We begin by getting to know your business needs and creating an API architecture that meets your objectives. Our design is built on scalability, performance, and user experience, making your API functional and efficient.",
             },
             {
               title: "Development",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+                "Our development team creates scalable and secure APIs with the latest technology. We make your API scalable, maintainable, and integrated with third-party platforms in a seamless manner, creating value for your business.",
             },
             {
               title: "Testing",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+                "We conduct comprehensive testing to get your API completely bug-free, secure, and run at their best. In our testing cycle, we cover load testing, security scanning, and functional testing to ensure perfect integration and good performance.",
             },
             {
               title: "Launch",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+                "Once you've been tested, we prepare your API to be launched. Our professionals integrate the deployment to ensure the integration works flawlessly in your live environment. Our post-launch assistance guarantees smooth performance and quick solutions to any occurrence of issues.",
             },
           ].map((service, index) => (
             <div

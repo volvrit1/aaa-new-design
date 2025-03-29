@@ -17,17 +17,15 @@ export default function MarketingDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Comprehensive </span>
-          {"  SaaS Development "}
           <span className="text-gray-800">
-            Services for Scalable and Secure Solutions
+          Your Creative Digital Marketing Partner: Elevating Brands to New Heights
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "Our crew combines imagination with innovative strategies to revolutionize your online marketing. We offer customized services that reflect your brand's tone, resonate with your audience, and bring measurable results. Together, we will break barriers and open new doors for your company."
           }
         </p>
       </div>
@@ -37,37 +35,37 @@ export default function MarketingDevSolutions() {
             title: "Search Engine Optimization (SEO)",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "SEO isn't just keywords; it's search engine-optimized everything about your website. Our SEO team keeps your website ahead of the search engine listings with more natural traffic and driving growth for your company through precise content, higher exposure, and better user satisfaction.",
             image: "/assets/ai/ml.png",
           },
           {
             title: "Social Media Marketing",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Social media is the hearbeat of online connection. Our social media marketing efforts build genuine relationships with your audience. We develop engaging content and specific campaigns that drive engagement, strengthen brand loyalty, and generate traffic to your website.",
             image: "/assets/ai/nl.png",
           },
           {
             title: "Search Engine Marketing",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Get seen faster with SEM. Our paid search strategies bring traffic immediately and boost conversions. Targeting the most appropriate keywords and setting up your bids, we ensure that your adverts are seen by the most suitable audience at the right time, creating measurable results for your business.",
             image: "/assets/ai/bi.png",
           },
           {
             title: "Email Marketing",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Email marketing is one of the powerful tools of direct contact. We design special, customized campaigns for lead nurturing, sales drive, and keeping people in the loop. Using right messages, delivered at the appropriate time, we convert the subscriber into the dedicated customer.",
             image: "/assets/ai/gi.png",
           },
           {
             title: "Content Marketing",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Quality content is the starting point for any effective digital strategy. Our content marketing strategy is centered around providing valuable, relevant content that attracts, informs, and engages your audience. By using blogs, videos, and infographics, we establish your brand's authority and improve SEO.",
             image: "/assets/ai/ca.png",
           },
           {
             title: "Paid Advertising (PPC)",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Paid advertising is a fast method of lead generation, but it needs to be accurate. Our PPC campaigns reach the correct audience at the right moment, maximizing your marketing dollars and ensuring each click translates to quantifiable business growth.",
             image: "/assets/ai/ai.png",
           },
         ].map((service, index) => (

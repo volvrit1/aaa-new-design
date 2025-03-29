@@ -17,12 +17,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Crafting Engaging and "
-        title1="  User-Centric UX/UI Designs "
-        title2="  for Exceptional Digital Experiences"
+        title=""
+        title1=""
+        title2="UI/UX Design: Crafting Exceptional User Experiences"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="Our UI/UX design services are focused on creating intuitive, visually stunning, and user-oriented designs that win. By blending creativity and strategic thinking, we craft seamless experiences that leave lasting impressions on users. Let us help you drive customer satisfaction and boost your online presence through designs that are as lovely as they are effective."
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

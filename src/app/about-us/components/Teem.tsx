@@ -15,7 +15,7 @@ export default function Team() {
           className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "Above All Agency is led by an exceptional team of Industry Veterans who have come with proven experience, expert-level approach to serving the world- Modern Technology Solution."
+            "Meet the talented team behind our success. Each member brings their unique skills and passion, working together to provide the best solutions for your business needs"
           }
         </p>
       </div>
@@ -51,11 +51,11 @@ export default function Team() {
             <div className="w-full px-4 flex justify-between items-center gap-4">
               <div>
                 <h2 className="text-[#EE3639]">{data?.name}</h2>
-                <h3>{data?.position}</h3>
+                <h3 className="text-gray-600">{data?.position}</h3>
               </div>
-              <div className="flex justify-center items-center gap-4">
+              <div className="flex justify-center items-center gap-4 text-gray-600">
                 {" "}
-                <span className="rounded-full p-2 border">
+                <span className="rounded-full p-2 border ">
                   <IoMail width={16} height={16} />{" "}
                 </span>
                 <span className="rounded-full p-2 border">

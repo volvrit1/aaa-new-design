@@ -17,17 +17,16 @@ export default function UiUxDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Comprehensive </span>
-          {"  UX/UI Design Services "}
+          
           <span className="text-gray-800">
-            to Elevate User Experience and Engagement
+          Transforming Innovative Ideas into Stunning, User-Centric Designs That Drive Results
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We are UI/UX designers specializing in designs that strike both form and function. Concept to implementation, we work with companies to craft bespoke design solutions that speak to people. Our designs are not only visually arresting but also easy to use and navigate through, ultimately helping your business thrive."
           }
         </p>
       </div>
@@ -37,37 +36,37 @@ export default function UiUxDevSolutions() {
             title: "UX/UI Design Services",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our UI/UX design consulting offers professional guidance on enhancing user experiences. We review your current products, determine areas of pain, and provide strategic recommendations on optimizing interfaces to satisfy user requirements and business objectives, making your designs functional and interactive.",
             image: "/assets/UI/ui1.png",
           },
           {
             title: "UI/UX Design Consulting",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We turn your vision into reality through our wireframing & prototyping services. Through the creation of low-fidelity wireframes and interactive prototypes, we facilitate visualization of your digital product prior to development. This enables us to test user flows, gather feedback, and optimize designs to ensure they fulfill user expectations and offer a smooth experience.",
             image: "/assets/UI/ui2.png",
           },
           {
             title: "Wireframing & Prototyping",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our web app UX/UI design is aimed at developing responsive, intuitive, and user-centric web applications. Through an emphasis on user journeys, we craft seamless interactions that enhance usability so that your web app works seamlessly across various devices and browsers.",
             image: "/assets/UI/ui3.png",
           },
           {
             title: "Web App UX/UI Design",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We specialize in creating mobile app UX/UI that provides a smooth, engaging user experience. Whether iOS or Android, we design intuitive mobiles that are simple to use, enabling users to accomplish tasks easily and have a seamless app experience.",
             image: "/assets/UI/ui4.png",
           },
           {
             title: "Mobile App UX/UI Design",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our web design services are customized to build visually appealing and interactive websites. We emphasize user-friendly interfaces, providing an unproblematic experience on all devices. If you need an eCommerce website, a business site, or a portfolio, we build designs that make you shine and attract visitors.",
             image: "/assets/UI/ui5.png",
           },
           {
             title: "Responsive Design",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "With responsive design, we make sure that your website responds to any screen size, be it desktops or mobile phones. Optimizing layouts, content, and navigation, we make sure that your site delivers a consistent and enjoyable experience for users regardless of how they view it.",
             image: "/assets/UI/ui6.png",
           },
         ].map((service, index) => (

@@ -15,12 +15,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Cutting-Edge "
-        title1=" Web Development Solutions "
-        title2="to Elevate Your Digital Presence"
+        title=""
+        title1=""
+        title2="Shaping Your Digital Future – Innovative Websites That Drive Success"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We are experts in building innovative, high-performance websites that drive business growth. With a user-centric approach with smooth functionality, we design digital solutions that make a difference"
         link={"tel:0411 537 183"}
       />
       <div className="bg-white">

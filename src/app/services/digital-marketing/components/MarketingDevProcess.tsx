@@ -17,15 +17,14 @@ export default function MarketingDevProcess() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800"> Our Strategic</span>
-          {"  Digital Marketing Process "}
-          <span className="text-gray-800"> for Maximum Reach and Impact</span>
+          
+          <span className="text-gray-800"> Our Process: Strategic, Customised, and Results-Driven Digital Marketing</span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We have a tested, transparent process to ensure your digital marketing campaigns are effective and impactful. From strategy to implementation, we ensure each step is aligned with your business objectives to achieve long-term success."
           }
         </p>
       </div>
@@ -35,25 +34,25 @@ export default function MarketingDevProcess() {
             title: "Requirement Understanding",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions.",
+              "We begin by learning about your business, target audience, and objectives. This comprehensive analysis allows us to develop a customized strategy that is in line with your vision and delivers maximum results.",
             image: "/assets/ai/discover.png",
           },
           {
             title: "Design & Prototyping",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Knowing your needs, we create a custom marketing strategy, combining the right tactics and channels to suit your needs and reach your goals and audience.",
             image: "/assets/ai/design.png",
           },
           {
             title: "Execution",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. ",
+              "Having the strategy created, we execute your marketing campaigns on online platforms. We have a streamlined process, keeping everything in sync to succeed.",
             image: "/assets/ai/proof1.png",
           },
           {
             title: "Reporting",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions.",
+              "We provide you with short, actionable reports to measure the performance of each campaign. Through these results, we can adjust our strategies and improve constantly so we can hit and exceed your business goals.",
             image: "/assets/ai/proof2.png",
           },
         ].map((service, index) => (

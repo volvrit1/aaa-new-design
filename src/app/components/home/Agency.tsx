@@ -14,7 +14,7 @@ export default function Agency() {
               alt="image"
               unoptimized
               priority
-              src={`/assets/award${index + 1}.png`}
+              src={`/assets/aaa${index + 1}.png`}
               className="w-full object-fill rounded-xl"
             />
           </div>
@@ -33,7 +33,7 @@ export default function Agency() {
         >
           {" We Are the Pioneers "}
           <span className="text-gray-800">
-            in Web & Mobile App Development in Sydney
+            in Web & Mobile App Development in Australia
           </span>
         </h2>
         <p
@@ -67,7 +67,7 @@ export default function Agency() {
               className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}
             >
               {
-                "We combine creative minds with the latest technology to bring future-ready solutions. From designing engaging digital experiences to leveraging the newest technological breakthroughs to build fluid apps, our goal is to help businesses thrive in the rapidly evolving digital age of Sydney."
+                "We combine creative minds with the latest technology to bring future-ready solutions. From designing engaging digital experiences to leveraging the newest technological breakthroughs to build fluid apps, our goal is to help businesses thrive in the rapidly evolving digital age of Austarlia."
               }
             </p>
             <Link

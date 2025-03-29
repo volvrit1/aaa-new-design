@@ -17,12 +17,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Boost Your Brand's Online Presence with Data-Driven "
-        title1=" Digital Marketing Solutions "
-        title2=" "
+        title=" "
+        title1=" "
+        title2=" Digital Marketing: Boost Your Online Presence with Expert Strategies"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="In today's fast-moving digital age, you need more than a website to stand out. Our digital marketing services are engineered to make you visible, connect with your audience, and convert. From SEO to social media, we develop tailored campaigns that drive results and make your brand successful online."
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

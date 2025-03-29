@@ -18,12 +18,12 @@ export default function Home() {
   return (
     <div>
       <HeroSection
-        title="Your "
-        title1="IT Partner for"
-        title2=" Web Development, Mobile Apps, SaaS, ERP & LMS Solutions in Sydney"
+        title=""
+        title1=""
+        title2="Your IT Partner for Web Development, Mobile Apps, SaaS, ERP & LMS Solutions in Australia"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="we specialize in providing customized IT solutions that drive business growth and transform the digital experience. It is either web development or mobile application development, SaaS, ERP, or LMS platforms that we provide full solutions that empower Sydney-based companies to cope with the speed of technological growth of today"
+        description="We specialize in providing customised IT solutions that drive business growth and transform the digital experience. It is either web development or mobile application development, SaaS, ERP, or LMS platforms that we provide full solutions that empower Australia based companies to cope with the speed of technological growth of today"
         link={"tel:0411 537 183"}
       />
       <div className="bg-white">

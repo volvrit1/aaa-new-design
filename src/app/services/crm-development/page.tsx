@@ -17,12 +17,12 @@ export default function page() {
   return (
     <div>
       <HeroSection
-        title="Transform Your Business with Powerful and Customizable   "
-        title1=" CRM Development Solutions "
-        title2=""
+        title=" "
+        title1="  "
+        title2="Empowering Businesses with Custom CRM Solutions for Better Customer Relationships"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We are experts in  developing custom CRM solutions that revolutionize the process of managing customer relationships for businesses. Our secure, innovative, and scalable CRM systems are engineered to maximize customer interaction, simplify operations, and fuel sustainable business expansion. From easy integration to intuitive interfaces, we enable you to thrive in a rapidly customer-oriented world."
         link={"tel:0411 537 183"}
         breadcrumb={breadcrumbPaths}
       />

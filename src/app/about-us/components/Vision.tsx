@@ -9,19 +9,19 @@ export default function Vision() {
           <h2
             className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
           >
-            <span className="text-gray-800">Our Vision</span>{" "}
+            <span className="text-gray-800">Our Vision: Shaping the Future</span>{" "}
           </h2>
           <p
             className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}
           >
             {
-              "Our Vision is to create innovative technology solutions that simplify and improve the daily lives of individuals and businesses. At MobileCoderz, we strive to be a leader in Application Development and we constantly push the boundaries of what is possible with software development. We value diversity, inclusivity, and sustainability in our operations and culture. We aim to provide excellent customer service and build long-lasting relationships with our clients."
+              "We are believers in technology that makes life better and business stronger. Our mission is to keep innovating and providing solutions that make things simpler, add value, and create lasting differences. We are leaders in application development and challenge what is possible to make the world smarter, more connected, and more sustainable"
             }
           </p>
           <h2
             className={` m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
           >
-            <span className="text-gray-800">Our Mission</span>{" "}
+            <span className="text-gray-800">Our Mission: Transforming Ideas Into Reality</span>{" "}
           </h2>
           <p
             className={`text-gray-500 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4 mb-6 m-auto`}

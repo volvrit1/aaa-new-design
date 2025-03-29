@@ -17,18 +17,16 @@ export default function BlockChainDevProcess() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-900"> Comprehensive</span>
-          {"  Blockchain Development Services "}
           <span className="text-gray-900">
             {" "}
-            for Secure and Decentralized Solutions
+            Streamlined Blockchain Development: From Concept to Launch
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "Our blockchain development process is designed to deliver high-quality, scalable, and secure solutions. We handle every phase with precision, from the initial concept to full deployment, ensuring that your blockchain project meets your business needs and exceeds expectations."
           }
         </p>
       </div>
@@ -36,28 +34,28 @@ export default function BlockChainDevProcess() {
         <span className="w-9/12 h-1 bg-[#242424] rounded-full absolute left-1/2 -translate-x-1/2 "></span>
         {[
           {
-            title: "Defining",
+            title: "Execution",
 
             description:
-              "We are a leading web and mobile app development .",
+              "Defining: Identifying goals, requirements, and project scope for clarity.",
             image: "/assets/bdpro1.png",
           },
           {
             title: "Designing",
             description:
-              "We are a leading web and mobile app development .",
+              "Designing: Crafting wireframes, blueprints, and user-friendly interfaces.",
             image: "/assets/bdpro2.png",
           },
           {
             title: "Development",
             description:
-              "We are a leading web and mobile app development .",
+              "Development: Coding, integrating features, and ensuring functionality.",
             image: "/assets/bdpro3.png",
           },
           {
             title: "Defining",
             description:
-              "We are a leading web and mobile app development .",
+              "Execution: Implementing, testing, and launching with precision.",
             image: "/assets/bdpro4.png",
           },
         ].map((service, index) => (

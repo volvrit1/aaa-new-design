@@ -26,7 +26,7 @@ export default function WhyChoose() {
           className={`text-gray-800 text-sm sm:text-lg line-clamp-3 md:line-clamp-none mt-4`}
         >
           {
-            "Our dedication to excellence and innovation has established us as one of Sydney's top IT companies. We recognize that each business is different, so we provide customized solutions that are tailored to your unique requirements, keeping you ahead in the digital era."
+            "Our dedication to excellence and innovation has established us as one of Austarlia’s  top IT companies. We recognize that each business is different, so we provide customized solutions that are tailored to your unique requirements, keeping you ahead in the digital era."
           }
         </p>
       </div>

@@ -16,8 +16,8 @@ export default function StreamlineProcess() {
           <h2
             className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
           >
-            <span className="text-gray-50">Turning Your Vision into a </span>
-            {"  High-Performing Website "}
+            <span className="text-gray-50">Turning Your Vision into a High-Performing Website</span>
+            
           </h2>
           <p
             className={`text-gray-50 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
@@ -32,22 +32,22 @@ export default function StreamlineProcess() {
             {
               title: "Requirement Gathering",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative",
+                "We gather all of the required information, including your goals, market, and brand personality, to create a sound basis for a successful website project.",
             },
             {
               title: "Wireframe and Design",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative",
+                "We create wireframes and prototypes that are representative of your brand and user needs, with a visually pleasing and functional structure.",
             },
             {
               title: "Development and Integration",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovative",
+                "Our development team converts designs into fully functional websites, incorporating the latest technologies and third-party tools to improve performance",
             },
             {
               title: "Testing and Launch",
               description:
-                "We are a leading web and mobile app development company dedicated to turning your ideas into innovativ",
+                "We test all aspects of the website for functionality, usability, and security before it goes live, so everything runs perfectly.",
             },
           ].map((service, index) => (
             <div

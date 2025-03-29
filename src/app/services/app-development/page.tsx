@@ -18,7 +18,7 @@ export default function page() {
         title2=" to Transform Your Business"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="We specialize in developing customized mobile apps that drive growth and user engagement. With advanced technology and an in-depth knowledge of your business, we deliver unique app solutions that revolutionize user experiences and strengthen your brand."
         link={"tel:0411 537 183"}
       />
       <div className="bg-white">

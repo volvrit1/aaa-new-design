@@ -15,12 +15,12 @@ export default function page() {
     <div>
       {" "}
       <HeroSection
-        title="Robust and Scalable  "
-        title1=" API Development "
-        title2=" for Seamless System Integration"
+        title=""
+        title1="  "
+        title2="Build Smooth Integration's for Scalable Business Solutions"
         colorTitle1="#EE3639"
         colorTitle2="#"
-        description="A Next-Gen Firm Revolutionizing the Digital Landscape with Seamless, Result-Driven, and Cost-Effective Services and Solutions. We specialize in transforming businesses using cutting-edge technologies, providing tailor-made solutions that meet your unique needs. "
+        description="Our API development solutions build robust, scalable integrations that link your applications, automate workflows, and optimize user experiences. From bespoke APIs to third-party integrations, we craft solutions that enhance efficiency and fuel growth for your business."
         link={"tel:0411 537 183"}
       />
       <div className="bg-white">

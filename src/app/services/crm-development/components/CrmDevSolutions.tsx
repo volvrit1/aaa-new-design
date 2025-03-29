@@ -14,18 +14,17 @@ export default function CrmDevSolutions() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold text-[#EE3639]  mb-4 `}
         >
-          <span className="text-gray-800">Comprehensive </span>
-          {"  CRM Development Services "}
+          
           <span className="text-gray-800">
             {" "}
-            to Streamline Your Business Operations
+            Innovative CRM Development with Precision and Expertise
           </span>
         </h2>
         <p
           className={`text-gray-800 text-sm sm:text-base line-clamp-3 md:line-clamp-none  mt-4`}
         >
           {
-            "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices."
+            "We combine advance technology with design, and business strategy to create CRM solutions that are as unique as your business. Our professionals work hand-in-hand with you to craft CRM systems that are custom-tailored to meet your business goals, enhance customer relationships, increase efficiency, and offer a competitive advantage in the market."
           }
         </p>
       </div>
@@ -35,37 +34,37 @@ export default function CrmDevSolutions() {
             title: "CRM Consulting Services",
 
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our CRM consulting solutions assist businesses in making effective decisions when implementing or maximizing CRM solutions. From system selection to strategic guidance, we guarantee your CRM solution enhances customer relationships, streamlines business processes, and provides quantifiable outcomes.",
             image: "/assets/ai/ml.png",
           },
           {
             title: "Custom CRM Software Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "We are experts in creating custom CRM software that exactly meets your business requirements. Our solutions ensure automation of processes, better communication, and actionable insights for making informed decisions. Whether you're interested in cloud-based or on-premise deployments, we build a CRM that grows with your business.",
             image: "/assets/ai/nl.png",
           },
           {
             title: "CRM Mobile App Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Remain in touch with your customers anywhere, anytime. We offer CRM mobile app development services that enable companies to maintain customer relationships on the move. With emphasis on functionality and usability, our mobile solutions ensure that your CRM system is easy to use and effective from any device.",
             image: "/assets/ai/bi.png",
           },
           {
             title: "Cloud-Based CRM Development",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Maximize flexibility and scalability with our cloud-based CRM development. Leveraging the power of the cloud, we deliver secure, reliable, and scalable CRM solutions that allow businesses to see customer information in real-time, work seamlessly, and grow easily as your business grows.",
             image: "/assets/ai/gi.png",
           },
           {
             title: "CRM Implementation Service",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Implementation of a new CRM system can be a challenging task, but our CRM implementation services ensure smooth transition. We ensure step-by-step assistance and guidance to make sure that your CRM system is smoothly integrated with your existing processes and maximizes operating efficiency.",
             image: "/assets/ai/ca.png",
           },
           {
             title: "CRM Integration Service",
             description:
-              "We are a leading web and mobile app development company dedicated to turning your ideas into innovative, high-performing digital solutions. Our team of expert developers, designers, and strategists specialize in creating custom apps tailored to your business needs, ensuring seamless user experiences across all devices.",
+              "Our CRM integration solutions ensure your CRM system functions in flawless integration with your business applications such as marketing automation tools, sales suites, and customer service solutions. We ensure that your CRM system is integrated to multiple systems so that the stream of data can be optimized to the maximum while enhancing business functionality",
             image: "/assets/ai/ai.png",
           },
         ].map((service, index) => (
