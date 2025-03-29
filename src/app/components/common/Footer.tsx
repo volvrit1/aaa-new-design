@@ -214,7 +214,7 @@ export default function Footer() {
   return (
     <footer className="text-gray-50 font-[poppins] bg-[#242424] py-10 px-4 lg:px-10">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-7 lg:gap-10 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-7 lg:gap-10 mx-auto">
           <div className="w-full lg:col-span-2">
             <div className="mb-4">
               <Image
@@ -235,11 +235,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <Accordion
-            sidebar={true}
-            diffColor={true}
-            services={servicesNew}
-          />
+          <div className="col-span-2">
+            <h3 className="mb-3 text-lg uppercase font-semibold hidden lg:block">Services</h3>
+            <Accordion
+              sidebar={true}
+              diffColor={true}
+              services={servicesNew}
+            />
+          </div>
 
           <div>
             <h3 className="mb-5 text-lg uppercase font-semibold">Company</h3>
@@ -296,6 +299,8 @@ export default function Footer() {
                 </strong>{" "}
                 U19/10 Gladstone Rd, castle Hill NSW 2154
               </p>
+              <p className="uppercase pt-5 font-bold">Above All Agency PVT LTD</p>
+              <p className="text-sm">Australian Company Number <Link href={"tel:681469536"} className="hover:underline">681 469 536</Link></p>
             </div>
           </div>
         </div>

@@ -22,10 +22,10 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
     <div className="overflow-hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full text-left py-3 border-b border-white/20"
+        className="w-full text-left py-3 lg:py-0 border-b border-white/20 lg:border-none"
       >
-        <div className="flex justify-between items-center">
-          <h2 className="text-lg font-medium">{title}</h2>
+        <div className="flex justify-between items-center lg:text-white/70 hover:text-gray-500">
+          <h2 className="text-lg lg:text-sm font-medium lg:font-none">{title}</h2>
           <p className="text-lg font-medium">
             {isOpen ? (
               <RiArrowDropUpLine size={35} />
@@ -41,7 +41,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       >
         <div className={`py-2 ${diffColor ? "" : "bg-gray-900"} space-y-3 mt-2`}>
           {content.map((link: any) => (
-            <li key={link.href} className="text-[15px] pl-4 list-disc">
+            <li key={link.href} className="text-[15px] lg:text-xs pl-4 lg:pl-2 list-disc">
               <Link
                 aria-label={link.label}
                 className="hover:underline"
