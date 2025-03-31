@@ -9,6 +9,7 @@ import {
   IoLocationOutline,
 } from "react-icons/io5";
 import Accordion from "./FooterAccordion";
+import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 
 export default function Footer() {
   const services = [
@@ -236,12 +237,10 @@ export default function Footer() {
           </div>
 
           <div className="lg:col-span-2">
-            <h3 className="mb-3 text-lg uppercase font-semibold hidden lg:block">Services</h3>
-            <Accordion
-              sidebar={true}
-              diffColor={true}
-              services={servicesNew}
-            />
+            <h3 className="mb-3 text-lg uppercase font-semibold hidden lg:block">
+              Services
+            </h3>
+            <Accordion sidebar={true} diffColor={true} services={servicesNew} />
           </div>
 
           <div>
@@ -293,26 +292,54 @@ export default function Footer() {
                 </strong>{" "}
                 0411 537 183{" "}
               </Link>
-              <p className="text-sm mb-2 flex items-center">
+              <p className="text-sm flex items-center mb-4">
                 <strong>
                   <IoLocationOutline className="text-xl mr-2" />
                 </strong>{" "}
                 U19/10 Gladstone Rd, castle Hill NSW 2154
               </p>
-              <p className="uppercase pt-5 font-bold">Above All Agency PTY LTD</p>
-              <p className="text-sm">Australian Company Number <Link href={"tel:681469536"} className="hover:underline">681 469 536</Link></p>
+              <p className="flex items-center gap-4 pl-6">
+                <Link
+                  href={
+                    "https://www.facebook.com/profile.php?id=61567180822428"
+                  }
+                  title="facebook"
+                >
+                  <FaFacebook className="text-2xl text-blue-600" />
+                </Link>
+                <Link href={"https://www.instagram.com/aboveallagency"} title="instagram">
+                  <FaInstagramSquare className="text-2xl text-pink-500" />
+                </Link>
+              </p>
+              <p className="uppercase pt-5 font-bold">
+                Above All Agency PVT LTD
+              </p>
+              <p className="text-sm">
+                Australian Company Number{" "}
+                <Link href={"tel:681469536"} className="hover:underline">
+                  681 469 536
+                </Link>
+              </p>
             </div>
           </div>
         </div>
         <hr className="my-8 border-gray-200" />
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <div className="text-white/80">© {new Date().getFullYear()} Above All Agency. All rights reserved.</div>
+          <div className="text-white/80">
+            © {new Date().getFullYear()} Above All Agency. All rights reserved.
+          </div>
           <div className="flex space-x-4 text-base mt-2 md:mt-0">
-            <Link href="/terms-and-conditions" className="text-[#EE3639] hover:underline">
+            <Link
+              href="/terms-and-conditions"
+              className="text-[#EE3639] hover:underline"
+            >
               Terms & Conditions
             </Link>
             <span className="hidden md:block">|</span>
-            <Link href="/privacy-policy" className="text-[#EE3639] hover:underline">
+            <Link
+              href="/privacy-policy"
+              className="text-[#EE3639] hover:underline"
+            >
               Privacy Policy
             </Link>
           </div>

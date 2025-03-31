@@ -74,12 +74,6 @@ export default function WhyChoose() {
             <p className="font-[poppins] tracking-widest text-gray-700  font-light text-sm/5  w-full mx-auto text-left mb-12">
               {service?.description}
             </p>
-            <Link
-              href={service?.link}
-              className="w-full border border-black hover:border-[#EE3639] p-2 text-gray-800 text-center hover:text-gray-50 hover:bg-[#EE3639] transition-colors"
-            >
-              View Service
-            </Link>
           </div>
         ))}
       </div>

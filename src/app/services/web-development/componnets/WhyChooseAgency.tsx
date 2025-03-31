@@ -16,7 +16,7 @@ export default function WhyChooseAgency() {
         <h2
           className={`lg:w-5/6 m-auto text-xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-[#EE3639] mb-4 `}
         >
-          <span className="text-gray-800"> Why Choose Us As Your  </span>
+          <span className="text-gray-800">Why Choose Us As Your</span>
           {" Web Development Agency "}
         </h2>
         <p
